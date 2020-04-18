@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  webserver:
+    image: nginx:1.17.9-alpine
+    container_name: exambuddy-static
+    restart: unless-stopped
+    expose:
+      - 80
+    environment:
+      VIRTUAL_HOST: exambuddy.co.uk,www.exambuddy.co.uk
+      LETSENCRYPT_HOST: exambuddy.co.uk,www.exambuddy.co.uk
+      LETSENCRYPT_EMAIL: stefan@exambuddy.co.uk
+    volumes:
+      - ./html:/var/www/html
+      - ./nginx-conf:/etc/nginx/conf.d
+
+networks:
+  default:
+    external:
+      name: nginx-proxy
