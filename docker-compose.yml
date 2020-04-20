@@ -7,10 +7,15 @@ services:
     restart: unless-stopped
     expose:
       - 80
-    environment:
-      VIRTUAL_HOST: exambuddy.co.uk,www.exambuddy.co.uk
-      LETSENCRYPT_HOST: exambuddy.co.uk,www.exambuddy.co.uk
-      LETSENCRYPT_EMAIL: stefan@exambuddy.co.uk
+    labels:
+      traefik.enable: true
+      traefik.http.routers.exambuddy-http.rule: Host(`exambuddy.co.uk`,`www.exambuddy.co.uk`)
+      traefik.http.routers.exambuddy-http.entrypoints: web
+      traefik.http.routers.exambuddy.rule: Host(`exambuddy.co.uk`)
+      traefik.http.routers.exambuddy.entrypoints: websecure
+      traefik.http.routers.exambuddy.tls.certresolver: letsencrypt
+      traefik.http.routers.exambuddy-http.middlewares: https_redirect@file
+      traefik.http.routers.exambuddy-http.middlewares: wwwtohttps@file
     volumes:
       - ./html:/var/www/html
       - ./nginx-conf:/etc/nginx/conf.d
@@ -18,4 +23,4 @@ services:
 networks:
   default:
     external:
-      name: nginx-proxy
+      name: traefik-proxy
