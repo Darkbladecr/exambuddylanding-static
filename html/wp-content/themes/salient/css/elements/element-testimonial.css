@@ -100,6 +100,12 @@ Description: Styles for the "testimonial Slider" page builder element.
  .nectar_single_testimonial[data-style="bold"] p {
      padding-bottom: 35px;
 }
+.span_12 .nectar_single_testimonial .inner[data-custom-color="true"] * {
+  color: inherit;
+}
+.span_12 .nectar_single_testimonial .inner[data-custom-color="true"] .title {
+  opacity: 0.6;
+}
  .testimonial_slider blockquote .title, .nectar_single_testimonial .title {
     color:rgba(0,0,0,.5)
 }
@@ -177,8 +183,8 @@ Description: Styles for the "testimonial Slider" page builder element.
 }
  .testimonial_slider[data-style="multiple_visible_minimal"] .image-icon, 
  .nectar_single_testimonial .image-icon {
-    width:54px;
-     height:54px;
+    width:52px;
+     height:52px;
      display:inline-block;
      vertical-align:middle;
      margin-bottom:0;

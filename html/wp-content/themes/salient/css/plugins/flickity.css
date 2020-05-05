@@ -422,6 +422,28 @@
   width: 100%;
 }
 
+@media only screen and (min-width: 1001px) { 
+  .nectar-carousel-flickity-fixed-content[data-alignment="right"] .nectar-flickity {
+    margin-left: -34%;
+  }
+  .nectar-carousel-flickity-fixed-content[data-alignment="right"] .nectar-carousel-fixed-content {
+    right: 0;
+    left: auto;
+    padding-right: 0;
+    padding-left: 65px;
+  }
+  .nectar-carousel-flickity-fixed-content[data-alignment="right"] .nectar-carousel[data-format="fixed_text_content_fullwidth"] .flickity-page-dots {
+    text-align: right;
+  }
+}
+
+
+@media only screen and (min-width: 2000px) {
+  .nectar-carousel-flickity-fixed-content[data-alignment="right"] .nectar-flickity {
+      margin-left: -50%;
+  }
+}
+
 .nectar-carousel-flickity-fixed-content .nectar-flickity:not(.flickity-enabled) {
   opacity: 0;
 }
@@ -1023,6 +1045,9 @@
   .full-width-content .nectar-flickity[data-controls*="arrows_overlaid"] .flickity-prev-next-button {
     transform: scale(0.85);
   }
+  .nectar-flickity[data-controls*="arrows_overlaid"] .flickity-prev-next-button {
+      padding: 0; 
+  }
 }
 
 @media only screen and (max-width: 690px) {
@@ -1096,6 +1121,10 @@
   position: relative;
 }
 
+.nectar-flickity[data-controls="touch_total"][data-r-bottom-total="true"] .visualized-total {
+  display: none;
+}
+
 .nectar-flickity[data-controls="touch_total"] .visualized-total span {
   width: 15%;
   height: 3px;
@@ -1115,11 +1144,26 @@
 }
 
 
-
-
 .nectar-flickity[data-overflow="visible"]:not(.masonry) .flickity-viewport {
   overflow: visible;
 }
+
+@media only screen and (min-width: 1000px) {
+  .nectar-flickity[data-drag-scale="true"] .cell {
+    -webkit-transition: transform 0.45s ease;
+    transition: transform 0.45s ease;
+  }
+  .nectar-flickity[data-drag-scale="true"] .is-pointer-down .cell {
+    -webkit-transform: scale(0.97);
+    transform: scale(0.97);
+  }
+  .nectar-flickity[data-drag-scale="true"][data-desktop-columns="4"] .is-pointer-down .cell,
+  .nectar-flickity[data-drag-scale="true"][data-desktop-columns="5"] .is-pointer-down .cell {
+    -webkit-transform: scale(0.94);
+    transform: scale(0.94);
+  }
+}
+
 
 .classic_enhanced article .flickity-prev-next-button, 
 .classic_enhanced article .item-count,

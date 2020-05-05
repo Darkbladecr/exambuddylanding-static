@@ -266,7 +266,7 @@
 
                         o.stickySidebar.css({
                             'position': 'fixed',
-                            'width': getWidthForObject(o.stickySidebar) + 'px',
+                            'width': getWidthForObject(o.sidebar) + 'px',
                             'transform': 'translateY(' + top + 'px)',
                             'left': (o.sidebar.offset().left + parseInt(o.sidebar.css('padding-left')) - scrollLeft) + 'px',
                             'top': '0px'

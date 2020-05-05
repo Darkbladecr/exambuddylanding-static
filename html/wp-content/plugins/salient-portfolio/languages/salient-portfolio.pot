@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Salient Portfolio\n"
-"POT-Creation-Date: 2019-05-22 08:41-0400\n"
+"POT-Creation-Date: 2020-04-09 13:57-0400\n"
 "PO-Revision-Date: 2019-03-28 10:03-0400\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.3\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: plugin.php\n"
@@ -21,78 +21,78 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: includes/admin/meta-config.php:93
+#: includes/admin/meta-config.php:98
 msgid "Upload"
 msgstr ""
 
-#: includes/admin/meta-config.php:94
+#: includes/admin/meta-config.php:99
 msgid "Remove Upload"
 msgstr ""
 
-#: includes/admin/meta-config.php:123
+#: includes/admin/meta-config.php:128
 msgid "Add Media File"
 msgstr ""
 
-#: includes/admin/meta-config.php:124
+#: includes/admin/meta-config.php:129
 msgid "Remove Media File"
 msgstr ""
 
-#: includes/admin/meta-config.php:352
+#: includes/admin/meta-config.php:358
 msgid "On"
 msgstr ""
 
-#: includes/admin/meta-config.php:353
+#: includes/admin/meta-config.php:359
 msgid "Off"
 msgstr ""
 
-#: includes/admin/meta-config.php:440
+#: includes/admin/meta-config.php:446
 msgid "Add/Edit Images"
 msgstr ""
 
-#: includes/admin/meta-config.php:441
+#: includes/admin/meta-config.php:447
 msgid "Clear Images"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:34
+#: includes/admin/portfolio-meta.php:38
 msgid "Extra Content"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:35
+#: includes/admin/portfolio-meta.php:39
 msgid ""
 "Please use this section to place any extra content you would like to appear "
 "in the main content area under your portfolio item. (The above default "
 "editor is only used to populate your items sidebar content)"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:105 includes/admin/portfolio-meta.php:216
+#: includes/admin/portfolio-meta.php:109 includes/admin/portfolio-meta.php:220
 msgid "Project Configuration"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:112 includes/admin/portfolio-meta.php:223
+#: includes/admin/portfolio-meta.php:116 includes/admin/portfolio-meta.php:227
 msgid "Full Width Portfolio Item Layout"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:113 includes/admin/portfolio-meta.php:224
+#: includes/admin/portfolio-meta.php:117 includes/admin/portfolio-meta.php:228
 msgid ""
 "This will remove the sidebar and allow you to use fullwidth sections and "
 "sliders"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:117 includes/admin/portfolio-meta.php:228
-#: includes/admin/portfolio-meta.php:239
+#: includes/admin/portfolio-meta.php:121 includes/admin/portfolio-meta.php:232
+#: includes/admin/portfolio-meta.php:243
 msgid "Disabled"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:118 includes/admin/portfolio-meta.php:229
-#: includes/admin/portfolio-meta.php:240
+#: includes/admin/portfolio-meta.php:122 includes/admin/portfolio-meta.php:233
+#: includes/admin/portfolio-meta.php:244
 msgid "Enabled"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:123 includes/admin/portfolio-meta.php:252
+#: includes/admin/portfolio-meta.php:127 includes/admin/portfolio-meta.php:256
 msgid "Custom Thumbnail Image"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:124
+#: includes/admin/portfolio-meta.php:128
 msgid ""
 "If you would like to have a separate thumbnail for your portfolio item, "
 "upload it here. If left blank, a cropped version of your featured image will "
@@ -100,121 +100,121 @@ msgid ""
 "and the original aspect ratio will be used."
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:130 includes/admin/portfolio-meta.php:259
+#: includes/admin/portfolio-meta.php:134 includes/admin/portfolio-meta.php:263
 msgid "Hide Featured Image/Video on Single Project Page?"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:131 includes/admin/portfolio-meta.php:260
+#: includes/admin/portfolio-meta.php:135 includes/admin/portfolio-meta.php:264
 msgid ""
 "You can choose to hide your featured image/video from automatically "
 "displaying on the top of the main project page."
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:137 includes/admin/portfolio-meta.php:266
+#: includes/admin/portfolio-meta.php:141 includes/admin/portfolio-meta.php:270
 msgid "Masonry Item Sizing"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:138 includes/admin/portfolio-meta.php:267
+#: includes/admin/portfolio-meta.php:142 includes/admin/portfolio-meta.php:271
 msgid ""
 "This will only be used if you choose to display your portfolio in the "
 "masonry format"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:143 includes/admin/portfolio-meta.php:272
+#: includes/admin/portfolio-meta.php:147 includes/admin/portfolio-meta.php:276
 msgid "Regular"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:144 includes/admin/portfolio-meta.php:273
+#: includes/admin/portfolio-meta.php:148 includes/admin/portfolio-meta.php:277
 msgid "Wide"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:145 includes/admin/portfolio-meta.php:274
+#: includes/admin/portfolio-meta.php:149 includes/admin/portfolio-meta.php:278
 msgid "Tall"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:146 includes/admin/portfolio-meta.php:275
+#: includes/admin/portfolio-meta.php:150 includes/admin/portfolio-meta.php:279
 msgid "Wide + Tall"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:150 includes/admin/portfolio-meta.php:279
+#: includes/admin/portfolio-meta.php:154 includes/admin/portfolio-meta.php:283
 msgid "Masonry Content Position"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:151 includes/admin/portfolio-meta.php:280
+#: includes/admin/portfolio-meta.php:155 includes/admin/portfolio-meta.php:284
 msgid ""
 "This will only be used on project styles which show the content overlaid "
 "before hover"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:156 includes/admin/portfolio-meta.php:285
+#: includes/admin/portfolio-meta.php:160 includes/admin/portfolio-meta.php:289
 msgid "Middle"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:157 includes/admin/portfolio-meta.php:286
-#: includes/wpbakery/maps/nectar_portfolio.php:155
-#: includes/wpbakery/maps/nectar_portfolio.php:372
+#: includes/admin/portfolio-meta.php:161 includes/admin/portfolio-meta.php:290
+#: includes/wpbakery/maps/nectar_portfolio.php:160
+#: includes/wpbakery/maps/nectar_portfolio.php:377
 msgid "Left"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:158 includes/admin/portfolio-meta.php:287
+#: includes/admin/portfolio-meta.php:162 includes/admin/portfolio-meta.php:291
 msgid "Right"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:159 includes/admin/portfolio-meta.php:288
-#: includes/admin/portfolio-meta.php:440
+#: includes/admin/portfolio-meta.php:163 includes/admin/portfolio-meta.php:292
+#: includes/admin/portfolio-meta.php:444
 msgid "Top"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:160 includes/admin/portfolio-meta.php:289
-#: includes/admin/portfolio-meta.php:442
+#: includes/admin/portfolio-meta.php:164 includes/admin/portfolio-meta.php:293
+#: includes/admin/portfolio-meta.php:446
 msgid "Bottom"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:164 includes/admin/portfolio-meta.php:294
+#: includes/admin/portfolio-meta.php:168 includes/admin/portfolio-meta.php:298
 msgid "External Project URL"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:165 includes/admin/portfolio-meta.php:295
+#: includes/admin/portfolio-meta.php:169 includes/admin/portfolio-meta.php:299
 msgid ""
 "If you would like your project to link to a custom location, enter it here "
 "(remember to include \"http://\")"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:171 includes/admin/portfolio-meta.php:301
+#: includes/admin/portfolio-meta.php:175 includes/admin/portfolio-meta.php:305
 msgid "Parent Portfolio Override"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:172 includes/admin/portfolio-meta.php:302
+#: includes/admin/portfolio-meta.php:176 includes/admin/portfolio-meta.php:306
 msgid ""
 "This allows you to manually assign where your \"Back to all\" button will "
 "take the user on your single portfolio item pages."
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:179 includes/admin/portfolio-meta.php:309
+#: includes/admin/portfolio-meta.php:183 includes/admin/portfolio-meta.php:313
 msgid "Project Excerpt"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:180 includes/admin/portfolio-meta.php:310
+#: includes/admin/portfolio-meta.php:184 includes/admin/portfolio-meta.php:314
 msgid ""
 "If you would like your project to display a small excerpt of text under the "
 "title in portfolio element, enter it here."
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:201
+#: includes/admin/portfolio-meta.php:205
 msgid "Gallery Slider"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:202
+#: includes/admin/portfolio-meta.php:206
 msgid ""
 "This will turn all default WordPress galleries attached to this post into a "
 "simple slider."
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:234
+#: includes/admin/portfolio-meta.php:238
 msgid "Custom Content Grid Item"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:235
+#: includes/admin/portfolio-meta.php:239
 msgid ""
 "This will all you to place custom content using the above editor that will "
 "appear in your portfolio grid. By using this option the single project page "
@@ -222,82 +222,82 @@ msgid ""
 "desired."
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:245
+#: includes/admin/portfolio-meta.php:249
 msgid "Custom Content Grid Item Content"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:246
+#: includes/admin/portfolio-meta.php:250
 msgid ""
 "Use this to populate what will display as your project content in place of "
 "the default meta info"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:253
+#: includes/admin/portfolio-meta.php:257
 msgid ""
 "If you would like to have a separate thumbnail for your portfolio item, "
 "upload it here. If left blank, a cropped version of your featured image will "
 "be automatically used instead. The recommended dimensions are 600px by 403px."
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:316
+#: includes/admin/portfolio-meta.php:320
 msgid "Project Accent Color"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:317 includes/admin/portfolio-meta.php:324
-#: includes/admin/portfolio-meta.php:331
+#: includes/admin/portfolio-meta.php:321 includes/admin/portfolio-meta.php:328
+#: includes/admin/portfolio-meta.php:335
 msgid ""
 "This will be used in applicable project styles in the portfolio thumbnail "
 "view."
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:323
+#: includes/admin/portfolio-meta.php:327
 msgid "Project Title Color"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:330
+#: includes/admin/portfolio-meta.php:334
 msgid "Project Date/Custom excerpt Color"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:337
+#: includes/admin/portfolio-meta.php:341
 msgid "Custom CSS Class Name"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:338
+#: includes/admin/portfolio-meta.php:342
 msgid ""
 "For advanced users with css knowledge - use this to add an a specific class "
 "onto your project that can be used to target it in any portfolio element to "
 "add custom styling."
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:360
+#: includes/admin/portfolio-meta.php:364
 msgid "Project Header Settings"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:361
+#: includes/admin/portfolio-meta.php:365
 msgid "Here you can configure how your page header will appear. "
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:367
+#: includes/admin/portfolio-meta.php:371
 msgid "Background Type"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:368
+#: includes/admin/portfolio-meta.php:372
 msgid "Please select the background type you would like to use for your slide."
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:372
+#: includes/admin/portfolio-meta.php:376
 msgid "Image Background"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:373
+#: includes/admin/portfolio-meta.php:377
 msgid "Video Background"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:378
+#: includes/admin/portfolio-meta.php:382
 msgid "Video WebM Upload"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:379
+#: includes/admin/portfolio-meta.php:383
 msgid ""
 "Browse for your WebM video file here. This will be automatically played on "
 "load so make sure to use this responsibly for enhancing your design. You "
@@ -305,149 +305,199 @@ msgid ""
 "browser compatibility. OGV is optional. Video must be in a 16:9 aspect ratio."
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:385
+#: includes/admin/portfolio-meta.php:389
 msgid "Video MP4 Upload"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:386
+#: includes/admin/portfolio-meta.php:390
 msgid ""
 "Browse for your mp4 video file here. See the note above for recommendations "
 "on how to properly use your video background."
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:392
+#: includes/admin/portfolio-meta.php:396
 msgid "Video OGV Upload"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:393
+#: includes/admin/portfolio-meta.php:397
 msgid ""
 "Browse for your OGV video file here. See the note above for recommendations "
 "on how to properly use your video background."
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:399 includes/admin/portfolio-meta.php:546
+#: includes/admin/portfolio-meta.php:403 includes/admin/portfolio-meta.php:585
 msgid "Preview Image"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:400
+#: includes/admin/portfolio-meta.php:404
 msgid ""
 "This is the image that will be seen in place of your video on mobile devices "
 "& older browsers before your video is played."
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:406
+#: includes/admin/portfolio-meta.php:410
 msgid "Page Header Image"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:407
+#: includes/admin/portfolio-meta.php:411
 msgid ""
 "The image should be between 1600px - 2000px wide and have a minimum height "
 "of 475px for best results."
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:413
+#: includes/admin/portfolio-meta.php:417
 msgid "Parallax Header?"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:414
+#: includes/admin/portfolio-meta.php:418
 msgid ""
 "If you would like your header to have a parallax scroll effect check this "
 "box."
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:420
+#: includes/admin/portfolio-meta.php:424
 msgid "Page Header Height"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:421
+#: includes/admin/portfolio-meta.php:425
 msgid ""
 "How tall do you want your header? Don't include \"px\" in the string. e.g. "
 "350 This only applies when you are using an image/bg color."
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:427
+#: includes/admin/portfolio-meta.php:431
 msgid "Fullscreen Height"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:428
+#: includes/admin/portfolio-meta.php:432
 msgid ""
 "Choosing this option will allow your header to always remain fullscreen on "
 "all devices/screen sizes."
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:434
+#: includes/admin/portfolio-meta.php:438
 msgid "Background Alignment"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:435
+#: includes/admin/portfolio-meta.php:439
 msgid "Please choose how you would like your image background to be aligned"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:441
+#: includes/admin/portfolio-meta.php:445
 msgid "Center"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:446
+#: includes/admin/portfolio-meta.php:450
 msgid "Page Header Background Color"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:447
+#: includes/admin/portfolio-meta.php:451
 msgid "Set your desired page header background color if not using an image"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:453
+#: includes/admin/portfolio-meta.php:457
 msgid "Page Header Overlay Color"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:454
+#: includes/admin/portfolio-meta.php:458
 msgid "This will be applied on top on your page header BG image (if supplied)."
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:460
+#: includes/admin/portfolio-meta.php:464
+msgid "Page Header Overlay Opacity"
+msgstr ""
+
+#: includes/admin/portfolio-meta.php:470
+#: includes/wpbakery/maps/nectar_portfolio.php:106
+#: includes/wpbakery/maps/nectar_portfolio.php:158
+#: includes/wpbakery/maps/nectar_portfolio.php:171
+#: includes/wpbakery/maps/nectar_portfolio.php:200
+#: includes/wpbakery/maps/nectar_portfolio.php:323
+#: includes/wpbakery/maps/nectar_portfolio.php:375
+msgid "Default"
+msgstr ""
+
+#: includes/admin/portfolio-meta.php:471
+msgid "0.9"
+msgstr ""
+
+#: includes/admin/portfolio-meta.php:472
+msgid "0.8"
+msgstr ""
+
+#: includes/admin/portfolio-meta.php:473
+msgid "0.7"
+msgstr ""
+
+#: includes/admin/portfolio-meta.php:474
+msgid "0.6"
+msgstr ""
+
+#: includes/admin/portfolio-meta.php:475
+msgid "0.5"
+msgstr ""
+
+#: includes/admin/portfolio-meta.php:476
+msgid "0.4"
+msgstr ""
+
+#: includes/admin/portfolio-meta.php:477
+msgid "0.3"
+msgstr ""
+
+#: includes/admin/portfolio-meta.php:478
+msgid "0.2"
+msgstr ""
+
+#: includes/admin/portfolio-meta.php:479
+msgid "0.1"
+msgstr ""
+
+#: includes/admin/portfolio-meta.php:483
 msgid "Page Header Subtitle"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:461
+#: includes/admin/portfolio-meta.php:484
 msgid "Enter in the page header subtitle"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:467
+#: includes/admin/portfolio-meta.php:490
 msgid "Page Header Font Color"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:468
+#: includes/admin/portfolio-meta.php:491
 msgid ""
 "Set your desired page header font color - will only be used if using a "
 "header bg image/color"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:487
+#: includes/admin/portfolio-meta.php:510
 msgid "Navigation Transparency"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:488
+#: includes/admin/portfolio-meta.php:511
 msgid "Configure the header navigation transparency."
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:494
+#: includes/admin/portfolio-meta.php:517
 msgid "Disable Transparency From Navigation"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:495
+#: includes/admin/portfolio-meta.php:518
 msgid ""
 "You can use this option to force your navigation header to stay a solid "
 "color even if it qualifies to trigger the"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:495
+#: includes/admin/portfolio-meta.php:518 includes/admin/portfolio-meta.php:546
 msgid "you have activated in the Salient options panel."
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:501
+#: includes/admin/portfolio-meta.php:524
 msgid "Transparent Header Navigation Color"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:502
+#: includes/admin/portfolio-meta.php:525
 msgid ""
 "Choose your header navigation logo & color scheme that will be used at the "
 "top of the page when the transparent effect is active. This option pulls "
@@ -455,195 +505,205 @@ msgid ""
 "in the"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:507
+#: includes/admin/portfolio-meta.php:530
 msgid "Light (default)"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:508
-#: includes/wpbakery/maps/recent_projects.php:75
-#: includes/wpbakery/maps/recent_projects.php:160
+#: includes/admin/portfolio-meta.php:531
+#: includes/wpbakery/maps/recent_projects.php:80
+#: includes/wpbakery/maps/recent_projects.php:165
 msgid "Dark"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:525
+#: includes/admin/portfolio-meta.php:545
+msgid "Force Transparency On Navigation"
+msgstr ""
+
+#: includes/admin/portfolio-meta.php:546
+msgid ""
+"You can use this option to force your navigation header to start transparent "
+"even if it does not qualify to trigger the"
+msgstr ""
+
+#: includes/admin/portfolio-meta.php:564
 msgid "Video Settings"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:526
+#: includes/admin/portfolio-meta.php:565
 msgid "If you have a video, please fill out the fields below."
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:532
+#: includes/admin/portfolio-meta.php:571
 msgid "MP4 File URL"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:533
+#: includes/admin/portfolio-meta.php:572
 msgid "Please upload the .mp4 video file."
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:539
+#: includes/admin/portfolio-meta.php:578
 msgid "OGV File URL"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:540
+#: includes/admin/portfolio-meta.php:579
 msgid "Please upload the .ogv video file."
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:547
+#: includes/admin/portfolio-meta.php:586
 msgid ""
 "Image should be at least 680px wide. Click the \"Upload\" button to begin "
 "uploading your image, followed by \"Select File\" once you have made your "
 "selection. Only applies to self hosted videos."
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:553
+#: includes/admin/portfolio-meta.php:592
 msgid "Embedded Code"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:554
+#: includes/admin/portfolio-meta.php:593
 msgid ""
 "If the video is an embed rather than self hosted, enter in a Youtube or "
 "Vimeo embed code here. The width should be a minimum of 670px with any "
 "height."
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:588
+#: includes/admin/portfolio-meta.php:627
 msgid "Portfolio Display Settings"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:589
+#: includes/admin/portfolio-meta.php:628
 msgid "Here you can configure which categories will display in your portfolio."
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:595
-#: includes/wpbakery/maps/nectar_portfolio.php:59
-#: includes/wpbakery/maps/nectar_portfolio.php:276
-#: includes/wpbakery/maps/recent_projects.php:31
+#: includes/admin/portfolio-meta.php:634
+#: includes/wpbakery/maps/nectar_portfolio.php:64
+#: includes/wpbakery/maps/nectar_portfolio.php:281
+#: includes/wpbakery/maps/recent_projects.php:36
 msgid "Portfolio Categories"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:603
+#: includes/admin/portfolio-meta.php:642
 msgid "Display Sortable"
 msgstr ""
 
-#: includes/admin/portfolio-meta.php:604
+#: includes/admin/portfolio-meta.php:643
 msgid "Should these portfolio items be sortable?"
 msgstr ""
 
-#: includes/admin/register-post-type.php:14
-#: includes/admin/register-post-type.php:17
-#: includes/wpbakery/maps/nectar_portfolio.php:27
-#: includes/wpbakery/maps/nectar_portfolio.php:244
+#: includes/admin/register-post-type.php:18
+#: includes/admin/register-post-type.php:21
+#: includes/wpbakery/maps/nectar_portfolio.php:32
+#: includes/wpbakery/maps/nectar_portfolio.php:249
 msgid "Portfolio"
 msgstr ""
 
-#: includes/admin/register-post-type.php:15
+#: includes/admin/register-post-type.php:19
 msgid "Portfolio Item"
 msgstr ""
 
-#: includes/admin/register-post-type.php:16
+#: includes/admin/register-post-type.php:20
 msgid "Search Portfolio Items"
 msgstr ""
 
-#: includes/admin/register-post-type.php:18
+#: includes/admin/register-post-type.php:22
 msgid "Parent Portfolio Item"
 msgstr ""
 
-#: includes/admin/register-post-type.php:19
+#: includes/admin/register-post-type.php:23
 msgid "Edit Portfolio Item"
 msgstr ""
 
-#: includes/admin/register-post-type.php:20
+#: includes/admin/register-post-type.php:24
 msgid "Update Portfolio Item"
 msgstr ""
 
-#: includes/admin/register-post-type.php:21
+#: includes/admin/register-post-type.php:25
 msgid "Add New Portfolio Item"
 msgstr ""
 
-#: includes/admin/register-post-type.php:39
+#: includes/admin/register-post-type.php:43
 msgid "Project"
 msgstr ""
 
-#: includes/admin/register-post-type.php:70
-#: includes/admin/register-post-type.php:78
+#: includes/admin/register-post-type.php:74
+#: includes/admin/register-post-type.php:82
 msgid "Project Categories"
 msgstr ""
 
-#: includes/admin/register-post-type.php:71
+#: includes/admin/register-post-type.php:75
 msgid "Project Category"
 msgstr ""
 
-#: includes/admin/register-post-type.php:72
+#: includes/admin/register-post-type.php:76
 msgid "Search Project Categories"
 msgstr ""
 
-#: includes/admin/register-post-type.php:73
+#: includes/admin/register-post-type.php:77
 msgid "All Project Categories"
 msgstr ""
 
-#: includes/admin/register-post-type.php:74
+#: includes/admin/register-post-type.php:78
 msgid "Parent Project Category"
 msgstr ""
 
-#: includes/admin/register-post-type.php:75
+#: includes/admin/register-post-type.php:79
 msgid "Edit Project Category"
 msgstr ""
 
-#: includes/admin/register-post-type.php:76
+#: includes/admin/register-post-type.php:80
 msgid "Update Project Category"
 msgstr ""
 
-#: includes/admin/register-post-type.php:77
+#: includes/admin/register-post-type.php:81
 msgid "Add New Project Category"
 msgstr ""
 
-#: includes/admin/register-post-type.php:94
-#: includes/admin/register-post-type.php:103
+#: includes/admin/register-post-type.php:98
+#: includes/admin/register-post-type.php:107
 msgid "Project Attributes"
 msgstr ""
 
-#: includes/admin/register-post-type.php:95
+#: includes/admin/register-post-type.php:99
 msgid "Project Attribute"
 msgstr ""
 
-#: includes/admin/register-post-type.php:96
+#: includes/admin/register-post-type.php:100
 msgid "Search Project Attributes"
 msgstr ""
 
-#: includes/admin/register-post-type.php:97
+#: includes/admin/register-post-type.php:101
 msgid "All Project Attributes"
 msgstr ""
 
-#: includes/admin/register-post-type.php:98
+#: includes/admin/register-post-type.php:102
 msgid "Parent Project Attribute"
 msgstr ""
 
-#: includes/admin/register-post-type.php:99
+#: includes/admin/register-post-type.php:103
 msgid "Edit Project Attribute"
 msgstr ""
 
-#: includes/admin/register-post-type.php:100
+#: includes/admin/register-post-type.php:104
 msgid "Update Project Attribute"
 msgstr ""
 
-#: includes/admin/register-post-type.php:101
+#: includes/admin/register-post-type.php:105
 msgid "Add New Project Attribute"
 msgstr ""
 
-#: includes/admin/register-post-type.php:102
+#: includes/admin/register-post-type.php:106
 msgid "New Project Attribute"
 msgstr ""
 
 #: includes/frontend/helpers.php:217 includes/frontend/helpers.php:297
 #: includes/frontend/helpers.php:319 includes/frontend/helpers.php:371
-#: includes/frontend/helpers.php:398 includes/frontend/helpers.php:435
+#: includes/frontend/helpers.php:403 includes/frontend/helpers.php:440
 msgid "Previous Project"
 msgstr ""
 
 #: includes/frontend/helpers.php:218 includes/frontend/helpers.php:331
 #: includes/frontend/helpers.php:355 includes/frontend/helpers.php:372
-#: includes/frontend/helpers.php:422 includes/frontend/helpers.php:441
+#: includes/frontend/helpers.php:427 includes/frontend/helpers.php:446
 msgid "Next Project"
 msgstr ""
 
@@ -651,32 +711,32 @@ msgstr ""
 msgid "Back to all projects"
 msgstr ""
 
-#: includes/frontend/helpers.php:715
+#: includes/frontend/helpers.php:731
 msgid "Watch Video"
 msgstr ""
 
-#: includes/frontend/shortcode.php:107 includes/frontend/shortcode.php:110
-#: includes/frontend/shortcode.php:122
+#: includes/frontend/shortcode.php:112 includes/frontend/shortcode.php:115
+#: includes/frontend/shortcode.php:127
 msgid "All"
 msgstr ""
 
-#: includes/frontend/shortcode.php:109 includes/frontend/shortcode.php:120
+#: includes/frontend/shortcode.php:114 includes/frontend/shortcode.php:125
 msgid "Sort Portfolio"
 msgstr ""
 
-#: includes/frontend/shortcode.php:562 includes/frontend/shortcode.php:1990
+#: includes/frontend/shortcode.php:567 includes/frontend/shortcode.php:1994
 #: includes/frontend/taxonomy-project-attributes.php:202
 #: includes/frontend/taxonomy-project-type.php:218
 msgid "View Larger"
 msgstr ""
 
-#: includes/frontend/shortcode.php:566 includes/frontend/shortcode.php:2013
+#: includes/frontend/shortcode.php:571 includes/frontend/shortcode.php:2017
 #: includes/frontend/taxonomy-project-attributes.php:205
 #: includes/frontend/taxonomy-project-type.php:221
 msgid "More Details"
 msgstr ""
 
-#: includes/frontend/shortcode.php:1786 includes/frontend/shortcode.php:1806
+#: includes/frontend/shortcode.php:1790 includes/frontend/shortcode.php:1810
 #: includes/frontend/taxonomy-project-attributes.php:1028
 #: includes/frontend/taxonomy-project-attributes.php:1051
 #: includes/frontend/taxonomy-project-type.php:1038
@@ -684,53 +744,53 @@ msgstr ""
 msgid "All items loaded"
 msgstr ""
 
-#: includes/frontend/shortcode.php:2444
+#: includes/frontend/shortcode.php:2448
 msgid "View Project"
-msgstr ""
-
-#: includes/wpbakery/maps/nectar_portfolio.php:31
-#: includes/wpbakery/maps/nectar_portfolio.php:248
-#: includes/wpbakery/maps/recent_projects.php:26
-msgid "Nectar Elements"
-msgstr ""
-
-#: includes/wpbakery/maps/nectar_portfolio.php:32
-#: includes/wpbakery/maps/nectar_portfolio.php:249
-msgid "Add a portfolio element"
 msgstr ""
 
 #: includes/wpbakery/maps/nectar_portfolio.php:36
 #: includes/wpbakery/maps/nectar_portfolio.php:253
-msgid "Layout"
+#: includes/wpbakery/maps/recent_projects.php:31
+msgid "Nectar Elements"
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:40
-#: includes/wpbakery/maps/nectar_portfolio.php:257
-msgid "4 Columns"
+#: includes/wpbakery/maps/nectar_portfolio.php:37
+#: includes/wpbakery/maps/nectar_portfolio.php:254
+msgid "Add a portfolio element"
 msgstr ""
 
 #: includes/wpbakery/maps/nectar_portfolio.php:41
 #: includes/wpbakery/maps/nectar_portfolio.php:258
-msgid "3 Columns"
+msgid "Layout"
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:42
-#: includes/wpbakery/maps/nectar_portfolio.php:259
-msgid "2 Columns"
-msgstr ""
-
-#: includes/wpbakery/maps/nectar_portfolio.php:43
-#: includes/wpbakery/maps/nectar_portfolio.php:260
-msgid "Fullwidth"
-msgstr ""
-
-#: includes/wpbakery/maps/nectar_portfolio.php:44
-#: includes/wpbakery/maps/nectar_portfolio.php:261
-msgid "Constrained Fullwidth"
+#: includes/wpbakery/maps/nectar_portfolio.php:45
+#: includes/wpbakery/maps/nectar_portfolio.php:262
+msgid "4 Columns"
 msgstr ""
 
 #: includes/wpbakery/maps/nectar_portfolio.php:46
 #: includes/wpbakery/maps/nectar_portfolio.php:263
+msgid "3 Columns"
+msgstr ""
+
+#: includes/wpbakery/maps/nectar_portfolio.php:47
+#: includes/wpbakery/maps/nectar_portfolio.php:264
+msgid "2 Columns"
+msgstr ""
+
+#: includes/wpbakery/maps/nectar_portfolio.php:48
+#: includes/wpbakery/maps/nectar_portfolio.php:265
+msgid "Fullwidth"
+msgstr ""
+
+#: includes/wpbakery/maps/nectar_portfolio.php:49
+#: includes/wpbakery/maps/nectar_portfolio.php:266
+msgid "Constrained Fullwidth"
+msgstr ""
+
+#: includes/wpbakery/maps/nectar_portfolio.php:51
+#: includes/wpbakery/maps/nectar_portfolio.php:268
 msgid ""
 "Please select the layout you would like for your portfolio. The Constrained "
 "Fullwidth option will allow your projects to display with the same "
@@ -738,147 +798,138 @@ msgid ""
 "width to your website container area."
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:51
-#: includes/wpbakery/maps/nectar_portfolio.php:268
+#: includes/wpbakery/maps/nectar_portfolio.php:56
+#: includes/wpbakery/maps/nectar_portfolio.php:273
 msgid "Constrain Max Columns to 4?"
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:53
-#: includes/wpbakery/maps/nectar_portfolio.php:270
+#: includes/wpbakery/maps/nectar_portfolio.php:58
+#: includes/wpbakery/maps/nectar_portfolio.php:275
 msgid ""
 "This will change the max columns to 4 (default is 5 for fullwidth). "
 "Activating this will make it easier to create a grid with no empty spaces at "
 "the end of the list on all screen sizes."
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:54
-#: includes/wpbakery/maps/nectar_portfolio.php:122
-#: includes/wpbakery/maps/nectar_portfolio.php:130
-#: includes/wpbakery/maps/nectar_portfolio.php:138
-#: includes/wpbakery/maps/nectar_portfolio.php:145
-#: includes/wpbakery/maps/nectar_portfolio.php:187
-#: includes/wpbakery/maps/nectar_portfolio.php:219
-#: includes/wpbakery/maps/nectar_portfolio.php:271
-#: includes/wpbakery/maps/nectar_portfolio.php:339
-#: includes/wpbakery/maps/nectar_portfolio.php:347
-#: includes/wpbakery/maps/nectar_portfolio.php:355
-#: includes/wpbakery/maps/nectar_portfolio.php:362
-#: includes/wpbakery/maps/nectar_portfolio.php:383
-#: includes/wpbakery/maps/recent_projects.php:115
-#: includes/wpbakery/maps/recent_projects.php:131
-#: includes/wpbakery/maps/recent_projects.php:172
-#: includes/wpbakery/maps/recent_projects.php:192
+#: includes/wpbakery/maps/nectar_portfolio.php:59
+#: includes/wpbakery/maps/nectar_portfolio.php:127
+#: includes/wpbakery/maps/nectar_portfolio.php:135
+#: includes/wpbakery/maps/nectar_portfolio.php:143
+#: includes/wpbakery/maps/nectar_portfolio.php:150
+#: includes/wpbakery/maps/nectar_portfolio.php:192
+#: includes/wpbakery/maps/nectar_portfolio.php:224
+#: includes/wpbakery/maps/nectar_portfolio.php:276
+#: includes/wpbakery/maps/nectar_portfolio.php:344
+#: includes/wpbakery/maps/nectar_portfolio.php:352
+#: includes/wpbakery/maps/nectar_portfolio.php:360
+#: includes/wpbakery/maps/nectar_portfolio.php:367
+#: includes/wpbakery/maps/nectar_portfolio.php:388
+#: includes/wpbakery/maps/recent_projects.php:120
+#: includes/wpbakery/maps/recent_projects.php:136
+#: includes/wpbakery/maps/recent_projects.php:177
+#: includes/wpbakery/maps/recent_projects.php:197
 msgid "Yes, please"
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:64
-#: includes/wpbakery/maps/nectar_portfolio.php:281
+#: includes/wpbakery/maps/nectar_portfolio.php:69
+#: includes/wpbakery/maps/nectar_portfolio.php:286
 msgid ""
 "Please select the categories you would like to display for your portfolio. "
 "You can select multiple categories too (ctrl + click on PC and command + "
 "click on Mac)."
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:68
-#: includes/wpbakery/maps/nectar_portfolio.php:285
+#: includes/wpbakery/maps/nectar_portfolio.php:73
+#: includes/wpbakery/maps/nectar_portfolio.php:290
 msgid "Starting Category"
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:73
-#: includes/wpbakery/maps/nectar_portfolio.php:290
+#: includes/wpbakery/maps/nectar_portfolio.php:78
+#: includes/wpbakery/maps/nectar_portfolio.php:295
 msgid ""
 "Please select the category you would like you're portfolio to start filtered "
 "on."
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:78
-#: includes/wpbakery/maps/nectar_portfolio.php:295
-#: includes/wpbakery/maps/recent_projects.php:40
-msgid "Project Style"
-msgstr ""
-
 #: includes/wpbakery/maps/nectar_portfolio.php:83
 #: includes/wpbakery/maps/nectar_portfolio.php:300
-#: includes/wpbakery/maps/recent_projects.php:44
-msgid "Meta below thumb w/ links on hover"
-msgstr ""
-
-#: includes/wpbakery/maps/nectar_portfolio.php:84
-#: includes/wpbakery/maps/nectar_portfolio.php:301
 #: includes/wpbakery/maps/recent_projects.php:45
-msgid "Meta on hover + entire thumb link"
-msgstr ""
-
-#: includes/wpbakery/maps/nectar_portfolio.php:85
-#: includes/wpbakery/maps/nectar_portfolio.php:302
-msgid "Meta on hover w/ zoom + entire thumb link"
-msgstr ""
-
-#: includes/wpbakery/maps/nectar_portfolio.php:86
-#: includes/wpbakery/maps/nectar_portfolio.php:303
-msgid "Meta overlaid - bottom left aligned"
-msgstr ""
-
-#: includes/wpbakery/maps/nectar_portfolio.php:87
-#: includes/wpbakery/maps/nectar_portfolio.php:304
-msgid "Meta overlaid w/ zoom effect on hover"
+msgid "Project Style"
 msgstr ""
 
 #: includes/wpbakery/maps/nectar_portfolio.php:88
 #: includes/wpbakery/maps/nectar_portfolio.php:305
-msgid "Meta overlaid w/ zoom effect on hover alt"
+#: includes/wpbakery/maps/recent_projects.php:49
+msgid "Meta below thumb w/ links on hover"
 msgstr ""
 
 #: includes/wpbakery/maps/nectar_portfolio.php:89
 #: includes/wpbakery/maps/nectar_portfolio.php:306
-#: includes/wpbakery/maps/recent_projects.php:47
-msgid "Meta from bottom on hover + entire thumb link"
+#: includes/wpbakery/maps/recent_projects.php:50
+msgid "Meta on hover + entire thumb link"
 msgstr ""
 
 #: includes/wpbakery/maps/nectar_portfolio.php:90
 #: includes/wpbakery/maps/nectar_portfolio.php:307
-msgid "3D Parallax on hover"
+msgid "Meta on hover w/ zoom + entire thumb link"
 msgstr ""
 
 #: includes/wpbakery/maps/nectar_portfolio.php:91
 #: includes/wpbakery/maps/nectar_portfolio.php:308
-msgid "Meta below thumb w/ shadow hover"
+msgid "Meta overlaid - bottom left aligned"
+msgstr ""
+
+#: includes/wpbakery/maps/nectar_portfolio.php:92
+#: includes/wpbakery/maps/nectar_portfolio.php:309
+msgid "Meta overlaid w/ zoom effect on hover"
 msgstr ""
 
 #: includes/wpbakery/maps/nectar_portfolio.php:93
-#: includes/wpbakery/maps/nectar_portfolio.php:232
 #: includes/wpbakery/maps/nectar_portfolio.php:310
-#: includes/wpbakery/maps/nectar_portfolio.php:408
-#: includes/wpbakery/maps/recent_projects.php:51
+msgid "Meta overlaid w/ zoom effect on hover alt"
+msgstr ""
+
+#: includes/wpbakery/maps/nectar_portfolio.php:94
+#: includes/wpbakery/maps/nectar_portfolio.php:311
+#: includes/wpbakery/maps/recent_projects.php:52
+msgid "Meta from bottom on hover + entire thumb link"
+msgstr ""
+
+#: includes/wpbakery/maps/nectar_portfolio.php:95
+#: includes/wpbakery/maps/nectar_portfolio.php:312
+msgid "3D Parallax on hover"
+msgstr ""
+
+#: includes/wpbakery/maps/nectar_portfolio.php:96
+#: includes/wpbakery/maps/nectar_portfolio.php:313
+msgid "Meta below thumb w/ shadow hover"
+msgstr ""
+
+#: includes/wpbakery/maps/nectar_portfolio.php:98
+#: includes/wpbakery/maps/nectar_portfolio.php:237
+#: includes/wpbakery/maps/nectar_portfolio.php:315
+#: includes/wpbakery/maps/nectar_portfolio.php:413
+#: includes/wpbakery/maps/recent_projects.php:56
 msgid "Please select the style you would like your projects to display in "
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:97
-#: includes/wpbakery/maps/nectar_portfolio.php:314
+#: includes/wpbakery/maps/nectar_portfolio.php:102
+#: includes/wpbakery/maps/nectar_portfolio.php:319
 msgid "Item Spacing"
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:101
-#: includes/wpbakery/maps/nectar_portfolio.php:153
-#: includes/wpbakery/maps/nectar_portfolio.php:166
-#: includes/wpbakery/maps/nectar_portfolio.php:195
-#: includes/wpbakery/maps/nectar_portfolio.php:318
-#: includes/wpbakery/maps/nectar_portfolio.php:370
-msgid "Default"
-msgstr ""
-
-#: includes/wpbakery/maps/nectar_portfolio.php:115
-#: includes/wpbakery/maps/nectar_portfolio.php:332
+#: includes/wpbakery/maps/nectar_portfolio.php:120
+#: includes/wpbakery/maps/nectar_portfolio.php:337
 msgid "Please select the spacing you would like between your items. "
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:119
-#: includes/wpbakery/maps/nectar_portfolio.php:336
+#: includes/wpbakery/maps/nectar_portfolio.php:124
+#: includes/wpbakery/maps/nectar_portfolio.php:341
 msgid "Masonry Style"
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:121
-#: includes/wpbakery/maps/nectar_portfolio.php:338
+#: includes/wpbakery/maps/nectar_portfolio.php:126
+#: includes/wpbakery/maps/nectar_portfolio.php:343
 msgid ""
 "This will allow your portfolio items to display in a masonry layout as "
 "opposed to a fixed grid. When using a fullwidth layout, project image sizes "
@@ -886,351 +937,351 @@ msgid ""
 "Item Sizing\" field."
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:127
-#: includes/wpbakery/maps/nectar_portfolio.php:344
+#: includes/wpbakery/maps/nectar_portfolio.php:132
+#: includes/wpbakery/maps/nectar_portfolio.php:349
 msgid "Bypass Image Cropping"
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:129
-#: includes/wpbakery/maps/nectar_portfolio.php:346
+#: includes/wpbakery/maps/nectar_portfolio.php:134
+#: includes/wpbakery/maps/nectar_portfolio.php:351
 msgid ""
 "Enabling this will cause your portfolio to bypass the default Salient image "
 "cropping which varies based on project settings/above layout selection. The "
 "result will be a traditional masonry layout rather than a structured grid."
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:135
-#: includes/wpbakery/maps/nectar_portfolio.php:352
+#: includes/wpbakery/maps/nectar_portfolio.php:140
+#: includes/wpbakery/maps/nectar_portfolio.php:357
 msgid "Enable Sortable"
-msgstr ""
-
-#: includes/wpbakery/maps/nectar_portfolio.php:137
-#: includes/wpbakery/maps/nectar_portfolio.php:354
-msgid "Checking this box will allow your portfolio to display sortable filters"
 msgstr ""
 
 #: includes/wpbakery/maps/nectar_portfolio.php:142
 #: includes/wpbakery/maps/nectar_portfolio.php:359
+msgid "Checking this box will allow your portfolio to display sortable filters"
+msgstr ""
+
+#: includes/wpbakery/maps/nectar_portfolio.php:147
+#: includes/wpbakery/maps/nectar_portfolio.php:364
 msgid "Horizontal Filters"
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:144
-#: includes/wpbakery/maps/nectar_portfolio.php:361
+#: includes/wpbakery/maps/nectar_portfolio.php:149
+#: includes/wpbakery/maps/nectar_portfolio.php:366
 msgid ""
 "This will allow your filters to display horizontally instead of in a "
 "dropdown. (Only used if you enable sortable above.)"
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:150
-#: includes/wpbakery/maps/nectar_portfolio.php:367
+#: includes/wpbakery/maps/nectar_portfolio.php:155
+#: includes/wpbakery/maps/nectar_portfolio.php:372
 msgid "Filter Alignment"
-msgstr ""
-
-#: includes/wpbakery/maps/nectar_portfolio.php:154
-#: includes/wpbakery/maps/nectar_portfolio.php:371
-msgid "Centered"
 msgstr ""
 
 #: includes/wpbakery/maps/nectar_portfolio.php:159
 #: includes/wpbakery/maps/nectar_portfolio.php:376
+msgid "Centered"
+msgstr ""
+
+#: includes/wpbakery/maps/nectar_portfolio.php:164
+#: includes/wpbakery/maps/nectar_portfolio.php:381
 msgid "Please select the alignment you would like for your horizontal filters"
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:163
+#: includes/wpbakery/maps/nectar_portfolio.php:168
 msgid "Filter Color Scheme"
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:167
+#: includes/wpbakery/maps/nectar_portfolio.php:172
 msgid "Accent-Color"
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:168
+#: includes/wpbakery/maps/nectar_portfolio.php:173
 msgid "Extra-Color-1"
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:169
+#: includes/wpbakery/maps/nectar_portfolio.php:174
 msgid "Extra-Color-2"
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:170
+#: includes/wpbakery/maps/nectar_portfolio.php:175
 msgid "Extra-Color-3"
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:171
+#: includes/wpbakery/maps/nectar_portfolio.php:176
 msgid "Accent-Color Underline"
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:172
+#: includes/wpbakery/maps/nectar_portfolio.php:177
 msgid "Extra-Color-1 Underline"
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:173
+#: includes/wpbakery/maps/nectar_portfolio.php:178
 msgid "Extra-Color-2 Underline"
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:174
+#: includes/wpbakery/maps/nectar_portfolio.php:179
 msgid "Extra-Color-3 Underline"
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:175
+#: includes/wpbakery/maps/nectar_portfolio.php:180
 msgid "Black"
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:179
+#: includes/wpbakery/maps/nectar_portfolio.php:184
 msgid ""
 "Please select the color scheme you would like for your filters. Only applies "
 "to full width inline filters and regular dropdown filters"
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:184
-#: includes/wpbakery/maps/nectar_portfolio.php:380
+#: includes/wpbakery/maps/nectar_portfolio.php:189
+#: includes/wpbakery/maps/nectar_portfolio.php:385
 msgid "Enable Pagination"
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:186
-#: includes/wpbakery/maps/nectar_portfolio.php:382
+#: includes/wpbakery/maps/nectar_portfolio.php:191
+#: includes/wpbakery/maps/nectar_portfolio.php:387
 msgid "Would you like to enable pagination for this portfolio?"
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:191
+#: includes/wpbakery/maps/nectar_portfolio.php:196
 msgid "Pagination Type"
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:196
+#: includes/wpbakery/maps/nectar_portfolio.php:201
 msgid "Infinite Scroll"
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:199
+#: includes/wpbakery/maps/nectar_portfolio.php:204
 msgid "Please select your pagination type here."
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:204
-#: includes/wpbakery/maps/nectar_portfolio.php:387
+#: includes/wpbakery/maps/nectar_portfolio.php:209
+#: includes/wpbakery/maps/nectar_portfolio.php:392
 msgid "Projects Per Page"
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:206
-#: includes/wpbakery/maps/nectar_portfolio.php:389
+#: includes/wpbakery/maps/nectar_portfolio.php:211
+#: includes/wpbakery/maps/nectar_portfolio.php:394
 msgid ""
 "How many projects would you like to display per page? If pagination is not "
 "enabled, will simply show this number of projects. Enter as a number example "
 "\"20\""
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:210
-#: includes/wpbakery/maps/nectar_portfolio.php:393
-#: includes/wpbakery/maps/recent_projects.php:183
+#: includes/wpbakery/maps/nectar_portfolio.php:215
+#: includes/wpbakery/maps/nectar_portfolio.php:398
+#: includes/wpbakery/maps/recent_projects.php:188
 msgid "Project Offset"
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:212
+#: includes/wpbakery/maps/nectar_portfolio.php:217
 msgid ""
 "Will not be used when \"Enable Pagination\" is on - Optionally enter a "
 "number e.g. \"2\" to offset your project by."
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:216
-#: includes/wpbakery/maps/recent_projects.php:189
+#: includes/wpbakery/maps/nectar_portfolio.php:221
+#: includes/wpbakery/maps/recent_projects.php:194
 msgid "Lightbox Only"
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:218
-#: includes/wpbakery/maps/recent_projects.php:191
+#: includes/wpbakery/maps/nectar_portfolio.php:223
+#: includes/wpbakery/maps/recent_projects.php:196
 msgid ""
 "This will remove the single project page from being accessible thus "
 "rendering your portfolio into only a gallery."
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:223
-#: includes/wpbakery/maps/nectar_portfolio.php:399
+#: includes/wpbakery/maps/nectar_portfolio.php:228
+#: includes/wpbakery/maps/nectar_portfolio.php:404
 msgid "Load In Animation"
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:227
-#: includes/wpbakery/maps/nectar_portfolio.php:403
+#: includes/wpbakery/maps/nectar_portfolio.php:232
+#: includes/wpbakery/maps/nectar_portfolio.php:408
 msgid "None"
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:228
-#: includes/wpbakery/maps/nectar_portfolio.php:404
+#: includes/wpbakery/maps/nectar_portfolio.php:233
+#: includes/wpbakery/maps/nectar_portfolio.php:409
 msgid "Fade In"
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:229
-#: includes/wpbakery/maps/nectar_portfolio.php:405
+#: includes/wpbakery/maps/nectar_portfolio.php:234
+#: includes/wpbakery/maps/nectar_portfolio.php:410
 msgid "Fade In From Bottom"
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:230
-#: includes/wpbakery/maps/nectar_portfolio.php:406
+#: includes/wpbakery/maps/nectar_portfolio.php:235
+#: includes/wpbakery/maps/nectar_portfolio.php:411
 msgid "Perspective Fade In"
 msgstr ""
 
-#: includes/wpbakery/maps/nectar_portfolio.php:395
+#: includes/wpbakery/maps/nectar_portfolio.php:400
 msgid ""
 "Will not be used when \"Enable Pagination\" is on - Optioinally enter a "
 "number e.g. \"2\" to offset your project by."
 msgstr ""
 
-#: includes/wpbakery/maps/recent_projects.php:22
+#: includes/wpbakery/maps/recent_projects.php:27
 msgid "Recent Projects"
 msgstr ""
 
-#: includes/wpbakery/maps/recent_projects.php:27
+#: includes/wpbakery/maps/recent_projects.php:32
 msgid "Show off some recent projects"
 msgstr ""
 
-#: includes/wpbakery/maps/recent_projects.php:36
+#: includes/wpbakery/maps/recent_projects.php:41
 msgid ""
 "Please select the categories you would like to display for your recent "
 "projects carousel. You can select multiple categories too (ctrl + click on "
 "PC and command + click on Mac)."
 msgstr ""
 
-#: includes/wpbakery/maps/recent_projects.php:46
+#: includes/wpbakery/maps/recent_projects.php:51
 msgid "Title overlaid w/ zoom effect on hover"
 msgstr ""
 
-#: includes/wpbakery/maps/recent_projects.php:48
+#: includes/wpbakery/maps/recent_projects.php:53
 msgid "Fullscreen Zoom Slider"
 msgstr ""
 
-#: includes/wpbakery/maps/recent_projects.php:55
+#: includes/wpbakery/maps/recent_projects.php:60
 msgid "Slider Controls"
 msgstr ""
 
-#: includes/wpbakery/maps/recent_projects.php:60
+#: includes/wpbakery/maps/recent_projects.php:65
 msgid "Prev/Nect Arrows"
 msgstr ""
 
-#: includes/wpbakery/maps/recent_projects.php:61
+#: includes/wpbakery/maps/recent_projects.php:66
 msgid "Pagination Lines"
 msgstr ""
 
-#: includes/wpbakery/maps/recent_projects.php:62
+#: includes/wpbakery/maps/recent_projects.php:67
 msgid "Both"
 msgstr ""
 
-#: includes/wpbakery/maps/recent_projects.php:65
+#: includes/wpbakery/maps/recent_projects.php:70
 msgid "Please select the controls you would like your slider to use "
 msgstr ""
 
-#: includes/wpbakery/maps/recent_projects.php:69
+#: includes/wpbakery/maps/recent_projects.php:74
 msgid "Slider Text Color"
 msgstr ""
 
-#: includes/wpbakery/maps/recent_projects.php:74
-#: includes/wpbakery/maps/recent_projects.php:161
+#: includes/wpbakery/maps/recent_projects.php:79
+#: includes/wpbakery/maps/recent_projects.php:166
 msgid "Light"
 msgstr ""
 
-#: includes/wpbakery/maps/recent_projects.php:78
+#: includes/wpbakery/maps/recent_projects.php:83
 msgid ""
 "Please select the color scheme that will be used for your slider text/"
 "controls "
 msgstr ""
 
-#: includes/wpbakery/maps/recent_projects.php:82
+#: includes/wpbakery/maps/recent_projects.php:87
 msgid "Overlay Strength"
 msgstr ""
 
-#: includes/wpbakery/maps/recent_projects.php:100
+#: includes/wpbakery/maps/recent_projects.php:105
 msgid ""
 "Please select the strength you would like for the image color overlay on "
 "your projects "
 msgstr ""
 
-#: includes/wpbakery/maps/recent_projects.php:104
+#: includes/wpbakery/maps/recent_projects.php:109
 msgid "Custom Link Text"
 msgstr ""
 
-#: includes/wpbakery/maps/recent_projects.php:108
+#: includes/wpbakery/maps/recent_projects.php:113
 msgid ""
 "The default text is \"View Project\". If you would like to use alternate "
 "text, enter it here."
 msgstr ""
 
-#: includes/wpbakery/maps/recent_projects.php:112
+#: includes/wpbakery/maps/recent_projects.php:117
 msgid "Display Project Excerpt"
 msgstr ""
 
-#: includes/wpbakery/maps/recent_projects.php:114
+#: includes/wpbakery/maps/recent_projects.php:119
 msgid ""
 "This will add the project excerpt below the project title on your slider"
 msgstr ""
 
-#: includes/wpbakery/maps/recent_projects.php:120
+#: includes/wpbakery/maps/recent_projects.php:125
 msgid "Auto rotate"
 msgstr ""
 
-#: includes/wpbakery/maps/recent_projects.php:124
+#: includes/wpbakery/maps/recent_projects.php:129
 msgid ""
 "If you would like this to auto rotate, enter the rotation speed in "
 "miliseconds here. i.e 5000"
 msgstr ""
 
-#: includes/wpbakery/maps/recent_projects.php:128
+#: includes/wpbakery/maps/recent_projects.php:133
 msgid "Full Width Carousel"
 msgstr ""
 
-#: includes/wpbakery/maps/recent_projects.php:130
+#: includes/wpbakery/maps/recent_projects.php:135
 msgid "This will make your carousel extend the full width of the page."
 msgstr ""
 
-#: includes/wpbakery/maps/recent_projects.php:136
+#: includes/wpbakery/maps/recent_projects.php:141
 msgid "Heading Text"
 msgstr ""
 
-#: includes/wpbakery/maps/recent_projects.php:138
+#: includes/wpbakery/maps/recent_projects.php:143
 msgid "Enter any text you would like for the heading of your carousel"
 msgstr ""
 
-#: includes/wpbakery/maps/recent_projects.php:143
+#: includes/wpbakery/maps/recent_projects.php:148
 msgid "Page Link Text"
 msgstr ""
 
-#: includes/wpbakery/maps/recent_projects.php:145
+#: includes/wpbakery/maps/recent_projects.php:150
 msgid ""
 "This will be the text that is in a link leading users to your desired page "
 "(will be omitted for full width carousels and an icon will be used instead)"
 msgstr ""
 
-#: includes/wpbakery/maps/recent_projects.php:150
+#: includes/wpbakery/maps/recent_projects.php:155
 msgid "Page Link URL"
 msgstr ""
 
-#: includes/wpbakery/maps/recent_projects.php:152
+#: includes/wpbakery/maps/recent_projects.php:157
 msgid ""
 "Enter portfolio page URL you would like to link to. Remember to include "
 "\"http://\"!"
 msgstr ""
 
-#: includes/wpbakery/maps/recent_projects.php:157
+#: includes/wpbakery/maps/recent_projects.php:162
 msgid "Controls & Text Color"
 msgstr ""
 
-#: includes/wpbakery/maps/recent_projects.php:164
+#: includes/wpbakery/maps/recent_projects.php:169
 msgid ""
 "Please select the color you desire for your carousel controls/heading text."
 msgstr ""
 
-#: includes/wpbakery/maps/recent_projects.php:169
+#: includes/wpbakery/maps/recent_projects.php:174
 msgid "Hide Carousel Controls"
 msgstr ""
 
-#: includes/wpbakery/maps/recent_projects.php:171
+#: includes/wpbakery/maps/recent_projects.php:176
 msgid "Checking this box will remove the controls from your carousel"
 msgstr ""
 
-#: includes/wpbakery/maps/recent_projects.php:177
+#: includes/wpbakery/maps/recent_projects.php:182
 msgid "Number of Projects To Show"
 msgstr ""
 
-#: includes/wpbakery/maps/recent_projects.php:179
+#: includes/wpbakery/maps/recent_projects.php:184
 msgid "Enter as a number example \"6\""
 msgstr ""
 
-#: includes/wpbakery/maps/recent_projects.php:185
+#: includes/wpbakery/maps/recent_projects.php:190
 msgid "Optionally enter a number e.g. \"2\" to offset your projects by"
 msgstr ""
 

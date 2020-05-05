@@ -258,6 +258,10 @@ tr.font-option  {
     margin: 0px 0 0;
     font-weight: normal;
 }
+.nectar-metabox-table .ui-buttonset .ui-state-active,
+#nectar_slider_canvas_shape a.button-primary {
+	background-color: #3a67ff!important;
+}
 .nectar-metabox-table label .ui-button-text {
 	line-height: 16px;
 }
@@ -568,8 +572,6 @@ td.inline textarea {
 
 
 
-
-
 #menu-posts-nectar_slider .wp-menu-image:before {
 	padding-top: 6px;
 }
@@ -705,9 +707,9 @@ box-sizing: border-box;
 }
 
 .nectar-metabox-table .switch-options.activated.salient {
-    border-color: rgba(119, 204, 109, 1);
-		background-color: rgba(119, 204, 109, 1);
-		box-shadow: inset 0px 0px 0px 15px rgba(119, 204, 109, 1);
+    border-color: rgb(58, 103, 255);
+		background-color: rgb(58, 103, 255);
+		box-shadow: inset 0px 0px 0px 15px rgb(58, 103, 255);
     -webkit-transition: box-shadow .45s cubic-bezier(0.4, 0.0, 0.2, 1), background-color 0.25s 0.1s cubic-bezier(0.4, 0.0, 0.2, 1);
     transition: box-shadow .45s cubic-bezier(0.4, 0.0, 0.2, 1), background-color 0.25s 0.1s cubic-bezier(0.4, 0.0, 0.2, 1);
 }
@@ -728,7 +730,7 @@ box-sizing: border-box;
 }
 
 .nectar-metabox-table .cb-enable span {
-	color: rgba(119, 204, 109, 1)!important;
+	color: rgb(58, 103, 255)!important;
 }
 
 .nectar-metabox-table .cb-disable.selected span {
@@ -964,4 +966,35 @@ transform: scale(0.8); }
   font-weight: 600;
   border-radius: 3px;
   color: #fff;
+}
+
+/* display fields specific to HTML5 canvas page header edit */
+.particle-edit .collection-settings, 
+.particle-edit input[type="text"].describe, 
+.particle-edit .attachment-details label[data-setting="alt"], 
+.particle-edit .attachment-details label[data-setting="description"] { display: none!important; } 
+
+.particle-edit .compat-item .label {
+	max-width: 30%; 
+} 
+
+.particle-edit p.help { 
+	font-size: 12px; 
+	font-style: normal; 
+	color: #888; 
+} 
+
+.particle-edit .compat-item tr.compat-field-shape-bg-color, 
+.particle-edit .compat-item tr.compat-field-shape-color-alpha, 
+.particle-edit .compat-item tr.compat-field-shape-color-mapping, 
+.particle-edit .compat-item tr.compat-field-shape-particle-color, 
+.particle-edit .compat-item tr.compat-field-shape-density, 
+.particle-edit .compat-item tr.compat-field-shape-max-particle-size { 
+	display: block;
+}
+
+
+/* remove VC image filters on nectar meta image uploads */
+body.page-header-edit .media-sidebar .vc-image-filter-setting {
+	display: none;
 }

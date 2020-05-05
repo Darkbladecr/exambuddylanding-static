@@ -85,6 +85,9 @@ Description: Header Layout set to "Left Header" in theme options
      body[data-header-format="left-header"] .page-submenu.stuck{
         left:138px
     }
+		body[data-header-format="left-header"] .page-submenu.stuck[data-alignment="center"] {
+			 left:275px
+	 }
      body[data-header-format="left-header"].material #search-outer{
         padding-left:275px
     }

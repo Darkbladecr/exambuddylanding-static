@@ -83,6 +83,9 @@
       </shortcode>
       <shortcode>
             <tag>split_line_heading</tag>
+            <attributes>
+                <attribute>text_content</attribute>
+            </attributes>
       </shortcode>
       <shortcode>
             <tag>image_with_animation</tag>

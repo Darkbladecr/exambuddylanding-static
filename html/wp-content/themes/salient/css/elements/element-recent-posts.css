@@ -5,7 +5,6 @@ Description: Styles for the "Recent Posts" page builder element.
 
 .home .blog-recent .col .post-header{
      color:#999;
-     font-size:11px;
      margin-bottom:12px
 }
  .home .blog-recent .col .post-header h3 a{
@@ -441,6 +440,9 @@ body .blog-recent[data-style].columns-1 div:nth-child(1n+1){
 }
  .nectar-recent-posts-single_featured.multiple_featured .recent-post-container {
      z-index: auto;
+}
+.nectar-recent-posts-single_featured.multiple_featured[data-bg-overlay="diagonal_gradient"] .recent-post-container {
+  z-index: 10;
 }
  .nectar-recent-posts-single_featured.multiple_featured .recent-post-container h2 a > span {
      position: relative;
@@ -991,8 +993,15 @@ body .blog-recent[data-style*="classic_enhanced"] .has-post-thumbnail .meta-cate
      display:-webkit-flex;
      display:flex;
      -webkit-flex-wrap:wrap;
-     flex-wrap:wrap
+     flex-wrap:wrap;   
 }
+
+.single .vc_row-fluid > .blog-recent[data-style*="classic_enhanced"], 
+.single .vc_row-fluid > .blog-recent[data-style="material"] {
+  margin-right: 0;
+  margin-left: 0;
+ }
+ 
  .blog-recent[data-style*="classic_enhanced"] >.col, .blog-recent[data-style="material"] >.col{
      display:-webkit-flex;
      display:flex

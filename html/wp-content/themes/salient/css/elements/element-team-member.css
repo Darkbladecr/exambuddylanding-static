@@ -330,6 +330,11 @@ body .team-member[data-style="bio_fullscreen"] .team-meta .arrow-end{
 	-webkit-transform: scale(0.95);
 	transform: scale(0.95);
 }
+
+.centered-text.wpb_column .team-member[data-style="bio_fullscreen_alt"] .nectar-cta {
+  text-align: center;
+}
+
 .nectar_team_member_overlay[data-style="bio-fullscreen-alt"] .team_member_details .title {
     -ms-transition: all 1.1s cubic-bezier(0.2,1,.2,1) 0.4s;
     -webkit-transition: all 1.1s cubic-bezier(0.2,1,.2,1) 0.4s;
@@ -561,6 +566,7 @@ body .team-member[data-style="bio_fullscreen"] .team-meta .arrow-end{
     opacity:0;
     -webkit-transition:opacity 0.3s;
     transition:opacity 0.3s;
+    will-change: transform, opacity;
     mix-blend-mode: difference;
 }
 .nectar-close-indicator .inner{

@@ -33,6 +33,9 @@ body[data-slide-out-widget-area-style="slide-out-from-right-hover"] #header-oute
 		-ms-transition:transform .45s cubic-bezier(.2,.75,.3,1) 0.22s,opacity .45s cubic-bezier(.2,.75,.3,1) 0.22s;
 		transition:transform .45s cubic-bezier(.2,.75,.3,1) 0.22s,opacity .45s cubic-bezier(.2,.75,.3,1) 0.22s
 }
+.material #slide-out-widget-area.slide-out-from-right-hover .inner {
+	margin-bottom: 0px;
+}
 #slide-out-widget-area.slide-out-from-right-hover.open .inner{
 	 opacity:1;
 		transform:translateX(0px)
@@ -148,8 +151,8 @@ body #slide-out-widget-area.slide-out-from-right-hover .inner .off-canvas-menu-c
 		border-radius:2px;
 		background-color:#fff;
 		opacity:1;
+		-webkit-transition:-webkit-transform .4s cubic-bezier(.2,.01,.16,1) 0.07s,opacity .4s cubic-bezier(.2,.01,.16,1) 0.07s!important;
 		transition:transform .4s cubic-bezier(.2,.01,.16,1) 0.07s,opacity .4s cubic-bezier(.2,.01,.16,1) 0.07s!important;
-		-webkit-transition:-webkit-transform .4s cubic-bezier(.2,.01,.16,1) 0.07s,opacity .4s cubic-bezier(.2,.01,.16,1) 0.07s!important
 }
 .slide-out-hover-icon-effect.slide-out-widget-area-toggle:not(.small) .lines-button:after{
 	 top:0px
@@ -165,8 +168,8 @@ body #slide-out-widget-area.slide-out-from-right-hover .inner .off-canvas-menu-c
 		transform-origin:left;
 		-webkit-transform-origin:left;
 		border-radius:2px;
+		-webkit-transition:-webkit-transform .4s cubic-bezier(.2,.01,.16,1) 0.12s,opacity .4s cubic-bezier(.2,.01,.16,1) 0.12s!important;
 		transition:transform .4s cubic-bezier(.2,.01,.16,1) 0.12s,opacity .4s cubic-bezier(.2,.01,.16,1) 0.12s!important;
-		-webkit-transition:-webkit-transform .4s cubic-bezier(.2,.01,.16,1) 0.12s,opacity .4s cubic-bezier(.2,.01,.16,1) 0.12s!important
 }
 .slide-out-hover-icon-effect.slide-out-widget-area-toggle .lines:after{
 		-ms-transform:scale(0,1);
@@ -176,9 +179,17 @@ body #slide-out-widget-area.slide-out-from-right-hover .inner .off-canvas-menu-c
 		transform-origin:left;
 		-webkit-transform-origin:left;
 		border-radius:2px;
+		-webkit-transition:-webkit-transform .4s cubic-bezier(.2,.01,.16,1) 0.02s,opacity .4s cubic-bezier(.2,.01,.16,1) 0.02s!important;
 		transition:transform .4s cubic-bezier(.2,.01,.16,1) 0.02s,opacity .4s cubic-bezier(.2,.01,.16,1) 0.02s!important;
-		-webkit-transition:-webkit-transform .4s cubic-bezier(.2,.01,.16,1) 0.02s,opacity .4s cubic-bezier(.2,.01,.16,1) 0.02s!important
 }
+
+#slide-out-widget-area.open .slide-out-hover-icon-effect.slide-out-widget-area-toggle .lines-button:after,
+#slide-out-widget-area.open .slide-out-hover-icon-effect.slide-out-widget-area-toggle .lines:before,
+#slide-out-widget-area.open .slide-out-hover-icon-effect.slide-out-widget-area-toggle .lines:after {
+	transition: transform 0s cubic-bezier(.2,.01,.16,1),opacity .4s cubic-bezier(.2,.01,.16,1) 0.02s!important;
+}
+
+
 body .slide-out-hover-icon-effect.slide-out-widget-area-toggle.small .lines:after, 
 body .slide-out-hover-icon-effect.slide-out-widget-area-toggle.small .lines:before, 
 body .slide-out-hover-icon-effect.slide-out-widget-area-toggle.small .lines-button:after{
@@ -307,10 +318,21 @@ body .slide-out-hover-icon-effect.slide-out-widget-area-toggle.small .lines-butt
 		z-index:10000;
 		pointer-events:none
 }
+
 .slide-out-hover-icon-effect.small{
 	 right:27px
 }
 .slide-out-hover-icon-effect a{
 	 display:block;
 		pointer-events:none
+}
+
+
+@media only screen and (min-width: 500px) {
+	#slide-out-widget-area.slide-out-from-right-hover {
+		width: 400px;
+		-webkit-transform: translate3d(101%,0,0);
+		-ms-transform: translate3d(101%,0,0);
+		transform: translate3d(101%,0,0);
+	}
 }

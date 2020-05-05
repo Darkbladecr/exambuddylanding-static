@@ -630,6 +630,10 @@ body:not(.mobile) .fp-scroller {
 	visibility: visible;
 	z-index: 1;
 }
+#nectar_fullscreen_rows > #footer-outer[data-using-bg-img="true"]:after {
+  pointer-events: none;
+  z-index: -1;
+}
 
 /* when using default footer, display block instead of flex */
 #nectar_fullscreen_rows #footer-outer[data-cols] .full-page-inner > .container > .span_12 {
@@ -849,6 +853,10 @@ body:not(.mobile) .fp-scroller {
         -webkit-justify-content: flex-end;
         -ms-flex-pack: end;
         justify-content: flex-end;
+    }
+    
+    .using-mobile-browser #nectar_fullscreen_rows[data-mobile-disable="on"] > div { 
+      height: auto;  
     }
 
 }

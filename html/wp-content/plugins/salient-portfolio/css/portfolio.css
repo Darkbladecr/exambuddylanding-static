@@ -114,6 +114,11 @@ body #page-header-bg .project-title{
 body.single .project-title .section-title{
 	 padding:0 70px 0 70px
 }
+
+#regular_portfolio .container-wrap[data-rm-header="true"] .main-content {
+	padding-top: 50px;
+}
+
 .project-additional.clear{
 	 clear:both;
 		display:block
@@ -1477,9 +1482,23 @@ body .container-wrap[data-nav-pos="after_project_2"] .bottom_controls .previous-
 	opacity: 1;
 	position: relative;
 	font-size: 12px;
+	line-height: 12px;
+}
+
+.portfolio-items .col .work-item.style-3-alt > a {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: 40;
+}
+
+.portfolio-items .col:not([data-subtitle-color*="#"]) .work-item.style-3 .vert-center p,
+.portfolio-items .col:not([data-subtitle-color*="#"]) .work-item.style-3-alt .vert-center p {
 	color: #fff;
 	color: rgba(255,255,255,0.8);
-	line-height: 12px;
 }
 
 .portfolio-items .work-item.style-3-alt p {
@@ -2048,7 +2067,7 @@ body.material .portfolio-filters[data-color-scheme*="-underline"] > ul li .activ
 }
 
 .portfolio-items .col.span_3 {
-	width: 25%;
+	width: 24.9%;
 	margin: 0;
 	padding: 0;
 }
@@ -2060,7 +2079,7 @@ body.material .portfolio-filters[data-color-scheme*="-underline"] > ul li .activ
 
 .portfolio-items .col.span_6,
 .portfolio-items[data-ps="6"] .col.span_6 {
-	width: 50%;
+	width: 49.9%;
 	margin: 0;
 }
 
@@ -3599,7 +3618,7 @@ body[data-ext-responsive="true"][data-full-width-header="true"] .nectar_fullscre
 
 	.portfolio-items:not(.carousel) .col.span_4, 
 	.portfolio-items:not(.carousel) .col.span_3 {
-		width: 50%!important;
+		width: 49.9%!important;
 	}
 	
 	.portfolio-items[data-ps="6"] .col {

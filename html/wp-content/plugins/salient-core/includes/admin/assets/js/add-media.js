@@ -20,6 +20,10 @@ jQuery(document).ready(function($) {
       }
     });
     
+    image_add_frame.on( "close" ,function(){
+      $('body').removeClass('page-header-edit');
+    });
+    
     image_add_frame.on( "select", function() {
       
       var image_attachment = image_add_frame.state().get("selection").first();
@@ -32,11 +36,15 @@ jQuery(document).ready(function($) {
       $that.parent().find('.nectar-media-preview').show();
       $that.parent().find('.nectar-remove-btn').show();
       
+      $('body').removeClass('page-header-edit');
+      
       toggleParallaxOption();
       
     });
     
     image_add_frame.open();
+    
+    $('body').addClass('page-header-edit');
     
   });
   

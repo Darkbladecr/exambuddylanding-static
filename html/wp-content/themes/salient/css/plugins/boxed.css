@@ -27,6 +27,10 @@ body[data-footer-reveal="1"][data-footer-reveal-shadow="large_2"] #boxed .contai
   box-shadow: none;
 }
 
+body[data-footer-reveal="1"][data-responsive="1"][data-ext-responsive="false"] #boxed #footer-outer {
+	max-width: 1200px;
+}
+
 body #boxed #header-outer {
   box-shadow: none;
   padding-right: 0px!important;
@@ -221,6 +225,10 @@ body #boxed #header-outer[data-transparent-header="true"][data-remove-border="tr
   
   #boxed {
     width: 980px;
+  }
+  
+  body[data-footer-reveal="1"][data-responsive="1"][data-ext-responsive="false"] #boxed #footer-outer {
+  	max-width: 980px;
   }
 
   #boxed #header-outer, 

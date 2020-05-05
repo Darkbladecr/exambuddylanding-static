@@ -1947,19 +1947,19 @@ body.material .portfolio-filters[data-color-scheme*="-underline"] > ul li .activ
 }
 
 .portfolio-items .col.span_3 {
-	width: 25%;
+	width: 24.9%;
 	margin: 0;
 	padding: 0;
 }
 
 .portfolio-items .col.span_4 {
-	width: 33.3%;
+	width: 33.2%;
 	margin: 0;
 }
 
 .portfolio-items .col.span_6,
 .portfolio-items[data-ps="6"] .col.span_6 {
-	width: 50%;
+	width: 49.9%;
 	margin: 0;
 }
 

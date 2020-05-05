@@ -480,15 +480,18 @@
   
   
   NectarFullScreenRows.prototype.resetWaypoints = function() {
-    
+
     var that = this;
     
     // Animated columns / imgs
     $('img.img-with-animation.animated-in:not([data-animation="none"])').css({'transition':'none'});
     $('img.img-with-animation.animated-in:not([data-animation="none"]), .img-with-aniamtion-wrap:not([data-animation="none"]) .hover-wrap').css({'opacity':'','transform':''}).removeClass('animated-in');
+    $('.img-with-aniamtion-wrap[data-animation*="reveal-from-"]').removeClass('animated-in');
+    $('.img-with-aniamtion-wrap[data-animation*="reveal-from-"] img.img-with-animation').css({'transition':''});
     $('.col.has-animation.animated-in:not([data-animation*="reveal"]), .wpb_column.has-animation.animated-in:not([data-animation*="reveal"])').css({'transition':'none'});
     $('.col.has-animation.animated-in:not([data-animation*="reveal"]), .wpb_column.has-animation.animated-in:not([data-animation*="reveal"]), .nectar_cascading_images .cascading-image:not([data-animation="none"]) .inner-wrap').css({'opacity':'0','transform':'none','left':'auto','right':'auto'}).removeClass('animated-in');	
     $('.col.has-animation.boxed:not([data-animation*="reveal"]), .wpb_column.has-animation.boxed:not([data-animation*="reveal"])').addClass('no-pointer-events');
+    $('.column-image-bg-wrap[data-bg-animation*="ro-reveal-from-"]').parents('.vc_column-inner').removeClass('revealed-bg');
     
     // Row BG animations
     $('.row-bg-wrap[data-bg-animation]:not([data-bg-animation="none"]):not([data-bg-animation*="displace-filter"]) .inner-wrap.using-image').removeClass('animated-in');
@@ -550,8 +553,8 @@
     
     // Split line
     $('.nectar-split-heading').removeClass('animated-in');
-    $('.nectar-split-heading .heading-line > div').transit({'y':'200%'},0);
-    $('.nectar-split-heading[data-animation-type="line-reveal-by-space"] .inner').transit({'y':'130%'},0);
+    $('.nectar-split-heading .heading-line > div').css({'transform':'translate(0,200%)'});
+    $('.nectar-split-heading[data-animation-type="line-reveal-by-space"] .inner').css({'transform':'translate(0,130%)'});
     
     // Image with hotspots
     $('.nectar_image_with_hotspots[data-animation="true"]').removeClass('completed');
@@ -562,6 +565,11 @@
     
     // Highlighted text
     $('.nectar-highlighted-text em').removeClass('animated');
+    
+    // Post grid.
+    $('.nectar-post-grid-filters:not([data-animation="none"])').removeClass('animated-in');
+    $('.nectar-post-grid:not([data-animation="none"]) .nectar-post-grid-item').removeClass('animated-in');
+    $('.nectar-post-grid-wrap').removeClass('finished-animating');
     
     if($('.vc_pie_chart').length > 0) {
       vc_pieChart();

@@ -373,3 +373,25 @@ that has a border style set.
 
 .wpb_column[data-border-width="10px"] > .vc_column-inner > .border-wrap >span, 
 .wpb_column[data-border-width="10px"] > .vc_column-inner > .border-wrap >span:after{border-width:10px}
+
+body[data-m-animate="1"] .wpb_column[data-border-animation="true"] .vc_column-inner > .border-wrap >.border-top,
+body[data-m-animate="1"] .wpb_column[data-border-animation="true"] .vc_column-inner > .border-wrap >.border-bottom {
+	transition:transform 1s cubic-bezier(0.19,1,0.22,1);
+	transform:scaleX(0)
+}
+body[data-m-animate="1"] .wpb_column[data-border-animation="true"] .vc_column-inner > .border-wrap >.border-left, 
+body[data-m-animate="1"] .wpb_column[data-border-animation="true"] .vc_column-inner > .border-wrap >.border-right {
+	-webkit-transition:transform 1s cubic-bezier(0.19,1,0.22,1);
+	-webkit-transform:scaleY(0);
+	transition:transform 1s cubic-bezier(0.19,1,0.22,1);
+	transform:scaleY(0)
+}
+
+body[data-m-animate="1"] .wpb_column[data-border-animation="true"] .vc_column-inner > .border-wrap.animation > .border-top, 
+body[data-m-animate="1"] .wpb_column[data-border-animation="true"] .vc_column-inner > .border-wrap.animation > .border-bottom {
+  transform: scaleX(1);
+}
+body[data-m-animate="1"] .wpb_column[data-border-animation="true"] .vc_column-inner > .border-wrap.animation > .border-left, 
+body[data-m-animate="1"] .wpb_column[data-border-animation="true"] .vc_column-inner > .border-wrap.animation > .border-right {
+  transform: scaleY(1);
+}

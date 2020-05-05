@@ -14,12 +14,20 @@ if(!jQuery().swiper) {
 
 var Swiper = function (selector, params) {
     if (document.body.__defineGetter__) {
-        if (HTMLElement) {
-            var element = HTMLElement.prototype;
-            if (element.__defineGetter__) {
-                element.__defineGetter__("outerHTML", function () { return new XMLSerializer().serializeToString(this); } );
-            }
-        }
+        
+        var testOuterHTML = document.querySelector('div');
+      
+        if( typeof testOuterHTML.outerHTML === "undefined" ) {
+
+          if (HTMLElement) {
+              var element = HTMLElement.prototype;
+              if (element.__defineGetter__) {
+                  element.__defineGetter__("outerHTML", function () { return new XMLSerializer().serializeToString(this); } );
+              }
+          }
+          
+      }
+      
     }
 
     if (!window.getComputedStyle) {
@@ -3899,8 +3907,11 @@ jQuery(document).ready(function($){
       //browser tab is hidden
     } else {
       //browser tab is vis
-      $('.nectar-slider-wrap').each(function(i){
-        $nectarSliders[i].resizeFix();
+      $('.nectar-slider-wrap').each(function(i) {
+        if( typeof $nectarSliders[i] != 'undefined' ) {
+          $nectarSliders[i].resizeFix();
+        }
+
       });
       
     }
@@ -4578,7 +4589,11 @@ jQuery(document).ready(function($){
     //hide all
     if(!$('html').hasClass('no-video')) {
       if(captionTransString === 'fade_in_from_bottom') {
-        anime.remove($containerClass+' .swiper-slide .content p, '+$containerClass+' .swiper-slide .content h2, '+$containerClass+' .swiper-slide .content h1, '+$containerClass+' .swiper-slide .content h3, '+$containerClass+' .swiper-slide .content .buttons');
+        
+        if( $($containerClass).parents('.wpb_gallery').length == 0 ) {
+          anime.remove($containerClass+' .swiper-slide .content p, '+$containerClass+' .swiper-slide .content h2, '+$containerClass+' .swiper-slide .content h1, '+$containerClass+' .swiper-slide .content h3, '+$containerClass+' .swiper-slide .content .buttons');
+        }
+        
         $($containerClass+' .swiper-slide .content p, '+$containerClass+' .swiper-slide .content h2, '+$containerClass+' .swiper-slide .content h1, '+$containerClass+' .swiper-slide .content h3, '+$containerClass+' .swiper-slide .content .buttons').stop(true,true).css({'opacity':0, 'transform' : 'translateZ(0) translateY(40px)'});
       } else if(captionTransString === 'reveal_title') {
         
@@ -5478,6 +5493,10 @@ jQuery(document).ready(function($){
   
   
   //solid button hover effect
+  function hexConvert(x) {
+    return ("0" + parseInt(x).toString(16)).slice(-2);
+  }
+  
   $.cssHooks.backgroundColor = {
     get: function(elem) {
       var bg;
@@ -5494,11 +5513,8 @@ jQuery(document).ready(function($){
       }
       else {
         bg = bg.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
-        function hex(x) {
-          return ("0" + parseInt(x).toString(16)).slice(-2);
-        }
         if(bg) {
-          return "#" + hex(bg[1]) + hex(bg[2]) + hex(bg[3]);
+          return "#" + hexConvert(bg[1]) + hexConvert(bg[2]) + hexConvert(bg[3]);
         }
       }
     }
@@ -5541,6 +5557,7 @@ jQuery(document).ready(function($){
     
     
     //nectar slider external links
+    $('.swiper-slide.external-full-link a.entire-slide-link').attr('target', '_blank');
     $('.swiper-slide.external-button-1 .buttons > div:nth-child(1) a').attr('target', '_blank');
     $('.swiper-slide.external-button-2 .buttons > div:nth-child(2) a').attr('target', '_blank');
     

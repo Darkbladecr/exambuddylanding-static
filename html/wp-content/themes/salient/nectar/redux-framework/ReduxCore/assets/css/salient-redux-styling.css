@@ -65,6 +65,7 @@
 		background-color: #ebebeb;
 		margin: 6px 3px;
 		transition: all 0.13s linear;
+		color: #333;
 	}
 	.redux-container .redux-main  .wp-picker-open+.wp-picker-input-wrap {
 		padding-top: 6px; 
@@ -99,9 +100,14 @@
 	    color: #fff!important;
 	    background-color: #3d434f!important;
 	}
+	
+	.redux-container .themes .wbc-progress-bar {
+		min-height: 14px;
+	}
+
 	.admin-color-fresh .redux-container .redux-main .theme-browser .button-primary {
 		background-color: #19a1f7!important;
-		background-image: none!Important;
+		background-image: none!important;
 		text-shadow: none!important;
 		box-shadow: none!important;
 		color: #fff!important;
@@ -373,6 +379,12 @@ html body.wp-admin.admin-color-fresh .redux-main .redux-container-switch .cb-ena
 	transition: none;
 }
 
+body.rtl .redux-container-switch .cb-enable span, 
+body.rtl .redux-container-switch .cb-disable span {
+	right: 105%;
+	left: auto;
+}
+
 .redux-container-switch .cb-enable span {
 	color: rgba(119, 204, 109, 1)!important;
 }
@@ -486,6 +498,13 @@ html body.wp-admin.admin-color-fresh .redux-main .redux-container-switch .cb-ena
 	display: none!important; 
 }
 
+.redux-container .redux-main .field-spacing-input input[type=text].mini {
+	width: 100px;
+}
+.redux-container .redux-main .field-spacing-input .add-on{
+	padding: 4px;
+}
+
 fieldset[id*="salient_redux"] .switch-options {
     width: 67px;
     height: 28px;
@@ -575,4 +594,144 @@ fieldset[id*="salient_redux"] .switch-options.activated:before {
 	border: 2px solid #3555ff;
 	border-radius: 10px;
 	padding: 10px;
+}
+
+
+/* Demo importer */
+.redux-container .redux-main .nectar-demo-importer-selection-modal .activation-row .button {
+	font-size: 13px;
+}
+ .redux-container .redux-main .form-table tr td .wbc_importer .theme-browser .theme .theme-actions {
+	  background: transparent;
+		box-shadow: none;
+ }
+ 
+ .redux-container .redux-main .wbc_importer .theme-browser .theme .button-primary {
+	 background-color: rgba(0,0,0,0.05)!important;
+	 color: #000!important;
+	 font-weight: 600;
+ }
+ .redux-container .redux-main .wbc_importer .importer-button {
+	 font-weight: 600;
+ }
+ .redux-container .redux-main .wbc_importer .theme-browser .theme:hover .button-primary {
+	color: #fff!important;
+ }
+ 
+ .redux-container .redux-main .wbc_importer .theme-browser .theme:hover .button-primary,
+ .redux-container .nectar-demo-importer-selection-modal a.submit {
+	 background-color: #3d5cff!important;
+}
+
+.wbc_importer .theme-browser .theme {
+	border-radius: 5px;
+	overflow: hidden;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	box-shadow: 0 0 0 rgba(0,0,0,0);
+}
+.wbc_importer .theme-browser .theme:hover {
+	transform: translateY(-4px);
+	box-shadow: 0px 11px 20px rgba(0,0,0,0.13);
+}
+
+/* Demo importer ordering */
+.wbc_importer .theme-browser .themes {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.wbc_importer .theme-browser .themes .theme {
+	float: none;
+	margin: 2%;
+}
+
+.wbc_importer .theme-browser .themes .theme {
+  width: 29.2%;
+}
+
+@media only screen and (min-width: 2000px) {
+	#wpwrap  .wbc_importer .theme-browser .themes .theme {
+		width: 20.9%;
+		margin: 2%;
+	}
+}
+@media only screen and (max-width: 1300px) {
+	#wpwrap  .wbc_importer .theme-browser .themes .theme {
+		width: 45.9%;
+		margin: 2%;
+	}
+}
+
+
+
+.wbc_importer .theme-browser .themes .theme[data-order="1"] { order: 1 }
+.wbc_importer .theme-browser .themes .theme[data-order="2"] { order: 2 }
+.wbc_importer .theme-browser .themes .theme[data-order="3"] { order: 3 }
+.wbc_importer .theme-browser .themes .theme[data-order="4"] { order: 4 }
+.wbc_importer .theme-browser .themes .theme[data-order="5"] { order: 5 }
+.wbc_importer .theme-browser .themes .theme[data-order="6"] { order: 6 }
+.wbc_importer .theme-browser .themes .theme[data-order="7"] { order: 7 }
+.wbc_importer .theme-browser .themes .theme[data-order="8"] { order: 8 }
+.wbc_importer .theme-browser .themes .theme[data-order="9"] { order: 9 }
+.wbc_importer .theme-browser .themes .theme[data-order="10"] { order: 10 }
+.wbc_importer .theme-browser .themes .theme[data-order="11"] { order: 11 }
+.wbc_importer .theme-browser .themes .theme[data-order="12"] { order: 12 }
+.wbc_importer .theme-browser .themes .theme[data-order="13"] { order: 13 }
+.wbc_importer .theme-browser .themes .theme[data-order="14"] { order: 14 }
+.wbc_importer .theme-browser .themes .theme[data-order="15"] { order: 15 }
+.wbc_importer .theme-browser .themes .theme[data-order="16"] { order: 16 }
+.wbc_importer .theme-browser .themes .theme[data-order="17"] { order: 17 }
+.wbc_importer .theme-browser .themes .theme[data-order="18"] { order: 18 }
+.wbc_importer .theme-browser .themes .theme[data-order="19"] { order: 19 }
+.wbc_importer .theme-browser .themes .theme[data-order="20"] { order: 20 }
+.wbc_importer .theme-browser .themes .theme[data-order="21"] { order: 21 }
+.wbc_importer .theme-browser .themes .theme[data-order="22"] { order: 22 }
+.wbc_importer .theme-browser .themes .theme[data-order="23"] { order: 23 }
+.wbc_importer .theme-browser .themes .theme[data-order="24"] { order: 24 }
+.wbc_importer .theme-browser .themes .theme[data-order="25"] { order: 25 }
+.wbc_importer .theme-browser .themes .theme[data-order="26"] { order: 26 }
+.wbc_importer .theme-browser .themes .theme[data-order="27"] { order: 27 }
+.wbc_importer .theme-browser .themes .theme[data-order="28"] { order: 28 }
+.wbc_importer .theme-browser .themes .theme[data-order="29"] { order: 29 }
+.wbc_importer .theme-browser .themes .theme[data-order="30"] { order: 30 }
+.wbc_importer .theme-browser .themes .theme[data-order="31"] { order: 31 }
+.wbc_importer .theme-browser .themes .theme[data-order="32"] { order: 32 }
+.wbc_importer .theme-browser .themes .theme[data-order="33"] { order: 33 }
+.wbc_importer .theme-browser .themes .theme[data-order="34"] { order: 34 }
+.wbc_importer .theme-browser .themes .theme[data-order="35"] { order: 35 }
+.wbc_importer .theme-browser .themes .theme[data-order="36"] { order: 36 }
+.wbc_importer .theme-browser .themes .theme[data-order="37"] { order: 37 }
+.wbc_importer .theme-browser .themes .theme[data-order="38"] { order: 38 }
+.wbc_importer .theme-browser .themes .theme[data-order="39"] { order: 39 }
+.wbc_importer .theme-browser .themes .theme[data-order="40"] { order: 40 }
+.wbc_importer .theme-browser .themes .theme[data-order="41"] { order: 41 }
+.wbc_importer .theme-browser .themes .theme[data-order="42"] { order: 42 }
+.wbc_importer .theme-browser .themes .theme[data-order="43"] { order: 43 }
+.wbc_importer .theme-browser .themes .theme[data-order="44"] { order: 44 }
+.wbc_importer .theme-browser .themes .theme[data-order="45"] { order: 45 }
+.wbc_importer .theme-browser .themes .theme[data-order="46"] { order: 46 }
+.wbc_importer .theme-browser .themes .theme[data-order="47"] { order: 47 }
+.wbc_importer .theme-browser .themes .theme[data-order="48"] { order: 48 }
+
+/* Legacy Demos */
+.redux-field.wbc_importer .theme-browser .themes > div[data-order="43"]:before,
+.redux-field.wbc_importer .theme-browser .themes > div[data-order="44"]:before,
+.redux-field.wbc_importer .theme-browser .themes > div[data-order="45"]:before,
+.redux-field.wbc_importer .theme-browser .themes > div[data-order="46"]:before,
+.redux-field.wbc_importer .theme-browser .themes > div[data-order="47"]:before,
+.redux-field.wbc_importer .theme-browser .themes > div[data-order="48"]:before {
+	content: 'Legacy';
+  display: block;
+  position: absolute;
+	font-size: 12px;
+  left: 10px;
+  bottom: 42px;
+  color: #000;
+  padding: 6px 12px;
+  background-color: #ffffff;
+  z-index: 100;
+  border-radius: 3px;
+  font-weight: 600;
+  box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
 }

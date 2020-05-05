@@ -262,6 +262,11 @@ body:not([data-header-format="left-header"]).ascend #header-outer[data-full-widt
     padding-top: 0;
     padding-bottom: 0;
 }
+
+.ascend #header-outer[data-full-width="true"] #top .slide-out-widget-area-toggle[data-custom-color="true"] > div a:before {
+  display: none;
+}
+
 .ascend #header-outer[data-full-width="true"][data-cart="true"] #top nav ul .slide-out-widget-area-toggle {
     position:relative;
 }

@@ -627,7 +627,7 @@ jQuery(document).ready(function($){
     var $startingImageLink = ($('.slide div a:first').length > 0) ? $('.slide div a:first').attr('href') : '';
     var $startingImageThumb = ($('.slider > .thumb:first .thumb-inner img').length > 0) ? $('.slider > .thumb:first .thumb-inner img').attr('src') : $startingImage;
     
-    $('select[name*="attribute_"]').on('blur',function(){
+    $('select[name*="attribute_"]').on('blur change',function(){
       
       var $that = $(this);
       var attr_data = $('.variations_form').data('product_variations');
@@ -638,7 +638,7 @@ jQuery(document).ready(function($){
         setTimeout(function(){
           
           $(attr_data).each(function(i, el){
-            
+          
             if(el.image && el.image.src) {
               
               if(el.image.src == $('.slide div a:first > img').attr('src')){     

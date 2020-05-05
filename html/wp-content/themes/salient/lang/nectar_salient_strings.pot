@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Salient\n"
-"POT-Creation-Date: 2019-10-01 09:34-0400\n"
+"POT-Creation-Date: 2020-04-09 13:57-0400\n"
 "PO-Revision-Date: 2018-07-09 15:30-0400\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.3\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: style.css\n"
@@ -44,9 +44,9 @@ msgstr ""
 #: includes/partials/blog/styles/standard-classic/entry-video.php:49
 #: includes/partials/blog/styles/standard-classic/entry.php:49
 #: includes/partials/single-post/post-header-no-img-regular.php:94
-#: includes/partials/single-post/post-header-no-img-regular.php:103
+#: includes/partials/single-post/post-header-no-img-regular.php:104
 #: includes/partials/single-post/post-meta-bar-ascend-skin.php:41
-#: nectar/helpers/page-header.php:369 nectar/helpers/page-header.php:379
+#: nectar/helpers/page-header.php:400 nectar/helpers/page-header.php:411
 #: template-home-2.php:276 template-home-3.php:419
 msgid "No Comments"
 msgstr ""
@@ -62,9 +62,9 @@ msgstr ""
 #: includes/partials/blog/styles/standard-classic/entry-video.php:49
 #: includes/partials/blog/styles/standard-classic/entry.php:49
 #: includes/partials/single-post/post-header-no-img-regular.php:94
-#: includes/partials/single-post/post-header-no-img-regular.php:103
+#: includes/partials/single-post/post-header-no-img-regular.php:104
 #: includes/partials/single-post/post-meta-bar-ascend-skin.php:41
-#: nectar/helpers/page-header.php:369 nectar/helpers/page-header.php:379
+#: nectar/helpers/page-header.php:400 nectar/helpers/page-header.php:411
 msgid "% Comments"
 msgstr ""
 
@@ -166,7 +166,7 @@ msgstr ""
 #: includes/partials/blog/styles/standard-classic/entry-video.php:44
 #: includes/partials/blog/styles/standard-classic/entry.php:44
 #: includes/partials/single-post/post-header-no-img-regular.php:80
-#: nectar/helpers/page-header.php:358
+#: nectar/helpers/page-header.php:386
 msgid "By"
 msgstr ""
 
@@ -176,9 +176,9 @@ msgstr ""
 #: includes/partials/blog/styles/standard-classic/entry-video.php:49
 #: includes/partials/blog/styles/standard-classic/entry.php:49
 #: includes/partials/single-post/post-header-no-img-regular.php:94
-#: includes/partials/single-post/post-header-no-img-regular.php:103
+#: includes/partials/single-post/post-header-no-img-regular.php:104
 #: includes/partials/single-post/post-meta-bar-ascend-skin.php:41
-#: nectar/helpers/page-header.php:369 nectar/helpers/page-header.php:379
+#: nectar/helpers/page-header.php:400 nectar/helpers/page-header.php:411
 msgid "One Comment "
 msgstr ""
 
@@ -193,19 +193,19 @@ msgstr ""
 msgid "In"
 msgstr ""
 
-#: includes/partials/footer/off-canvas-navigation.php:64
+#: includes/partials/footer/off-canvas-navigation.php:66
 #: nectar/redux-framework/ReduxCore/inc/extensions/customizer/inc/customizer_panel.php:138
 #: nectar/redux-framework/ReduxCore/inc/extensions/customizer/inc/customizer_section.php:79
 msgid "Back"
 msgstr ""
 
 #: includes/partials/header/header-menu.php:65
-#: includes/partials/header/header-menu.php:102 nectar/helpers/header.php:982
+#: includes/partials/header/header-menu.php:102 nectar/helpers/header.php:1042
 msgid "Navigation Menu"
 msgstr ""
 
 #: includes/partials/header/header-menu.php:66
-#: includes/partials/header/header-menu.php:103 nectar/helpers/header.php:955
+#: includes/partials/header/header-menu.php:103 nectar/helpers/header.php:1015
 msgid "Menu"
 msgstr ""
 
@@ -235,8 +235,8 @@ msgid "View all posts in %s"
 msgstr ""
 
 #: includes/partials/single-post/post-header-no-img-fullscreen.php:75
-#: includes/partials/single-post/post-header-no-img-regular.php:87
-#: nectar/helpers/page-header.php:339 nectar/helpers/page-header.php:364
+#: includes/partials/single-post/post-header-no-img-regular.php:86
+#: nectar/helpers/page-header.php:367 nectar/helpers/page-header.php:392
 msgid "F jS, Y"
 msgstr ""
 
@@ -267,19 +267,19 @@ msgid "Next Post"
 msgstr ""
 
 #: nectar/helpers/blog.php:323 nectar/helpers/blog.php:328
-#: nectar/redux-framework/options-config.php:3919
+#: nectar/redux-framework/options-config.php:4222
 msgid "Related Posts"
 msgstr ""
 
-#: nectar/helpers/blog.php:332 nectar/redux-framework/options-config.php:3920
+#: nectar/helpers/blog.php:332 nectar/redux-framework/options-config.php:4223
 msgid "Similar Posts"
 msgstr ""
 
-#: nectar/helpers/blog.php:336 nectar/redux-framework/options-config.php:3921
+#: nectar/helpers/blog.php:336 nectar/redux-framework/options-config.php:4224
 msgid "You May Also Like"
 msgstr ""
 
-#: nectar/helpers/blog.php:339 nectar/redux-framework/options-config.php:3922
+#: nectar/helpers/blog.php:339 nectar/redux-framework/options-config.php:4225
 msgid "Recommended For You"
 msgstr ""
 
@@ -307,68 +307,54 @@ msgstr ""
 msgid "Button Bordered Extra Color #1"
 msgstr ""
 
-#: nectar/helpers/page-header.php:429 nectar/helpers/page-header.php:630
+#: nectar/helpers/page-header.php:461 nectar/helpers/page-header.php:662
 #: template-portfolio.php:98
 msgid "Sort Portfolio"
 msgstr ""
 
-#: nectar/helpers/page-header.php:431 nectar/helpers/page-header.php:633
+#: nectar/helpers/page-header.php:463 nectar/helpers/page-header.php:665
 #: nectar/redux-framework/ReduxCore/inc/fields/border/field_border.php:125
 #: nectar/redux-framework/ReduxCore/inc/fields/spacing/field_spacing.php:191
 #: template-portfolio.php:96 template-portfolio.php:99
 msgid "All"
 msgstr ""
 
-#: nectar/helpers/page-header.php:657
+#: nectar/helpers/page-header.php:689
 msgid "All Posts By"
 msgstr ""
 
-#: nectar/helpers/page-header.php:662
+#: nectar/helpers/page-header.php:694
 msgid "Category"
 msgstr ""
 
-#: nectar/helpers/page-header.php:667
+#: nectar/helpers/page-header.php:699
 msgid "Tag"
 msgstr ""
 
-#: nectar/helpers/page-header.php:674
+#: nectar/helpers/page-header.php:706
 msgid "Daily Archives"
 msgstr ""
 
-#: nectar/helpers/page-header.php:677
+#: nectar/helpers/page-header.php:709
 msgctxt "monthly archives date format"
 msgid "F Y"
 msgstr ""
 
-#: nectar/helpers/page-header.php:678
+#: nectar/helpers/page-header.php:710
 msgid "Monthly Archives"
 msgstr ""
 
-#: nectar/helpers/page-header.php:681
+#: nectar/helpers/page-header.php:713
 msgctxt "yearly archives date format"
 msgid "Y"
 msgstr ""
 
-#: nectar/helpers/page-header.php:682
+#: nectar/helpers/page-header.php:714
 msgid "Yearly Archives"
 msgstr ""
 
-#: nectar/helpers/page-header.php:685
+#: nectar/helpers/page-header.php:717
 msgid "Archives"
-msgstr ""
-
-#: nectar/helpers/page.php:30
-msgid ""
-"This content is password protected. To view it please enter your password "
-"below:"
-msgstr ""
-
-#: nectar/helpers/page.php:31
-msgid "Password:"
-msgstr ""
-
-#: nectar/helpers/page.php:31
-msgid "Submit"
 msgstr ""
 
 #: nectar/helpers/pagination.php:65
@@ -376,8 +362,8 @@ msgstr ""
 msgid "Use commas instead of %s to separate excluded categories."
 msgstr ""
 
-#: nectar/helpers/pagination.php:180 template-portfolio.php:1496
-#: template-portfolio.php:1518
+#: nectar/helpers/pagination.php:180 template-portfolio.php:1500
+#: template-portfolio.php:1522
 msgid "All items loaded"
 msgstr ""
 
@@ -389,7 +375,7 @@ msgstr ""
 msgid "Next"
 msgstr ""
 
-#: nectar/helpers/woocommerce.php:741
+#: nectar/helpers/woocommerce.php:744
 msgid "was successfully added to your cart."
 msgstr ""
 
@@ -567,22 +553,24 @@ msgstr ""
 #: nectar/helpers/wpbakery-init.php:128 nectar/helpers/wpbakery-init.php:342
 #: nectar/helpers/wpbakery-init.php:405
 #: nectar/redux-framework/ReduxCore/framework.php:1853
-#: nectar/redux-framework/options-config.php:280
-#: nectar/redux-framework/options-config.php:295
-#: nectar/redux-framework/options-config.php:3135
-#: nectar/redux-framework/options-config.php:3168
-#: nectar/redux-framework/options-config.php:3236
-#: nectar/redux-framework/options-config.php:3287
-#: nectar/redux-framework/options-config.php:3573
-#: nectar/redux-framework/options-config.php:3881
-#: nectar/redux-framework/options-config.php:3963
+#: nectar/redux-framework/options-config.php:302
+#: nectar/redux-framework/options-config.php:317
+#: nectar/redux-framework/options-config.php:1952
+#: nectar/redux-framework/options-config.php:2747
+#: nectar/redux-framework/options-config.php:3311
+#: nectar/redux-framework/options-config.php:3344
+#: nectar/redux-framework/options-config.php:3412
+#: nectar/redux-framework/options-config.php:3463
+#: nectar/redux-framework/options-config.php:3804
+#: nectar/redux-framework/options-config.php:4067
+#: nectar/redux-framework/options-config.php:4184
+#: nectar/redux-framework/options-config.php:4266
 msgid "Default"
 msgstr ""
 
 #: nectar/helpers/wpbakery-init.php:129 nectar/helpers/wpbakery-init.php:383
 #: nectar/helpers/wpbakery-init.php:406
 #: nectar/redux-framework/ReduxCore/inc/fields/border/field_border.php:138
-#: nectar/redux-framework/ReduxCore/inc/fields/spacing/field_spacing.php:215
 msgid "Top"
 msgstr ""
 
@@ -646,16 +634,18 @@ msgstr ""
 
 #: nectar/helpers/wpbakery-init.php:210 nectar/helpers/wpbakery-init.php:225
 #: nectar/helpers/wpbakery-init.php:433 nectar/helpers/wpbakery-init.php:448
+#: nectar/redux-framework/options-config.php:4050
 msgid "Parallax"
 msgstr ""
 
 #: nectar/helpers/wpbakery-init.php:213 nectar/helpers/wpbakery-init.php:228
 #: nectar/helpers/wpbakery-init.php:436 nectar/helpers/wpbakery-init.php:451
-#: nectar/redux-framework/options-config.php:1580
-#: nectar/redux-framework/options-config.php:2762
-#: nectar/redux-framework/options-config.php:3222
-#: nectar/redux-framework/options-config.php:3516
-#: nectar/redux-framework/options-config.php:3744
+#: nectar/redux-framework/options-config.php:1678
+#: nectar/redux-framework/options-config.php:2931
+#: nectar/redux-framework/options-config.php:3398
+#: nectar/redux-framework/options-config.php:3747
+#: nectar/redux-framework/options-config.php:3975
+#: nectar/redux-framework/options-config.php:4049
 msgid "None"
 msgstr ""
 
@@ -1049,22 +1039,13 @@ msgid ""
 "Please ensure that it is installed and <a href=\"%s\">activated</a>"
 msgstr ""
 
-#: nectar/redux-framework/ReduxCore/inc/class.redux_filesystem.php:31
-#: nectar/redux-framework/ReduxCore/inc/class.redux_filesystem.php:60
-#: nectar/redux-framework/ReduxCore/inc/class.redux_filesystem.php:274
+#: nectar/redux-framework/ReduxCore/inc/class.redux_filesystem.php:50
+#: nectar/redux-framework/ReduxCore/inc/class.redux_filesystem.php:285
 msgid "File Permission Issues"
 msgstr ""
 
-#: nectar/redux-framework/ReduxCore/inc/class.redux_filesystem.php:31
-#, php-format
-msgid ""
-"We were unable to modify required files. Please check your permissions, or "
-"modify your wp-config.php file to contain your FTP login credentials as <a "
-"href=\"%s\" target=\"_blank\">outlined here</a>."
-msgstr ""
-
-#: nectar/redux-framework/ReduxCore/inc/class.redux_filesystem.php:60
-#: nectar/redux-framework/ReduxCore/inc/class.redux_filesystem.php:274
+#: nectar/redux-framework/ReduxCore/inc/class.redux_filesystem.php:50
+#: nectar/redux-framework/ReduxCore/inc/class.redux_filesystem.php:285
 #, php-format
 msgid ""
 "We were unable to modify required files. Please ensure that <code>%1s</code> "
@@ -1195,7 +1176,7 @@ msgid "Transparent"
 msgstr ""
 
 #: nectar/redux-framework/ReduxCore/inc/fields/background/field_background.php:141
-#: nectar/redux-framework/options-config.php:661
+#: nectar/redux-framework/options-config.php:695
 msgid "Background Repeat"
 msgstr ""
 
@@ -1212,12 +1193,12 @@ msgid "Background Size"
 msgstr ""
 
 #: nectar/redux-framework/ReduxCore/inc/fields/background/field_background.php:203
-#: nectar/redux-framework/options-config.php:690
+#: nectar/redux-framework/options-config.php:724
 msgid "Background Attachment"
 msgstr ""
 
 #: nectar/redux-framework/ReduxCore/inc/fields/background/field_background.php:223
-#: nectar/redux-framework/options-config.php:672
+#: nectar/redux-framework/options-config.php:706
 msgid "Background Position"
 msgstr ""
 
@@ -1237,7 +1218,6 @@ msgid "Remove"
 msgstr ""
 
 #: nectar/redux-framework/ReduxCore/inc/fields/border/field_border.php:145
-#: nectar/redux-framework/ReduxCore/inc/fields/spacing/field_spacing.php:222
 msgid "Right"
 msgstr ""
 
@@ -1291,7 +1271,7 @@ msgid "Clear Gallery"
 msgstr ""
 
 #: nectar/redux-framework/ReduxCore/inc/fields/link_color/field_link_color.php:90
-#: nectar/redux-framework/options-config.php:3479
+#: nectar/redux-framework/options-config.php:3701
 msgid "Regular"
 msgstr ""
 
@@ -1371,6 +1351,14 @@ msgstr ""
 #: nectar/redux-framework/ReduxCore/inc/fields/slides/field_slides.php:223
 #, php-format
 msgid "Add %s"
+msgstr ""
+
+#: nectar/redux-framework/ReduxCore/inc/fields/spacing/field_spacing.php:215
+msgid "Top / Bottom"
+msgstr ""
+
+#: nectar/redux-framework/ReduxCore/inc/fields/spacing/field_spacing.php:222
+msgid "Left / Right"
 msgstr ""
 
 #: nectar/redux-framework/ReduxCore/inc/fields/switch/field_switch.php:56
@@ -1472,7 +1460,7 @@ msgid "Letter Spacing"
 msgstr ""
 
 #: nectar/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:543
-#: nectar/redux-framework/options-config.php:4396
+#: nectar/redux-framework/options-config.php:4699
 msgid "Font Color"
 msgstr ""
 
@@ -2516,279 +2504,289 @@ msgstr ""
 msgid "Salient Options"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:220
+#: nectar/redux-framework/options-config.php:242
 msgid "General Settings"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:223
+#: nectar/redux-framework/options-config.php:245
 msgid ""
 "Welcome to the Salient options panel! You can switch between option groups "
 "by using the left-hand tabs."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:237
+#: nectar/redux-framework/options-config.php:259
 msgid "Favicon Upload"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:238
+#: nectar/redux-framework/options-config.php:260
 msgid "Upload a 16px x 16px .png or .gif image that will be your favicon."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:250
+#: nectar/redux-framework/options-config.php:272
 msgid "Favicon"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:252
+#: nectar/redux-framework/options-config.php:274
 msgid ""
 "As of WP 4.3, the favicon setting is now available in the default WordPress "
 "customizer (Appearance > Customize)."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:257
-#: nectar/redux-framework/options-config.php:3403
-#: nectar/redux-framework/options-config.php:3670
+#: nectar/redux-framework/options-config.php:279
+#: nectar/redux-framework/options-config.php:3625
+#: nectar/redux-framework/options-config.php:3901
 msgid "Styling"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:264
+#: nectar/redux-framework/options-config.php:286
 msgid "Theme Skin"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:265
-#: nectar/redux-framework/options-config.php:4342
+#: nectar/redux-framework/options-config.php:287
+#: nectar/redux-framework/options-config.php:4645
 msgid "This will alter the overall styling of various theme elements"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:267
+#: nectar/redux-framework/options-config.php:289
 msgid "Original"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:268
+#: nectar/redux-framework/options-config.php:290
 msgid "Ascend"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:269
-#: nectar/redux-framework/options-config.php:3713
-#: nectar/redux-framework/options-config.php:3905
+#: nectar/redux-framework/options-config.php:291
+#: nectar/redux-framework/options-config.php:3944
+#: nectar/redux-framework/options-config.php:4208
 msgid "Material"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:277
+#: nectar/redux-framework/options-config.php:299
 msgid "Button Styling"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:278
+#: nectar/redux-framework/options-config.php:300
 msgid "This will effect the overall styling of buttons"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:281
+#: nectar/redux-framework/options-config.php:303
 msgid "Slightly Rounded"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:282
+#: nectar/redux-framework/options-config.php:304
 msgid "Slightly Rounded W/ Shadow"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:283
+#: nectar/redux-framework/options-config.php:305
 msgid "Rounded"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:284
+#: nectar/redux-framework/options-config.php:306
 msgid "Rounded W/ Shadow"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:292
+#: nectar/redux-framework/options-config.php:314
 msgid "Column Spacing"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:293
+#: nectar/redux-framework/options-config.php:315
 msgid "Choose the global spacing between page builder columns."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:296
+#: nectar/redux-framework/options-config.php:318
 msgid "30px"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:297
+#: nectar/redux-framework/options-config.php:319
 msgid "40px"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:298
+#: nectar/redux-framework/options-config.php:320
 msgid "50px"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:299
+#: nectar/redux-framework/options-config.php:321
 msgid "60px"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:300
+#: nectar/redux-framework/options-config.php:322
 msgid "70px"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:308
+#: nectar/redux-framework/options-config.php:330
 msgid "Overall Background Color"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:309
-#: nectar/redux-framework/options-config.php:337
+#: nectar/redux-framework/options-config.php:331
+#: nectar/redux-framework/options-config.php:359
 msgid "Default is #ffffff"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:318
+#: nectar/redux-framework/options-config.php:340
 msgid "Overall Font Color"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:319
+#: nectar/redux-framework/options-config.php:341
 msgid "Default is #676767"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:327
+#: nectar/redux-framework/options-config.php:349
 msgid "Body Border (Passepartout)"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:328
+#: nectar/redux-framework/options-config.php:350
 msgid "This will add a border around the edges of the screen"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:336
+#: nectar/redux-framework/options-config.php:358
 msgid "Body Border Color"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:346
+#: nectar/redux-framework/options-config.php:368
 msgid "Body Border Size"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:347
+#: nectar/redux-framework/options-config.php:369
 msgid "Please choose your desired size in px here. Default is 20px."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:356
-#: nectar/redux-framework/options-config.php:3527
-#: nectar/redux-framework/options-config.php:3811
+#: nectar/redux-framework/options-config.php:378
+#: nectar/redux-framework/options-config.php:3758
+#: nectar/redux-framework/options-config.php:4114
 msgid "Functionality"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:363
+#: nectar/redux-framework/options-config.php:385
 msgid "Back To Top Button"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:364
+#: nectar/redux-framework/options-config.php:386
 msgid "Toggle whether or not to enable a back to top button on your pages."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:371
+#: nectar/redux-framework/options-config.php:393
 msgid "Keep Back To Top Button On Mobile"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:372
+#: nectar/redux-framework/options-config.php:394
 msgid ""
 "Toggle whether or not to show or hide the back to top button when viewing on "
 "a mobile device."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:380
+#: nectar/redux-framework/options-config.php:402
 msgid "One Page Scroll Support (Animated Anchor Links)"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:381
+#: nectar/redux-framework/options-config.php:403
 msgid "Toggle whether or not to enable one page scroll support"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:388
+#: nectar/redux-framework/options-config.php:410
 msgid "Enable Responsive Design"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:389
+#: nectar/redux-framework/options-config.php:411
 msgid ""
 "This adjusts the layout of your website depending on the screen size/device."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:398
+#: nectar/redux-framework/options-config.php:420
 msgid "Extended Responsive Design"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:399
+#: nectar/redux-framework/options-config.php:421
 msgid ""
 "This will enhance the way the theme responds when viewing on screens larger "
 "than 1000px & increase the max width."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:407
+#: nectar/redux-framework/options-config.php:429
 msgid "Max Website Container Width"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:408
+#: nectar/redux-framework/options-config.php:430
 msgid ""
 "When using the extended responsive design your container will scale to a "
 "maximum width of 1425px, use this option if you'd like to increase that "
 "value."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:419
+#: nectar/redux-framework/options-config.php:441
 msgid "Theme Lightbox"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:420
+#: nectar/redux-framework/options-config.php:442
 msgid "Please choose your desired lightbox script here"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:431
+#: nectar/redux-framework/options-config.php:453
 msgid "Auto Lightbox Image Links"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:432
+#: nectar/redux-framework/options-config.php:454
 msgid ""
 "This will allow all image links to open in a lightbox - including the images "
 "links within standard WordPress galleries."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:439
+#: nectar/redux-framework/options-config.php:462
+msgid "Page Builder Element Animations On Mobile Devices"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:463
+msgid ""
+"Determine whether or not to run page builder element animations on mobile "
+"devices."
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:473
+msgid "Column/Image Animation Easing"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:474
+msgid ""
+"This is the easing that will be used on all animated column/images you set"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:514
+msgid "Column/Image Animation Timing"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:515
+msgid "Enter the time in milliseconds e.g. \"400\" - default is \"650\""
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:522
 msgid "Disable Parallax Backgrounds On Mobile Devices"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:440
+#: nectar/redux-framework/options-config.php:523
 msgid ""
 "This will remove the parallax scrolling effect from your row backgrounds/"
 "page headers that use the option."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:447
+#: nectar/redux-framework/options-config.php:530
 msgid "Disable Video Backgrounds On Mobile Devices"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:448
+#: nectar/redux-framework/options-config.php:531
 msgid ""
 "This will remove all self hosted video backgrounds from your rows/page "
 "headers that use them on mobile devices and cause the supplied preview image "
 "to be shown instead."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:455
-msgid "Column/Image Animation Easing"
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:456
-msgid ""
-"This is the easing that will be used on all animated column/images you set"
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:496
-msgid "Column/Image Animation Timing"
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:497
-msgid "Enter the time in milliseconds e.g. \"400\" - default is \"650\""
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:505
+#: nectar/redux-framework/options-config.php:539
 msgid "CSS/Script Related"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:512
+#: nectar/redux-framework/options-config.php:546
 msgid "Force Dynamic CSS to Inline In Head"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:513
+#: nectar/redux-framework/options-config.php:547
 msgid ""
 "This prevents the theme dynamic css from being written/enqueued in a "
 "stylesheet and instead will cause it to output directly inline within the "
@@ -2796,491 +2794,499 @@ msgid ""
 "you're still developing and using minification/caching plugins."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:520
+#: nectar/redux-framework/options-config.php:554
 msgid "Google Maps API Key"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:521
+#: nectar/redux-framework/options-config.php:555
 msgid ""
 "In order to use Google maps, you need to generate an API key and enter it "
 "here. Please see the"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:521
+#: nectar/redux-framework/options-config.php:555
 msgid "official documentation"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:521
+#: nectar/redux-framework/options-config.php:555
 msgid "for more information"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:528
+#: nectar/redux-framework/options-config.php:562
 msgid "Custom CSS Code"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:529
+#: nectar/redux-framework/options-config.php:563
 msgid ""
 "If you have any custom CSS you would like added to the site, please enter it "
 "here."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:532
+#: nectar/redux-framework/options-config.php:566
 msgid ""
 "Note - if you've pasted CSS in here from an external source, ensure no "
 "accidental"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:532
+#: nectar/redux-framework/options-config.php:566
 msgid ""
 "tags pasted in with the snippet. If unintentional tags like that are "
 "present, it will prevent the css from parsing correctly."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:539
+#: nectar/redux-framework/options-config.php:573
 msgid "Custom JS Code"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:540
+#: nectar/redux-framework/options-config.php:574
 msgid ""
 "Please enter in any custom javascript you wish to add to the head of your "
 "pages. Requires opening and closing script tags."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:553
+#: nectar/redux-framework/options-config.php:587
 msgid "Accent Colors"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:554
+#: nectar/redux-framework/options-config.php:588
 msgid "All accent color related options are listed here."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:560
-#: nectar/redux-framework/options-config.php:3369
+#: nectar/redux-framework/options-config.php:594
+#: nectar/redux-framework/options-config.php:3591
 msgid "Accent Color"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:561
+#: nectar/redux-framework/options-config.php:595
 msgid "Change this color to alter the accent color globally for your site."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:569
+#: nectar/redux-framework/options-config.php:603
 msgid "Extra Color #1"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:570
-#: nectar/redux-framework/options-config.php:579
-#: nectar/redux-framework/options-config.php:588
-#: nectar/redux-framework/options-config.php:598
-#: nectar/redux-framework/options-config.php:611
+#: nectar/redux-framework/options-config.php:604
+#: nectar/redux-framework/options-config.php:613
+#: nectar/redux-framework/options-config.php:622
+#: nectar/redux-framework/options-config.php:632
+#: nectar/redux-framework/options-config.php:645
 msgid ""
 "Applicable theme elements will have the option to choose this as a color (i."
 "e. buttons, icons etc..)"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:578
+#: nectar/redux-framework/options-config.php:612
 msgid "Extra Color #2"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:587
+#: nectar/redux-framework/options-config.php:621
 msgid "Extra Color #3"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:597
+#: nectar/redux-framework/options-config.php:631
 msgid "Extra Color Gradient"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:610
+#: nectar/redux-framework/options-config.php:644
 msgid "Extra Color Gradient #2"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:628
+#: nectar/redux-framework/options-config.php:662
 msgid "Boxed Layout"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:629
+#: nectar/redux-framework/options-config.php:663
 msgid "All boxed layout related options are listed here."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:634
+#: nectar/redux-framework/options-config.php:668
 msgid "Enable Boxed Layout"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:643
-#: nectar/redux-framework/options-config.php:4387
+#: nectar/redux-framework/options-config.php:677
+#: nectar/redux-framework/options-config.php:4690
 msgid "Background Color"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:644
+#: nectar/redux-framework/options-config.php:678
 msgid ""
 "If you would rather simply use a solid color for your background, select one "
 "here."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:653
-#: nectar/redux-framework/options-config.php:4405
+#: nectar/redux-framework/options-config.php:687
+#: nectar/redux-framework/options-config.php:4708
 msgid "Background Image"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:654
+#: nectar/redux-framework/options-config.php:688
 msgid "Upload your background here"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:662
+#: nectar/redux-framework/options-config.php:696
 msgid "Do you want your background to repeat? (Turn on when using patterns)"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:665
+#: nectar/redux-framework/options-config.php:699
 msgid "No-Repeat"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:666
+#: nectar/redux-framework/options-config.php:700
 msgid "Repeat"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:673
+#: nectar/redux-framework/options-config.php:707
 msgid "How would you like your background image to be aligned?"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:676
+#: nectar/redux-framework/options-config.php:710
 msgid "Left Top"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:677
+#: nectar/redux-framework/options-config.php:711
 msgid "Left Center"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:678
+#: nectar/redux-framework/options-config.php:712
 msgid "Left Bottom"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:679
+#: nectar/redux-framework/options-config.php:713
 msgid "Center Top"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:680
+#: nectar/redux-framework/options-config.php:714
 msgid "Center Center"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:681
+#: nectar/redux-framework/options-config.php:715
 msgid "Center Bottom"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:682
+#: nectar/redux-framework/options-config.php:716
 msgid "Right Top"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:683
+#: nectar/redux-framework/options-config.php:717
 msgid "Right Center"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:684
+#: nectar/redux-framework/options-config.php:718
 msgid "Right Bottom"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:691
+#: nectar/redux-framework/options-config.php:725
 msgid ""
 "Would you prefer your background to scroll with your site or be fixed and "
 "not move"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:694
+#: nectar/redux-framework/options-config.php:728
 msgid "Scroll"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:695
+#: nectar/redux-framework/options-config.php:729
 msgid "Fixed"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:701
+#: nectar/redux-framework/options-config.php:735
 msgid "Auto resize background image to fit window"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:702
+#: nectar/redux-framework/options-config.php:736
 msgid ""
 "This will ensure your background image always fits no matter what size "
 "screen the user has. (Don't use with patterns)"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:714
+#: nectar/redux-framework/options-config.php:748
 msgid "Typography"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:716
+#: nectar/redux-framework/options-config.php:750
 msgid "All typography related options are listed here"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:745
+#: nectar/redux-framework/options-config.php:779
 msgid "Navigation & Page Header"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:752
+#: nectar/redux-framework/options-config.php:786
 msgid "Default Theme Font Functionality"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:753
+#: nectar/redux-framework/options-config.php:787
 msgid ""
 "This will determine where the default Salient font loads from (Open Sans)."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:755
+#: nectar/redux-framework/options-config.php:789
 msgid "Load from Google"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:756
+#: nectar/redux-framework/options-config.php:790
 msgid "Load from Theme"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:757
+#: nectar/redux-framework/options-config.php:791
 msgid "Do not load default font"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:765
+#: nectar/redux-framework/options-config.php:799
 msgid "Logo Font"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:766
+#: nectar/redux-framework/options-config.php:800
 msgid "Specify the Logo font properties."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:775
+#: nectar/redux-framework/options-config.php:809
 msgid "Navigation Font"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:776
+#: nectar/redux-framework/options-config.php:810
 msgid "Specify the Navigation font properties."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:785
+#: nectar/redux-framework/options-config.php:819
 msgid "Navigation Dropdown Font"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:786
+#: nectar/redux-framework/options-config.php:820
 msgid "Specify the Navigation Dropdown font properties."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:798
+#: nectar/redux-framework/options-config.php:832
 msgid "Page Heading Font"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:799
+#: nectar/redux-framework/options-config.php:833
 msgid "Specify the Page Heading font properties."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:809
+#: nectar/redux-framework/options-config.php:843
 msgid "Page Heading Subtitle Font"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:810
+#: nectar/redux-framework/options-config.php:844
 msgid "Specify the Page Heading Subtitle font properties."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:820
+#: nectar/redux-framework/options-config.php:854
 msgid "Off Canvas Navigation"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:821
+#: nectar/redux-framework/options-config.php:855
 msgid "Specify the Off Canvas Navigation properties."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:831
+#: nectar/redux-framework/options-config.php:865
 msgid "Off Canvas Navigation Sub Text"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:832
+#: nectar/redux-framework/options-config.php:866
 msgid "Specify the Off Canvas Navigation Sub Text properties."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:843
+#: nectar/redux-framework/options-config.php:877
 msgid "General HTML elements"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:850
+#: nectar/redux-framework/options-config.php:884
 msgid "Body Font"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:851
+#: nectar/redux-framework/options-config.php:885
 msgid "Specify the Body font properties."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:861
+#: nectar/redux-framework/options-config.php:895
 msgid "Heading 1"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:862
+#: nectar/redux-framework/options-config.php:896
 msgid "Specify the H1 Text properties."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:872
+#: nectar/redux-framework/options-config.php:906
 msgid "Heading 2"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:873
+#: nectar/redux-framework/options-config.php:907
 msgid "Specify the H2 Text properties."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:883
+#: nectar/redux-framework/options-config.php:917
 msgid "Heading 3"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:884
+#: nectar/redux-framework/options-config.php:918
 msgid "Specify the H3 Text properties."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:894
+#: nectar/redux-framework/options-config.php:928
 msgid "Heading 4"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:895
+#: nectar/redux-framework/options-config.php:929
 msgid "Specify the H4 Text properties."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:905
+#: nectar/redux-framework/options-config.php:939
 msgid "Heading 5"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:906
+#: nectar/redux-framework/options-config.php:940
 msgid "Specify the H5 Text properties."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:916
+#: nectar/redux-framework/options-config.php:950
 msgid "Heading 6"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:917
+#: nectar/redux-framework/options-config.php:951
 msgid "Specify the H6 Text properties."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:927
+#: nectar/redux-framework/options-config.php:961
 msgid "Italic"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:928
+#: nectar/redux-framework/options-config.php:962
 msgid "Specify the italic Text properties."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:938
-msgid "Form Labels"
+#: nectar/redux-framework/options-config.php:972
+msgid "Bold"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:939
+#: nectar/redux-framework/options-config.php:973
 msgid ""
-"Specify the Form Label properties. When using the \"Material\" theme skin, "
+"Specify the bold text font & weight. (Other properties will inherit from the "
+"body font)"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:989
+msgid "Form and Category Labels"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:990
+msgid ""
+"Specify html Label properties. When using the \"Material\" theme skin, "
 "sidebar links will inherit this as well."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:949
+#: nectar/redux-framework/options-config.php:1001
 msgid "Nectar Specific elements"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:957
-msgid "Nectar/Home Slider Heading Font"
+#: nectar/redux-framework/options-config.php:1009
+msgid "Nectar Button"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:958
-msgid "Specify the Nectar Slider Heading font properties."
+#: nectar/redux-framework/options-config.php:1010
+msgid "Specify the font properties for Nectar Buttons."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:968
-msgid "Nectar/Home Slider Caption Font"
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:969
-msgid "Specify the Nectar Slider Caption font properties."
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:980
-msgid "Testimonial Slider/Blockquote Font"
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:981
-msgid "Specify the Testimonial Slider/Blockquote font properties."
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:991
-msgid "Sidebar, Carousel, Nectar Button & Footer Headers Font"
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:992
-msgid ""
-"Specify the Sidebar, Carousel, Nectar Button & Footer Headers font "
-"properties."
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:1002
-msgid "Portfolio/Post Grid Filters"
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:1003
-msgid "Specify the filter font properties."
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:1013
-msgid "Portfolio Caption/Excerpt"
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:1014
-msgid "Specify the Portfolio project caption/excerpt font properties."
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:1024
-msgid "Sub-headers & Team Member Names Font"
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:1025
-msgid "Specify the Sub-headers & Team Member Name properties."
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:1035
-msgid "Dropcap"
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:1036
-msgid "Specify the dropcap font properties."
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:1046
+#: nectar/redux-framework/options-config.php:1020
 msgid "Sidebar/Footer Headers"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1047
+#: nectar/redux-framework/options-config.php:1021
 msgid "Specify the font properties for headers used in sidebars & the footer."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1057
+#: nectar/redux-framework/options-config.php:1031
+msgid "Nectar/Home Slider Heading Font"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:1032
+msgid "Specify the Nectar Slider Heading font properties."
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:1042
+msgid "Nectar/Home Slider Caption Font"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:1043
+msgid "Specify the Nectar Slider Caption font properties."
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:1054
+msgid "Testimonial Slider/Blockquote Font"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:1055
+msgid "Specify the Testimonial Slider/Blockquote font properties."
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:1065
+msgid "Portfolio/Post Grid Filters"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:1066
+msgid "Specify the filter font properties."
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:1076
+msgid "Portfolio Caption/Excerpt"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:1077
+msgid "Specify the Portfolio project caption/excerpt font properties."
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:1087
+msgid "Sub-headers & Team Member Names Font"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:1088
+msgid "Specify the Sub-headers & Team Member Name properties."
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:1098
+msgid "Dropcap"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:1099
+msgid "Specify the dropcap font properties."
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:1109
 msgid "WooCommerce Product Title Font"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1058
+#: nectar/redux-framework/options-config.php:1110
 msgid "Specify the WooCommerce Product Title font properties."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1068
+#: nectar/redux-framework/options-config.php:1120
 msgid "WooCommerce Product Secondary Font"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1069
+#: nectar/redux-framework/options-config.php:1121
 msgid "Specify the WooCommerce Product Secondary font properties."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1082
+#: nectar/redux-framework/options-config.php:1134
 msgid "Responsive Settings"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1090
+#: nectar/redux-framework/options-config.php:1142
 msgid "Custom Responsive Headings"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1091
+#: nectar/redux-framework/options-config.php:1143
 msgid ""
 "If left off, Salient will calculate the responsive typography settings for "
 "your h1-h6 tags & body automatically."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1099
+#: nectar/redux-framework/options-config.php:1151
 msgid "How These Settings Work"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1102
+#: nectar/redux-framework/options-config.php:1154
 msgid ""
 "Set the amount (in %) you would like each heading tag to decrease by for "
 "every viewport. For example, a value of \"100\" would mean the font stays at "
@@ -3290,194 +3296,207 @@ msgid ""
 "will override the sizing within themselves."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1108
+#: nectar/redux-framework/options-config.php:1160
 msgid "H1 Small Desktop"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1122
+#: nectar/redux-framework/options-config.php:1174
 msgid "H1 Tablet"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1136
+#: nectar/redux-framework/options-config.php:1188
 msgid "H1 Phone"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1159
+#: nectar/redux-framework/options-config.php:1211
 msgid "H2 Small Desktop"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1173
+#: nectar/redux-framework/options-config.php:1225
 msgid "H2 Tablet"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1187
+#: nectar/redux-framework/options-config.php:1239
 msgid "H2 Phone"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1209
+#: nectar/redux-framework/options-config.php:1261
 msgid "H3 Small Desktop"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1223
+#: nectar/redux-framework/options-config.php:1275
 msgid "H3 Tablet"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1237
+#: nectar/redux-framework/options-config.php:1289
 msgid "H3 Phone"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1259
+#: nectar/redux-framework/options-config.php:1311
 msgid "H4 Small Desktop"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1273
+#: nectar/redux-framework/options-config.php:1325
 msgid "H4 Tablet"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1287
+#: nectar/redux-framework/options-config.php:1339
 msgid "H4 Phone"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1310
+#: nectar/redux-framework/options-config.php:1362
 msgid "H5 Small Desktop"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1324
+#: nectar/redux-framework/options-config.php:1376
 msgid "H5 Tablet"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1338
+#: nectar/redux-framework/options-config.php:1390
 msgid "H5 Phone"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1361
+#: nectar/redux-framework/options-config.php:1413
 msgid "H6 Small Desktop"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1375
+#: nectar/redux-framework/options-config.php:1427
 msgid "H6 Tablet"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1389
+#: nectar/redux-framework/options-config.php:1441
 msgid "H6 Phone"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1410
+#: nectar/redux-framework/options-config.php:1462
 msgid "Body Font Small Desktop"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1424
+#: nectar/redux-framework/options-config.php:1476
 msgid "Body Font Tablet"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1438
+#: nectar/redux-framework/options-config.php:1490
 msgid "Body Font Phone"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1459
+#: nectar/redux-framework/options-config.php:1512
+msgid "Testimonial/Blockquote Font Small Desktop"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:1526
+msgid "Testimonial/Blockquote Font Tablet"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:1540
+msgid "Testimonial/Blockquote Font Phone"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:1559
 msgid "Header Navigation"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1461
+#: nectar/redux-framework/options-config.php:1561
 msgid "All header navigation related options are listed here."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1472
+#: nectar/redux-framework/options-config.php:1572
 msgid "Logo & General Styling"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1480
+#: nectar/redux-framework/options-config.php:1580
 msgid "Use Image for Logo"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1481
+#: nectar/redux-framework/options-config.php:1581
 msgid ""
 "If left unchecked, plain text will be used instead (generated from site "
 "name)."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1487
+#: nectar/redux-framework/options-config.php:1587
 msgid "Logo Upload"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1488
+#: nectar/redux-framework/options-config.php:1588
 msgid "Upload your logo here and enter the height of it below."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1488
+#: nectar/redux-framework/options-config.php:1588
 msgid ""
 "Note: there are additional logo upload fields in the transparent header "
 "effect tab."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1495
+#: nectar/redux-framework/options-config.php:1595
 msgid "Retina Logo Upload"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1496
+#: nectar/redux-framework/options-config.php:1596
 msgid ""
 "Upload at exactly 2x the size of your standard logo. Supplying this will "
 "keep your logo crisp on screens with a higher pixel density."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1503
+#: nectar/redux-framework/options-config.php:1603
 msgid "Logo Height"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1504
+#: nectar/redux-framework/options-config.php:1604
 msgid "Don't include \"px\" in the string. e.g. 30"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1512
+#: nectar/redux-framework/options-config.php:1612
 msgid "Mobile Logo Height"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1513
+#: nectar/redux-framework/options-config.php:1613
 msgid "Don't include \"px\" in the string. e.g. 24"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1522
+#: nectar/redux-framework/options-config.php:1622
 msgid "Mobile Only Logo Upload"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1523
+#: nectar/redux-framework/options-config.php:1623
 msgid ""
 "An optional field that allows you to display a separate logo that will be "
 "shown on mobile devices only."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1531
+#: nectar/redux-framework/options-config.php:1631
 msgid "Header Padding"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1532
+#: nectar/redux-framework/options-config.php:1632
+#: nectar/redux-framework/options-config.php:2003
 msgid "Don't include \"px\" in the string. e.g. 28"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1542
+#: nectar/redux-framework/options-config.php:1640
 msgid "Header Remove Desktop Stickiness"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1543
+#: nectar/redux-framework/options-config.php:1641
 msgid ""
 "By default your header will always remain at the top of the screen even when "
 "scrolling down the page. Enabling this will remove that functionality and "
 "cause it to stay at the top of the page."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1552
+#: nectar/redux-framework/options-config.php:1650
 msgid "Header Sticky On Mobile"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1553
+#: nectar/redux-framework/options-config.php:1651
 msgid "Do you want the header to be sticky on mobile devices?"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1562
+#: nectar/redux-framework/options-config.php:1660
 msgid "Mobile Breakpoint"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1563
+#: nectar/redux-framework/options-config.php:1661
 msgid ""
 "Define at what window size (in px) the header navigation menu will collapse "
 "into the mobile menu style - larger values are useful when you have a "
@@ -3485,1105 +3504,1165 @@ msgid ""
 "small desktops/laptops."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1574
+#: nectar/redux-framework/options-config.php:1672
 msgid "Header Box Shadow"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1575
+#: nectar/redux-framework/options-config.php:1673
 msgid "Please select your header box shadow here."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1578
-#: nectar/redux-framework/options-config.php:2763
+#: nectar/redux-framework/options-config.php:1676
+#: nectar/redux-framework/options-config.php:2932
 msgid "Small"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1579
-#: nectar/redux-framework/options-config.php:2764
+#: nectar/redux-framework/options-config.php:1677
+#: nectar/redux-framework/options-config.php:2933
 msgid "Large"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1587
+#: nectar/redux-framework/options-config.php:1685
 msgid "Menu Item Spacing"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1588
+#: nectar/redux-framework/options-config.php:1686
 msgid ""
 "Set the padding that will display on each side of your header menu items - "
 "space will be set in pixels."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1599
+#: nectar/redux-framework/options-config.php:1697
 msgid "Header BG Opacity"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1600
+#: nectar/redux-framework/options-config.php:1698
 msgid "Please set your header BG opacity here."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1606
+#: nectar/redux-framework/options-config.php:1704
 msgid ""
 "If you are trying to have your header navigation completely see through "
 "before scrolling, setting this very low is not how to achieve it. The fully "
 "transparent style as shown on many of the demos is the option titled"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1606
-#: nectar/redux-framework/options-config.php:2271
+#: nectar/redux-framework/options-config.php:1704
+#: nectar/redux-framework/options-config.php:2400
 msgid "Use Transparent Header When Applicable"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1606
+#: nectar/redux-framework/options-config.php:1704
 msgid ""
 "which is available in the Header Navigation ~ Transparent Header Effect tab."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1613
+#: nectar/redux-framework/options-config.php:1711
 msgid "Header Color Scheme"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1614
+#: nectar/redux-framework/options-config.php:1712
 msgid ""
 "Please select your header color scheme here. Color pickers below will only "
 "be used when using \"Custom\" for the color scheme."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1617
-#: nectar/redux-framework/options-config.php:2596
+#: nectar/redux-framework/options-config.php:1715
+#: nectar/redux-framework/options-config.php:2726
 msgid "Light"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1618
-#: nectar/redux-framework/options-config.php:2594
+#: nectar/redux-framework/options-config.php:1716
+#: nectar/redux-framework/options-config.php:2724
 msgid "Dark"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1619
-#: nectar/redux-framework/options-config.php:1621
+#: nectar/redux-framework/options-config.php:1717
+#: nectar/redux-framework/options-config.php:1719
 msgid "Custom"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1621
+#: nectar/redux-framework/options-config.php:1719
 msgid ""
 "Salient will use the accent color with the light/dark schemes. To create "
 "your own color scheme and use the color pickers below, ensure that you choose"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1630
+#: nectar/redux-framework/options-config.php:1728
 msgid "Header Background"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1641
+#: nectar/redux-framework/options-config.php:1739
 msgid "Header Font"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1652
+#: nectar/redux-framework/options-config.php:1750
 msgid "Header Font Hover"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1665
+#: nectar/redux-framework/options-config.php:1763
 msgid "Dropdown Background"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1674
+#: nectar/redux-framework/options-config.php:1772
 msgid "Dropdown Background Hover"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1685
+#: nectar/redux-framework/options-config.php:1783
 msgid "Dropdown Font"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1696
+#: nectar/redux-framework/options-config.php:1794
 msgid "Dropdown Font Hover"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1707
+#: nectar/redux-framework/options-config.php:1805
 msgid "Mega Menu Heading Font"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1718
+#: nectar/redux-framework/options-config.php:1816
 msgid "Mega Menu Heading Font Hover"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1729
+#: nectar/redux-framework/options-config.php:1827
 msgid "Header Separators"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1740
+#: nectar/redux-framework/options-config.php:1838
 msgid "Secondary Header Background"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1751
+#: nectar/redux-framework/options-config.php:1849
 msgid "Secondary Header Font"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1762
+#: nectar/redux-framework/options-config.php:1860
 msgid "Secondary Header Font Hover"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1773
+#: nectar/redux-framework/options-config.php:1871
 msgid "Off Canvas Navigation Background"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1784
+#: nectar/redux-framework/options-config.php:1882
 msgid "Off Canvas Navigation Background 2 (Used for gradient)"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1796
+#: nectar/redux-framework/options-config.php:1894
 msgid "Off Canvas Navigation Headers"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1807
+#: nectar/redux-framework/options-config.php:1905
 msgid "Off Canvas Navigation Text"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1818
+#: nectar/redux-framework/options-config.php:1916
 msgid "Off Canvas Navigation Link Hover"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1828
+#: nectar/redux-framework/options-config.php:1926
 msgid "Off Canvas Navigation Close Button Background"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1839
+#: nectar/redux-framework/options-config.php:1937
 msgid "Off Canvas Navigation Close Button Icon"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1856
+#: nectar/redux-framework/options-config.php:1948
+msgid "Header Button Link Style"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:1949
+msgid "This effects any header links which are set to use"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:1953
+msgid "Scale on Hover"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:1954
+msgid "Button Shadow and Scale on Hover"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:1967
 msgid "Layout Related"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1865
+#: nectar/redux-framework/options-config.php:1976
 msgid "Header Layout"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1866
+#: nectar/redux-framework/options-config.php:1977
 msgid "Please select the layout you desire."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1869
+#: nectar/redux-framework/options-config.php:1980
 msgid "Default Layout"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1870
+#: nectar/redux-framework/options-config.php:1981
 msgid "Centered Menu"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1871
+#: nectar/redux-framework/options-config.php:1982
 msgid "Centered Menu Alt"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1872
+#: nectar/redux-framework/options-config.php:1983
 msgid "Centered Menu Bottom Bar"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1873
+#: nectar/redux-framework/options-config.php:1984
 msgid "Centered Logo Between Menu"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1874
+#: nectar/redux-framework/options-config.php:1985
 msgid "Menu Left Aligned"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1875
+#: nectar/redux-framework/options-config.php:1986
 msgid "Left Header"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1882
+#: nectar/redux-framework/options-config.php:1993
 msgid "Full Width Header"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1883
+#: nectar/redux-framework/options-config.php:1994
 msgid "Do you want the header to span the full width of the page?"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1892
+#: nectar/redux-framework/options-config.php:2002
+msgid "Full Width Left/Right Padding"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:2013
 msgid "Remove Header search"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1893
+#: nectar/redux-framework/options-config.php:2014
 msgid "Active to remove the search functionality from your header"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1901
+#: nectar/redux-framework/options-config.php:2022
 msgid "Disable AJAX from search"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1902
+#: nectar/redux-framework/options-config.php:2023
 msgid ""
 "This will turn off the autocomplete suggestions from appearing when typing "
 "in the search box."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1911
+#: nectar/redux-framework/options-config.php:2032
 msgid "Add User Account Button"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1912
+#: nectar/redux-framework/options-config.php:2033
 msgid ""
 "This will add a user account icon button within the button area of your "
 "header navigation"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1920
+#: nectar/redux-framework/options-config.php:2041
 msgid "User Account Button URL"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1922
+#: nectar/redux-framework/options-config.php:2043
 msgid "Enter the URL of your user account button"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1930
+#: nectar/redux-framework/options-config.php:2051
 msgid "Enable Social Icons"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1931
+#: nectar/redux-framework/options-config.php:2052
 msgid ""
 "Do you want the your nav to display social icons? If using the secondary "
 "header navigation option, the icons will be displayed in that top bar "
 "instead of the main navigation."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1938
-#: nectar/redux-framework/options-config.php:2843
+#: nectar/redux-framework/options-config.php:2059
+#: nectar/redux-framework/options-config.php:3012
 msgid "Use Facebook Icon"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1946
-#: nectar/redux-framework/options-config.php:2850
+#: nectar/redux-framework/options-config.php:2067
+#: nectar/redux-framework/options-config.php:3019
 msgid "Use Twitter Icon"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:1954
-#: nectar/redux-framework/options-config.php:2857
-msgid "Use Google+ Icon"
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:1962
-#: nectar/redux-framework/options-config.php:2864
-msgid "Use Vimeo Icon"
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:1970
-#: nectar/redux-framework/options-config.php:2871
-msgid "Use Dribbble Icon"
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:1978
-#: nectar/redux-framework/options-config.php:2878
-msgid "Use Pinterest Icon"
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:1986
-#: nectar/redux-framework/options-config.php:2885
-msgid "Use Youtube Icon"
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:1994
-#: nectar/redux-framework/options-config.php:2892
-msgid "Use Tumblr Icon"
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:2002
-#: nectar/redux-framework/options-config.php:2899
-msgid "Use LinkedIn Icon"
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:2010
-#: nectar/redux-framework/options-config.php:2906
-msgid "Use RSS Icon"
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:2018
-#: nectar/redux-framework/options-config.php:2913
-msgid "Use Behance Icon"
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:2026
-#: nectar/redux-framework/options-config.php:2920
-msgid "Use Instagram Icon"
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:2034
-#: nectar/redux-framework/options-config.php:2927
-msgid "Use Flickr Icon"
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:2042
-#: nectar/redux-framework/options-config.php:2934
-msgid "Use Spotify Icon"
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:2050
-#: nectar/redux-framework/options-config.php:2941
-msgid "Use GitHub Icon"
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:2058
-#: nectar/redux-framework/options-config.php:2948
-msgid "Use StackExchange Icon"
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:2066
-#: nectar/redux-framework/options-config.php:2955
-msgid "Use SoundCloud Icon"
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:2074
-#: nectar/redux-framework/options-config.php:2962
-msgid "Use VK Icon"
+#: nectar/redux-framework/options-config.php:2075
+#: nectar/redux-framework/options-config.php:3026
+msgid "Use Google Icon"
 msgstr ""
 
 #: nectar/redux-framework/options-config.php:2083
-#: nectar/redux-framework/options-config.php:2969
-msgid "Use Vine Icon"
+#: nectar/redux-framework/options-config.php:3033
+msgid "Use Vimeo Icon"
 msgstr ""
 
 #: nectar/redux-framework/options-config.php:2091
-#: nectar/redux-framework/options-config.php:2976
-msgid "Use Houzz Icon"
+#: nectar/redux-framework/options-config.php:3040
+msgid "Use Dribbble Icon"
 msgstr ""
 
 #: nectar/redux-framework/options-config.php:2099
-#: nectar/redux-framework/options-config.php:2983
-msgid "Use Yelp Icon"
+#: nectar/redux-framework/options-config.php:3047
+msgid "Use Pinterest Icon"
 msgstr ""
 
 #: nectar/redux-framework/options-config.php:2107
-#: nectar/redux-framework/options-config.php:2997
-msgid "Use Mixcloud Icon"
+#: nectar/redux-framework/options-config.php:3054
+msgid "Use Youtube Icon"
 msgstr ""
 
 #: nectar/redux-framework/options-config.php:2115
-#: nectar/redux-framework/options-config.php:2990
-msgid "Use Snapchat Icon"
+#: nectar/redux-framework/options-config.php:3061
+msgid "Use Tumblr Icon"
 msgstr ""
 
 #: nectar/redux-framework/options-config.php:2123
-#: nectar/redux-framework/options-config.php:3004
-msgid "Use Bandcamp Icon"
+#: nectar/redux-framework/options-config.php:3068
+msgid "Use LinkedIn Icon"
 msgstr ""
 
 #: nectar/redux-framework/options-config.php:2131
-#: nectar/redux-framework/options-config.php:3011
-msgid "Use Tripadvisor Icon"
+#: nectar/redux-framework/options-config.php:3075
+msgid "Use RSS Icon"
 msgstr ""
 
 #: nectar/redux-framework/options-config.php:2139
-#: nectar/redux-framework/options-config.php:3018
-msgid "Use Telegram Icon"
+#: nectar/redux-framework/options-config.php:3082
+msgid "Use Behance Icon"
 msgstr ""
 
 #: nectar/redux-framework/options-config.php:2147
-#: nectar/redux-framework/options-config.php:3025
-msgid "Use Slack Icon"
+#: nectar/redux-framework/options-config.php:3089
+msgid "Use Instagram Icon"
 msgstr ""
 
 #: nectar/redux-framework/options-config.php:2155
-#: nectar/redux-framework/options-config.php:3032
-msgid "Use Medium Icon"
+#: nectar/redux-framework/options-config.php:3096
+msgid "Use Flickr Icon"
 msgstr ""
 
 #: nectar/redux-framework/options-config.php:2163
-#: nectar/redux-framework/options-config.php:3039
-msgid "Use Artstation Icon"
+#: nectar/redux-framework/options-config.php:3103
+msgid "Use Spotify Icon"
 msgstr ""
 
 #: nectar/redux-framework/options-config.php:2171
-#: nectar/redux-framework/options-config.php:3046
-msgid "Use Discord Icon"
+#: nectar/redux-framework/options-config.php:3110
+msgid "Use GitHub Icon"
 msgstr ""
 
 #: nectar/redux-framework/options-config.php:2179
-#: nectar/redux-framework/options-config.php:3053
-msgid "Use WhatsApp Icon"
+#: nectar/redux-framework/options-config.php:3117
+msgid "Use StackExchange Icon"
 msgstr ""
 
 #: nectar/redux-framework/options-config.php:2187
-#: nectar/redux-framework/options-config.php:3060
-msgid "Use Email Icon"
+#: nectar/redux-framework/options-config.php:3124
+msgid "Use SoundCloud Icon"
 msgstr ""
 
 #: nectar/redux-framework/options-config.php:2195
-#: nectar/redux-framework/options-config.php:3067
+#: nectar/redux-framework/options-config.php:3131
+msgid "Use VK Icon"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:2204
+#: nectar/redux-framework/options-config.php:3138
+msgid "Use Vine Icon"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:2212
+#: nectar/redux-framework/options-config.php:3145
+msgid "Use Houzz Icon"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:2220
+#: nectar/redux-framework/options-config.php:3152
+msgid "Use Yelp Icon"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:2228
+#: nectar/redux-framework/options-config.php:3166
+msgid "Use Mixcloud Icon"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:2236
+#: nectar/redux-framework/options-config.php:3159
+msgid "Use Snapchat Icon"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:2244
+#: nectar/redux-framework/options-config.php:3173
+msgid "Use Bandcamp Icon"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:2252
+#: nectar/redux-framework/options-config.php:3180
+msgid "Use Tripadvisor Icon"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:2260
+#: nectar/redux-framework/options-config.php:3187
+msgid "Use Telegram Icon"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:2268
+#: nectar/redux-framework/options-config.php:3194
+msgid "Use Slack Icon"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:2276
+#: nectar/redux-framework/options-config.php:3201
+msgid "Use Medium Icon"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:2284
+#: nectar/redux-framework/options-config.php:3208
+msgid "Use Artstation Icon"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:2292
+#: nectar/redux-framework/options-config.php:3215
+msgid "Use Discord Icon"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:2300
+#: nectar/redux-framework/options-config.php:3222
+msgid "Use WhatsApp Icon"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:2308
+#: nectar/redux-framework/options-config.php:3229
+msgid "Use Messenger Icon"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:2316
+#: nectar/redux-framework/options-config.php:3236
+msgid "Use Email Icon"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:2324
+#: nectar/redux-framework/options-config.php:3243
 msgid "Use Phone Icon"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2210
-#: nectar/redux-framework/options-config.php:2217
+#: nectar/redux-framework/options-config.php:2339
+#: nectar/redux-framework/options-config.php:2346
 msgid "Secondary Header Bar"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2218
+#: nectar/redux-framework/options-config.php:2347
 msgid ""
 "Please select if you would like an additional header bar above the main "
 "navigation."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2221
+#: nectar/redux-framework/options-config.php:2350
 msgid "Standard Header"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2222
+#: nectar/redux-framework/options-config.php:2351
 msgid "Header With Secondary Navigation Bar"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2229
+#: nectar/redux-framework/options-config.php:2358
 msgid "Secondary Header Text"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2231
+#: nectar/redux-framework/options-config.php:2360
 msgid "Add the text that you would like to appear in the secondary header."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2237
+#: nectar/redux-framework/options-config.php:2366
 msgid "Secondary Header Link URL"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2239
+#: nectar/redux-framework/options-config.php:2368
 msgid "Please enter an optional URL for the secondary header text here."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2246
+#: nectar/redux-framework/options-config.php:2375
 msgid "Secondary Header Mobile Functionality"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2247
+#: nectar/redux-framework/options-config.php:2376
 msgid ""
 "Please select how you would like the secondary header bar to display on "
 "mobile devices."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2247
+#: nectar/redux-framework/options-config.php:2376
 msgid ""
 "The option to \"Display Items Above Mobile Header\" will be skipped when "
 "using the \"Header Permanent Transparent\" option in the Header Navigation > "
 "Transparent Effect tab."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2250
+#: nectar/redux-framework/options-config.php:2379
 msgid "Add Items Into Mobile Navigation Menu"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2251
+#: nectar/redux-framework/options-config.php:2380
 msgid "Display Items Above Mobile Header"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2262
+#: nectar/redux-framework/options-config.php:2391
 msgid "Transparent Header Effect"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2272
+#: nectar/redux-framework/options-config.php:2401
 msgid ""
 "If activated this will cause your header to be completely transparent before "
 "the user scrolls. Valid instances where this will get used include using a "
 "Page Header or using a Full width/screen Nectar Slider at the top of a page."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2280
+#: nectar/redux-framework/options-config.php:2409
 msgid "Header Starting Logo Upload"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2281
+#: nectar/redux-framework/options-config.php:2410
 msgid ""
 "This will be used when the header is transparent before the user scrolls. "
 "(Will be swapped for the regular logo upon scrolling)"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2289
+#: nectar/redux-framework/options-config.php:2418
 msgid "Header Starting Retina Logo Upload"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2290
+#: nectar/redux-framework/options-config.php:2419
 msgid "Retina version of the header starting logo."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2297
+#: nectar/redux-framework/options-config.php:2426
 msgid "Header Starting Mobile Only Logo Upload"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2298
+#: nectar/redux-framework/options-config.php:2427
 msgid ""
 "A separate header starting logo that will be shown on mobile devices only."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2306
+#: nectar/redux-framework/options-config.php:2435
 msgid "Header Starting Dark Logo Upload"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2307
+#: nectar/redux-framework/options-config.php:2436
 msgid ""
 "This will be used when the header transparent effect is active and the dark "
 "color is selected. (If nothing is uploaded, the default logo will be used)"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2314
+#: nectar/redux-framework/options-config.php:2443
 msgid "Header Starting Dark Retina Logo Upload"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2315
+#: nectar/redux-framework/options-config.php:2444
 msgid ""
 "Retina version of the header starting dark logo.  (If nothing is uploaded, "
 "the default logo will be used)"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2322
+#: nectar/redux-framework/options-config.php:2451
 msgid "Header Starting Dark Mobile Only Logo Upload"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2323
+#: nectar/redux-framework/options-config.php:2452
 msgid ""
 "A separate header starting dark logo that will be shown on mobile devices "
 "only."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2330
+#: nectar/redux-framework/options-config.php:2459
 msgid "Header Starting Text Color"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2331
+#: nectar/redux-framework/options-config.php:2460
 msgid ""
 "Please select the color you desire for your header text before the user "
 "scrolls"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2340
+#: nectar/redux-framework/options-config.php:2469
 msgid "Header Dark Text Color"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2341
+#: nectar/redux-framework/options-config.php:2470
 msgid ""
 "Please select the color you desire for your header navigation links when the "
 "dark header is triggered. This occurs on dark Nectar Slides, dark rows when "
 "using permanent transparent etc."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2350
+#: nectar/redux-framework/options-config.php:2479
 msgid "Header Permanent Transparent"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2351
+#: nectar/redux-framework/options-config.php:2480
 msgid ""
 "Turning this on will allow your header to remain transparent even after "
 "scroll down"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2354
+#: nectar/redux-framework/options-config.php:2483
 msgid ""
 "Your navigation will alternate between dark and light color schemes based on "
 "the intersecting row. When editing your pages, every row in the page builder "
 "has a field for"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2354
-#: nectar/redux-framework/options-config.php:2363
+#: nectar/redux-framework/options-config.php:2483
+#: nectar/redux-framework/options-config.php:2492
 msgid "Text Color"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2354
-#: nectar/redux-framework/options-config.php:2363
+#: nectar/redux-framework/options-config.php:2483
+#: nectar/redux-framework/options-config.php:2492
 msgid "to set this."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2360
+#: nectar/redux-framework/options-config.php:2489
 msgid "Header Inherit Row Color"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2361
+#: nectar/redux-framework/options-config.php:2490
 msgid ""
 "Turning this on will allow your header to take on the background color of "
 "the row that it passes."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2363
+#: nectar/redux-framework/options-config.php:2492
 msgid ""
 "Hint: The navigation logo and links will alternative between dark and light "
 "based on what the intersecting row has set. When editing your pages, every "
 "row in the page builder has a field for"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2371
+#: nectar/redux-framework/options-config.php:2500
 msgid "Remove Border On Transparent Header"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2372
+#: nectar/redux-framework/options-config.php:2501
 msgid ""
 "Turning this on will remove the border that normally appears with the "
 "transparent header"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2380
+#: nectar/redux-framework/options-config.php:2509
 msgid "Add Shadow Behind Transparent Header"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2381
+#: nectar/redux-framework/options-config.php:2510
 msgid ""
 "If activated this will add a subtle shadow behind your transparent header to "
 "help with the visibility of your navigation items."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2393
+#: nectar/redux-framework/options-config.php:2522
 msgid "Animation Effects"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2401
+#: nectar/redux-framework/options-config.php:2530
 msgid "Header Link Hover/Active Effect"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2402
+#: nectar/redux-framework/options-config.php:2531
 msgid "Please select your header link hover/active effect here."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2405
+#: nectar/redux-framework/options-config.php:2534
 msgid "Color Change"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2406
-#: nectar/redux-framework/options-config.php:2777
+#: nectar/redux-framework/options-config.php:2535
+#: nectar/redux-framework/options-config.php:2946
 msgid "Animated Underline"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2413
-#: nectar/redux-framework/options-config.php:2428
+#: nectar/redux-framework/options-config.php:2542
+#: nectar/redux-framework/options-config.php:2557
 msgid "Header Hide Until Needed"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2414
+#: nectar/redux-framework/options-config.php:2543
 msgid ""
 "Do you want the header to be hidden after scrolling until needed? i.e. the "
 "user scrolls back up towards the top"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2423
+#: nectar/redux-framework/options-config.php:2552
 msgid "Header Resize On Scroll"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2424
+#: nectar/redux-framework/options-config.php:2553
 msgid "Do you want the header to shrink a little when you scroll?"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2428
+#: nectar/redux-framework/options-config.php:2557
 msgid "This will only be active when the"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2428
+#: nectar/redux-framework/options-config.php:2557
 msgid "effect is turned off"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2433
+#: nectar/redux-framework/options-config.php:2562
 msgid "Header Logo Shrink Number (in px)"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2434
+#: nectar/redux-framework/options-config.php:2563
 msgid "Don't include \"px\" in the string. e.g. 6"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2443
+#: nectar/redux-framework/options-config.php:2572
 msgid "Condense Header On Scroll"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2444
+#: nectar/redux-framework/options-config.php:2573
 msgid ""
 "Adds the logo/header buttons into the bottom nav bar when scrolling. Uses "
 "the \"Mobile Only Logo\" if supplied. This option is specific to \"Centered "
 "Menu Bottom Bar\" Header Format"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2457
+#: nectar/redux-framework/options-config.php:2586
 msgid "Dropdown/Megamenu"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2466
+#: nectar/redux-framework/options-config.php:2595
 msgid "Header Dropdown Opacity"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2467
+#: nectar/redux-framework/options-config.php:2596
 msgid "Please select your dropdown opacity here"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2479
+#: nectar/redux-framework/options-config.php:2608
 msgid "Header Dropdown Arrows"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2480
+#: nectar/redux-framework/options-config.php:2609
 msgid ""
 "Please choose whether you would like your dropdowns to show a down arrow."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2483
+#: nectar/redux-framework/options-config.php:2612
 msgid "Inherit From Theme Skin"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2484
+#: nectar/redux-framework/options-config.php:2613
 msgid "Show Arrow"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2485
+#: nectar/redux-framework/options-config.php:2614
 msgid "Don't Show Arrow"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2493
+#: nectar/redux-framework/options-config.php:2622
 msgid "Header Mega Menu Width"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2494
+#: nectar/redux-framework/options-config.php:2623
 msgid ""
 "Please choose whether you would like your megamenu to be constrained to the "
 "same width of the header container or if you would prefer to be the full "
 "width of the page."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2497
+#: nectar/redux-framework/options-config.php:2626
 msgid "Contained To Header Item Width"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2498
+#: nectar/redux-framework/options-config.php:2627
 msgid "Full Screen Width"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2506
+#: nectar/redux-framework/options-config.php:2635
 msgid "Megamenu Removes Transparent Header"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2507
+#: nectar/redux-framework/options-config.php:2636
 msgid ""
 "This will cause your header navigation to temporarily disable the "
 "transparent effect when your megamenu is open"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2519
+#: nectar/redux-framework/options-config.php:2648
 msgid "Off Canvas Menu/Mobile Menu"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2527
+#: nectar/redux-framework/options-config.php:2656
 msgid "Off Canvas Menu"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2528
+#: nectar/redux-framework/options-config.php:2657
 msgid ""
 "This will add an off canvas menu button on all viewports to your header "
 "navigation. When this is disabled, the off canvas menu will only be visible "
 "on mobile devices."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2537
+#: nectar/redux-framework/options-config.php:2666
 msgid "Off Canvas Menu Style"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2538
+#: nectar/redux-framework/options-config.php:2667
 msgid ""
 "Please select your off canvas menu style here. The \"Slide Out From Right "
 "Hover Triggered\" style will force the \"Full Width Header\" option "
 "regardless of your selection."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2541
+#: nectar/redux-framework/options-config.php:2670
 msgid "Slide Out From Right"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2542
+#: nectar/redux-framework/options-config.php:2671
 msgid "Slide Out From Right Hover Triggered"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2543
+#: nectar/redux-framework/options-config.php:2672
 msgid "Fullscreen Cover Slide + Blur BG"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2544
+#: nectar/redux-framework/options-config.php:2673
 msgid "Fullscreen Cover Fade"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2545
+#: nectar/redux-framework/options-config.php:2674
+msgid "Fullscreen Cover Split"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:2675
 msgid "Simple Dropdown"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2552
+#: nectar/redux-framework/options-config.php:2682
 msgid "Off Canvas Menu Dropdown Behavior"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2553
+#: nectar/redux-framework/options-config.php:2683
 msgid ""
 "Please select the functionality for how dropdowns will behave in your off "
 "canvas menu."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2556
+#: nectar/redux-framework/options-config.php:2686
 msgid "Dropdown Parent Link Toggles Submenu"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2557
+#: nectar/redux-framework/options-config.php:2687
 msgid "Separate Dropdown Parent Link From Dropdown Toggle"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2565
+#: nectar/redux-framework/options-config.php:2695
 msgid "Off Canvas Menu Add Menu Label"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2566
+#: nectar/redux-framework/options-config.php:2696
 msgid "This will add a \"Menu\" label next to your off canvas link."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2573
+#: nectar/redux-framework/options-config.php:2703
 msgid "Off Canvas Menu Add Social"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2574
+#: nectar/redux-framework/options-config.php:2704
 msgid ""
 "This will add the social links you have links set for in the \"Social Media"
 "\" tab to your off canvas menu."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2581
+#: nectar/redux-framework/options-config.php:2711
 msgid "Off Canvas Menu Bottom Text"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2582
+#: nectar/redux-framework/options-config.php:2712
 msgid ""
 "This will add some text fixed at the bottom of your off canvas menu - useful "
 "for copyright or quick contact info etc."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2589
+#: nectar/redux-framework/options-config.php:2719
 msgid "Off Canvas Menu Overlay Strength"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2590
+#: nectar/redux-framework/options-config.php:2720
 msgid "Please select your off canvas menu overlay strength here."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2593
+#: nectar/redux-framework/options-config.php:2723
 msgid "Solid"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2595
+#: nectar/redux-framework/options-config.php:2725
 msgid "Medium"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2604
+#: nectar/redux-framework/options-config.php:2734
 msgid "Off Canvas Menu Mobile Nav Menu items"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2605
+#: nectar/redux-framework/options-config.php:2735
 msgid ""
 "This will cause your off canvas menu to inherit any navigation items "
 "assigned in your \"Top Navigation\" menu location when viewing on a mobile "
 "device."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2619
+#: nectar/redux-framework/options-config.php:2743
+msgid "Off Canvas Icon Style"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:2744
+msgid "Please select your off canvas header icon style."
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:2748
+msgid "Circular"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:2756
+msgid "Off Canvas Navigation Menu Button BG Color"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:2759
+msgid ""
+"Optionally define a background color for your off canvas navigation button "
+"within the header. Useful in combination with the \"Permanent Transparent\" "
+"navigation option."
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:2765
+msgid "Off Canvas Navigation Menu Button Color"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:2778
 msgid "Footer"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2621
+#: nectar/redux-framework/options-config.php:2780
 msgid "All footer related options are listed here."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2627
+#: nectar/redux-framework/options-config.php:2786
 msgid "Main Footer Area"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2628
+#: nectar/redux-framework/options-config.php:2787
 msgid "Do you want use the main footer that contains all the widgets areas?"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2637
+#: nectar/redux-framework/options-config.php:2796
 msgid "Footer Columns"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2638
+#: nectar/redux-framework/options-config.php:2797
 msgid ""
 "Please select the number of columns you would like for your footer. Note: "
 "using the 1 Column layout will also center the copyright area."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2641
+#: nectar/redux-framework/options-config.php:2800
 msgid "1 Column Centered"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2642
+#: nectar/redux-framework/options-config.php:2801
 msgid "2 Columns"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2643
+#: nectar/redux-framework/options-config.php:2802
 msgid "3 Columns"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2644
+#: nectar/redux-framework/options-config.php:2803
 msgid "4 Columns"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2645
+#: nectar/redux-framework/options-config.php:2804
 msgid "4 Columns Alt"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2653
+#: nectar/redux-framework/options-config.php:2812
 msgid "Custom Footer Color Scheme"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2662
+#: nectar/redux-framework/options-config.php:2821
 msgid "Footer Background Color"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2675
+#: nectar/redux-framework/options-config.php:2834
 msgid "Footer Font Color"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2687
+#: nectar/redux-framework/options-config.php:2846
 msgid "2nd Footer Font Color"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2700
+#: nectar/redux-framework/options-config.php:2859
 msgid "Copyright Background Color"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2712
+#: nectar/redux-framework/options-config.php:2871
 msgid "Footer Copyright Font Color"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2723
-msgid "Footer Copyright Icon  Hover Color"
+#: nectar/redux-framework/options-config.php:2882
+msgid "Footer Copyright Icon Hover Color"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2731
+#: nectar/redux-framework/options-config.php:2892
+msgid "Footer Copyright Top Border Color"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:2900
 msgid "Footer Add Line Above Copyright"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2732
+#: nectar/redux-framework/options-config.php:2901
 msgid ""
 "This will add a thin line to separate your footer widget area from the "
 "copyright section"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2739
+#: nectar/redux-framework/options-config.php:2908
 msgid "Footer Full Width"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2740
+#: nectar/redux-framework/options-config.php:2909
 msgid "This to cause your footer content to display full width."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2749
+#: nectar/redux-framework/options-config.php:2918
 msgid "Footer Reveal Effect"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2750
+#: nectar/redux-framework/options-config.php:2919
 msgid ""
 "This to cause the footer to appear as though it's being reveal by the main "
 "content area when scrolling down to it"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2759
+#: nectar/redux-framework/options-config.php:2928
 msgid "Footer Reveal Shadow"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2760
+#: nectar/redux-framework/options-config.php:2929
 msgid ""
 "Please select the type of shadow you would like to appear on your footer"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2765
+#: nectar/redux-framework/options-config.php:2934
 msgid "Large & same color as footer BG"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2773
+#: nectar/redux-framework/options-config.php:2942
 msgid "Footer Link Hover Effect"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2774
+#: nectar/redux-framework/options-config.php:2943
 msgid ""
 "Please select the hover effect you would like for links in your footer "
 "copyright area."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2776
+#: nectar/redux-framework/options-config.php:2945
 msgid "Opacity/Color Change"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2784
+#: nectar/redux-framework/options-config.php:2953
 msgid "Footer Copyright Layout"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2785
+#: nectar/redux-framework/options-config.php:2954
 msgid "Please select the layout you would like for your footer copyright area."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2787
+#: nectar/redux-framework/options-config.php:2956
 msgid "Determined by Footer Columns"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2788
+#: nectar/redux-framework/options-config.php:2957
 msgid "Centered"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2796
+#: nectar/redux-framework/options-config.php:2965
 msgid "Disable Footer Copyright Area"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2797
+#: nectar/redux-framework/options-config.php:2966
 msgid "This will hide the copyright bar in your footer"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2805
+#: nectar/redux-framework/options-config.php:2974
 msgid "Footer Copyright Section Text"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2806
+#: nectar/redux-framework/options-config.php:2975
 msgid ""
 "Please enter the copyright section text. e.g. All Rights Reserved, Salient "
 "Inc."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2813
+#: nectar/redux-framework/options-config.php:2982
 msgid "Disable Automatic Copyright"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2814
+#: nectar/redux-framework/options-config.php:2983
 msgid ""
 "By default, your copyright section will say \"© {YEAR} {SITENAME}\" before "
 "the additional text you add above in the Footer Copyright Section Text input "
 "- This option allows you to remove that."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2821
+#: nectar/redux-framework/options-config.php:2990
 msgid "Footer Background Image"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2822
+#: nectar/redux-framework/options-config.php:2991
 msgid ""
 "Upload an image that will be used as the background image on your footer. "
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2829
+#: nectar/redux-framework/options-config.php:2998
 msgid "Footer Background Overlay"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:2830
+#: nectar/redux-framework/options-config.php:2999
 msgid ""
 "Adjust the overlay opacity here - the overlay colors pulls from your defined "
 "footer background color."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3079
+#: nectar/redux-framework/options-config.php:3255
 msgid "Page Transitions"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3081
+#: nectar/redux-framework/options-config.php:3257
 msgid "All page transition options are listed here."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3089
+#: nectar/redux-framework/options-config.php:3265
 msgid "Animated Page Transitions"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3090
+#: nectar/redux-framework/options-config.php:3266
 msgid "This will enable an animation between loading your pages."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3098
+#: nectar/redux-framework/options-config.php:3274
 msgid "Disable Fade Out On Click"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3099
+#: nectar/redux-framework/options-config.php:3275
 msgid ""
 "This will disable the default functionality of your page fading out when "
 "clicking a link with the Standard transition method. Is useful if your page "
@@ -4591,415 +4670,443 @@ msgid ""
 "anchors such as lighboxes."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3107
+#: nectar/redux-framework/options-config.php:3283
 msgid "Disable Page Transitions On Mobile"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3108
+#: nectar/redux-framework/options-config.php:3284
 msgid ""
 "This will remove page transitions when viewed on a mobile device (produces "
 "faster loading)"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3117
+#: nectar/redux-framework/options-config.php:3293
 msgid "Transition Effect"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3118
+#: nectar/redux-framework/options-config.php:3294
 msgid "Please select your transition effect here"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3120
+#: nectar/redux-framework/options-config.php:3296
 msgid "Fade with loading icon"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3121
+#: nectar/redux-framework/options-config.php:3297
 msgid "Center mask reveal"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3122
+#: nectar/redux-framework/options-config.php:3298
 msgid "Horizontal basic swipe"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3123
+#: nectar/redux-framework/options-config.php:3299
 msgid "Horizontal multi layer swipe"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3132
+#: nectar/redux-framework/options-config.php:3308
 msgid "Loading Icon Style"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3133
+#: nectar/redux-framework/options-config.php:3309
 msgid "Select your loading icon style here"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3136
-#: nectar/redux-framework/options-config.php:4145
+#: nectar/redux-framework/options-config.php:3312
+#: nectar/redux-framework/options-config.php:4448
 msgid "Material Design"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3144
+#: nectar/redux-framework/options-config.php:3320
 msgid "Loading Icon Coloring"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3145
+#: nectar/redux-framework/options-config.php:3321
 msgid ""
 "The icon will animate between the two colors - or just use the first if a "
 "second is not supplied."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3157
+#: nectar/redux-framework/options-config.php:3333
 msgid "Custom Loading Image"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3158
+#: nectar/redux-framework/options-config.php:3334
 msgid ""
 "Upload a .png or .gif image that will be used in all applicable areas on "
 "your site as the loading image. "
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3165
+#: nectar/redux-framework/options-config.php:3341
 msgid "Loading Image CSS Animation"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3166
+#: nectar/redux-framework/options-config.php:3342
 msgid "This will add a css based animation onto your defined image"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3169
+#: nectar/redux-framework/options-config.php:3345
 msgid "Smooth Spin"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3176
+#: nectar/redux-framework/options-config.php:3352
 msgid "Page Transition BG Color"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3177
+#: nectar/redux-framework/options-config.php:3353
 msgid "Use this to define the color of your page transition background."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3185
+#: nectar/redux-framework/options-config.php:3361
 msgid "Page Transition BG Color 2"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3186
+#: nectar/redux-framework/options-config.php:3362
 msgid "Use this to define the second color of your page transition background."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3201
+#: nectar/redux-framework/options-config.php:3377
 msgid "Page Header"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3203
+#: nectar/redux-framework/options-config.php:3379
 msgid ""
 "All global page header options are listed here. (there are also many options "
 "located in your page header metabox available on every edit page screen "
 "which are configured on a per-page basis"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3211
+#: nectar/redux-framework/options-config.php:3387
 msgid "Automatically Add Page Title to Page Header."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3212
+#: nectar/redux-framework/options-config.php:3388
 msgid ""
 "Convenient if you are transitioning an existing WP site to Salient to avoid "
 "having to manually add in page titles into the Page Header Settings metabox."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3219
-#: nectar/redux-framework/options-config.php:3512
-#: nectar/redux-framework/options-config.php:3740
+#: nectar/redux-framework/options-config.php:3395
+#: nectar/redux-framework/options-config.php:3743
+#: nectar/redux-framework/options-config.php:3971
 msgid "Load In Animation"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3220
+#: nectar/redux-framework/options-config.php:3396
 msgid "Page headers refer to any page header set in the page header meta box."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3220
+#: nectar/redux-framework/options-config.php:3396
 msgid "None:"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3220
+#: nectar/redux-framework/options-config.php:3396
 msgid "No animation will occur (default)."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3220
+#: nectar/redux-framework/options-config.php:3396
 msgid "Slide down:"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3220
+#: nectar/redux-framework/options-config.php:3396
 msgid "Will apply for all non full screen page headers."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3220
+#: nectar/redux-framework/options-config.php:3396
 msgid "Slight zoom out:"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3220
+#: nectar/redux-framework/options-config.php:3396
 msgid ""
 "Will apply to all page headers that have an image/video set (bg color only "
 "won't show the effect)."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3223
+#: nectar/redux-framework/options-config.php:3399
 msgid "Slide Down"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3224
+#: nectar/redux-framework/options-config.php:3400
 msgid "Slight Zoom Out"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3225
-#: nectar/redux-framework/options-config.php:3517
-#: nectar/redux-framework/options-config.php:3745
+#: nectar/redux-framework/options-config.php:3401
+#: nectar/redux-framework/options-config.php:3748
+#: nectar/redux-framework/options-config.php:3976
 msgid "Fade In"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3233
+#: nectar/redux-framework/options-config.php:3409
 msgid "Down Arrow Style"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3234
+#: nectar/redux-framework/options-config.php:3410
 msgid ""
 "Page headers that are set to fullscreen will show an arrow at the bottom so "
 "the user knows there is more content below - select the style for that here."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3237
+#: nectar/redux-framework/options-config.php:3413
 msgid "Scroll Animation"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3238
+#: nectar/redux-framework/options-config.php:3414
 msgid "Animated Arrow"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3251
+#: nectar/redux-framework/options-config.php:3427
 msgid "Form Styling"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3253
+#: nectar/redux-framework/options-config.php:3429
 msgid "All form styling options are listed here."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3261
+#: nectar/redux-framework/options-config.php:3437
 msgid "Overall Form Style"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3262
+#: nectar/redux-framework/options-config.php:3438
 msgid "Sets the style of all form elements used."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3263
+#: nectar/redux-framework/options-config.php:3439
 msgid ""
 "If you're trying to get third party forms to display without any styling "
 "from Salient, simply select the"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3263
-#: nectar/redux-framework/options-config.php:3265
+#: nectar/redux-framework/options-config.php:3439
+#: nectar/redux-framework/options-config.php:3441
 msgid "Inherit"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3263
+#: nectar/redux-framework/options-config.php:3439
 msgid "option."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3266
-#: nectar/redux-framework/options-config.php:3697
+#: nectar/redux-framework/options-config.php:3442
+#: nectar/redux-framework/options-config.php:3928
 msgid "Minimal"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3274
+#: nectar/redux-framework/options-config.php:3450
 msgid "Enable Fancy Select Styling"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3275
+#: nectar/redux-framework/options-config.php:3451
 msgid ""
 "This will add additional styling and functionality to your select (dropdown) "
 "elements."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3283
-msgid "Submit Button Style"
+#: nectar/redux-framework/options-config.php:3459
+msgid "Form Submit Button Style"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3284
+#: nectar/redux-framework/options-config.php:3460
 msgid ""
 "Select your desired style which will be used for submit buttons throughout "
 "your site"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3288
+#: nectar/redux-framework/options-config.php:3464
 msgid "Nectar Btn"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3289
+#: nectar/redux-framework/options-config.php:3465
 msgid "Nectar Btn See Through"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3301
+#: nectar/redux-framework/options-config.php:3477
+msgid "Form Submit Button Padding"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:3478
+msgid ""
+"Fine-tune form submit button padding. If left blank, defaults to 15px for "
+"top/bottom and 20px for left/right."
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:3489
+msgid "Form Input Field Text Size"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:3490
+msgid "Alters the font size for form input field/textarea elements."
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:3506
+msgid "Form Input Field Padding"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:3507
+msgid ""
+"Fine-tune form input fields/textarea element padding. If left blank, "
+"defaults to 10px for all sides."
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:3523
 msgid "Call To Action"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3303
+#: nectar/redux-framework/options-config.php:3525
 msgid "All call to action options are listed here."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3311
+#: nectar/redux-framework/options-config.php:3533
 msgid "Call to Action Text"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3312
+#: nectar/redux-framework/options-config.php:3534
 msgid ""
 "Add the text that you would like to appear in the global call to action "
 "section."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3318
+#: nectar/redux-framework/options-config.php:3540
 msgid "Call to Action Button Text"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3319
+#: nectar/redux-framework/options-config.php:3541
 msgid ""
 "If you would like a button to be the link in the global call to action "
 "section, please enter the text for it here."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3325
+#: nectar/redux-framework/options-config.php:3547
 msgid "Call to Action Button Link URL"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3326
+#: nectar/redux-framework/options-config.php:3548
 msgid "Please enter the URL for the call to action section here."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3331
+#: nectar/redux-framework/options-config.php:3553
 msgid "Pages to Exclude the Call to Action Section"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3332
+#: nectar/redux-framework/options-config.php:3554
 msgid ""
 "Select any pages you wish to exclude the Call to Action section from. You "
 "can select multiple pages."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3345
+#: nectar/redux-framework/options-config.php:3567
 msgid "Call to Action Background Color"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3355
+#: nectar/redux-framework/options-config.php:3577
 msgid "Call to Action Font Color"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3365
+#: nectar/redux-framework/options-config.php:3587
 msgid "Call to Action Button Color"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3370
+#: nectar/redux-framework/options-config.php:3592
 msgid "Extra Color 1"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3371
+#: nectar/redux-framework/options-config.php:3593
 msgid "Extra Color 2"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3372
+#: nectar/redux-framework/options-config.php:3594
 msgid "Extra Color 3"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3373
+#: nectar/redux-framework/options-config.php:3595
 msgid "See Through"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3386
+#: nectar/redux-framework/options-config.php:3608
 msgid "Portfolio"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3399
+#: nectar/redux-framework/options-config.php:3621
 msgid "\"Salient Portfolio\" Plugin Not Active."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3399
-#: nectar/redux-framework/options-config.php:5190
+#: nectar/redux-framework/options-config.php:3621
+#: nectar/redux-framework/options-config.php:5428
 msgid "Click here to go to the plugin install page."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3405
+#: nectar/redux-framework/options-config.php:3627
 msgid ""
 "All portfolio options are listed here. These are used for the Salient "
 "Portfolio post type plugin."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3411
+#: nectar/redux-framework/options-config.php:3633
 msgid "Main Layout"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3412
+#: nectar/redux-framework/options-config.php:3634
 msgid "Please select the number of columns you would like for your portfolio."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3425
+#: nectar/redux-framework/options-config.php:3647
 msgid "Project Style"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3426
+#: nectar/redux-framework/options-config.php:3648
 msgid ""
 "Please select the style you would like your projects to display in on your "
 "portfolio pages."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3429
+#: nectar/redux-framework/options-config.php:3651
 msgid "Meta below thumb w/ links on hover"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3430
+#: nectar/redux-framework/options-config.php:3652
 msgid "Meta on hover + entire thumb link"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3431
+#: nectar/redux-framework/options-config.php:3653
 msgid "Meta on hover w/ zoom + entire thumb link"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3432
+#: nectar/redux-framework/options-config.php:3654
 msgid "Meta overlaid - bottom left aligned"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3433
+#: nectar/redux-framework/options-config.php:3655
 msgid "Title overlaid w/ zoom effect on hover"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3434
+#: nectar/redux-framework/options-config.php:3656
 msgid "Title overlaid w/ zoom effect on hover alt"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3435
+#: nectar/redux-framework/options-config.php:3657
 msgid "Meta from bottom on hover + entire thumb link"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3436
+#: nectar/redux-framework/options-config.php:3658
 msgid "Meta + 3D Parallax on hover"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3437
+#: nectar/redux-framework/options-config.php:3659
 msgid "Meta below thumb w/ shadow hover"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3445
+#: nectar/redux-framework/options-config.php:3667
 msgid "Project Item Spacing"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3446
+#: nectar/redux-framework/options-config.php:3668
 msgid "Please select the spacing you would like between your items"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3469
-#: nectar/redux-framework/options-config.php:3706
+#: nectar/redux-framework/options-config.php:3691
+#: nectar/redux-framework/options-config.php:3937
 msgid "Masonry Style"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3470
+#: nectar/redux-framework/options-config.php:3692
 msgid ""
 "This will allow your portfolio items to display in a masonry layout as "
 "opposed to a fixed grid. You can define your masonry sizes in each project. "
@@ -5007,11 +5114,11 @@ msgid ""
 "project style."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3478
+#: nectar/redux-framework/options-config.php:3700
 msgid "Masonry Grid Sizing"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3479
+#: nectar/redux-framework/options-config.php:3701
 msgid ""
 "Please select the grid layout for your masonry portfolio. This will change "
 "the dimensions of the \"Masonry Item Sizing\" field you choose for your "
@@ -5019,182 +5126,192 @@ msgid ""
 "need to run the"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3479
+#: nectar/redux-framework/options-config.php:3701
 msgid "regenerate thumbnails"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3479
+#: nectar/redux-framework/options-config.php:3701
 msgid ""
 "plugin to recrop any featured images that are already uploaded. You must "
 "upload your images at a minimum of these dimensions or larger - uploading "
 "smaller than the size chosen will result in an incorrect layout."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3479
+#: nectar/redux-framework/options-config.php:3701
 msgid "Square Based Grid"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3479
+#: nectar/redux-framework/options-config.php:3701
 msgid "Masonry Size"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3479
+#: nectar/redux-framework/options-config.php:3701
 msgid "Dimensions"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3479
+#: nectar/redux-framework/options-config.php:3701
 msgid "Wide"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3479
+#: nectar/redux-framework/options-config.php:3701
 msgid "Tall"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3479
+#: nectar/redux-framework/options-config.php:3701
 msgid "Wide & Tall"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3479
-#: nectar/redux-framework/options-config.php:3483
+#: nectar/redux-framework/options-config.php:3701
+#: nectar/redux-framework/options-config.php:3705
 msgid "Photography Based"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3482
+#: nectar/redux-framework/options-config.php:3704
 msgid "Square Grid Based (Default)"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3490
+#: nectar/redux-framework/options-config.php:3712
 msgid "Display Filters Horizontally"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3491
+#: nectar/redux-framework/options-config.php:3713
 msgid ""
 "This will allow your filters to display horizontally instead of in a "
 "dropdown."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3499
+#: nectar/redux-framework/options-config.php:3721
 msgid "Single Project Page Navigation"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3500
+#: nectar/redux-framework/options-config.php:3722
 msgid "Please select the navigation you would like your projects to use."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3503
+#: nectar/redux-framework/options-config.php:3725
 msgid "In Project Header"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3504
+#: nectar/redux-framework/options-config.php:3726
 msgid "At Bottom Of Project"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3505
+#: nectar/redux-framework/options-config.php:3727
 msgid "At Bottom W/ Featured Image"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3513
-#: nectar/redux-framework/options-config.php:3741
+#: nectar/redux-framework/options-config.php:3734
+msgid "Single Project Remove Default Header"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:3735
+msgid ""
+"This will deactivate the default portfolio header from displaying on your "
+"single project pages."
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:3744
+#: nectar/redux-framework/options-config.php:3972
 msgid "Please select the loading animation you would like"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3518
-#: nectar/redux-framework/options-config.php:3746
+#: nectar/redux-framework/options-config.php:3749
+#: nectar/redux-framework/options-config.php:3977
 msgid "Fade In From Bottom"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3519
-#: nectar/redux-framework/options-config.php:3747
+#: nectar/redux-framework/options-config.php:3750
+#: nectar/redux-framework/options-config.php:3978
 msgid "Perspective Fade In"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3534
+#: nectar/redux-framework/options-config.php:3765
 msgid "Portfolio Sidebar Follow on Scroll"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3535
+#: nectar/redux-framework/options-config.php:3766
 msgid ""
 "When supplying extra content, a sidebar enabled page can get quite tall and "
 "feel empty on the right side. Enable this option to have your sidebar follow "
 "you down the page."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3544
+#: nectar/redux-framework/options-config.php:3775
 msgid "Portfolio Social Sharing Options"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3546
+#: nectar/redux-framework/options-config.php:3777
 msgid ""
 "As of Salient v10.1 the Portfolio social settings have been moved into "
 "WordPress customizer (Appearance > Customize). Ensure that you have the "
 "\"Salient Social\" plugin installed and activated to use them."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3551
+#: nectar/redux-framework/options-config.php:3782
 msgid "Display Dates on Projects"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3552
+#: nectar/redux-framework/options-config.php:3783
 msgid ""
 "Toggle whether or not to show the date on your projects within your "
 "portfolio grids - note that if a custom excerpt is supplied for a specific "
 "project, it will be shown instead of the date."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3560
+#: nectar/redux-framework/options-config.php:3791
 msgid "Portfolio Pagination"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3561
+#: nectar/redux-framework/options-config.php:3792
 msgid "Would you like your portfolio items to be paginated?"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3568
-#: nectar/redux-framework/options-config.php:3959
+#: nectar/redux-framework/options-config.php:3799
+#: nectar/redux-framework/options-config.php:4262
 msgid "Pagination Type"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3569
-#: nectar/redux-framework/options-config.php:3960
+#: nectar/redux-framework/options-config.php:3800
+#: nectar/redux-framework/options-config.php:4263
 msgid "Please select your pagination type here."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3574
-#: nectar/redux-framework/options-config.php:3964
+#: nectar/redux-framework/options-config.php:3805
+#: nectar/redux-framework/options-config.php:4267
 msgid "Infinite Scroll"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3582
+#: nectar/redux-framework/options-config.php:3813
 msgid "Display Pagination Numbers"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3583
+#: nectar/redux-framework/options-config.php:3814
 msgid ""
 "Do you want the page numbers to be visible in your portfolio pagination?"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3591
+#: nectar/redux-framework/options-config.php:3822
 msgid "Items Per page"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3592
+#: nectar/redux-framework/options-config.php:3823
 msgid "How many of your portfolio items would you like to display per page?"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3599
+#: nectar/redux-framework/options-config.php:3830
 msgid "Remove Comment Functionality On Projects"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3600
+#: nectar/redux-framework/options-config.php:3831
 msgid ""
 "Enable this to globally disable commenting on your single project layout"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3607
+#: nectar/redux-framework/options-config.php:3838
 msgid "Custom Slug"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3608
+#: nectar/redux-framework/options-config.php:3839
 msgid ""
 "If you want your portfolio post type to have a custom slug in the url, "
 "please enter it here. You will still have to refresh your permalinks after "
@@ -5202,1085 +5319,1154 @@ msgid ""
 "save."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3614
+#: nectar/redux-framework/options-config.php:3845
 msgid "Custom Recent Projects Title"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3615
+#: nectar/redux-framework/options-config.php:3846
 msgid ""
 "This is be used anywhere you place the recent work shortcode and on the "
 "\"Recent Work\" home layout. e.g. Recent Work"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3621
+#: nectar/redux-framework/options-config.php:3852
 msgid "Custom Recent Projects Link Text"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3622
+#: nectar/redux-framework/options-config.php:3853
 msgid ""
 "This is be used anywhere you place the recent work shortcode and on the "
 "\"Recent Work\" home layout. e.g. View All Work"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3628
+#: nectar/redux-framework/options-config.php:3859
 msgid "Custom Portfolio Page Sortable Text"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3629
+#: nectar/redux-framework/options-config.php:3860
 msgid "e.g. Sort Portfolio"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3635
+#: nectar/redux-framework/options-config.php:3866
 msgid "Main Portfolio Page URL"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3636
+#: nectar/redux-framework/options-config.php:3867
 msgid ""
 "This will be used to link back to your main portfolio from the more details "
 "page and for the recent projects link. i.e. The portfolio page that you are "
 "displaying all project categories on."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3642
+#: nectar/redux-framework/options-config.php:3873
 msgid "Single Project Nav Arrows Limited To Same Category"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3643
+#: nectar/redux-framework/options-config.php:3874
 msgid ""
 "This will cause your single project page next/prev arrows to lead only to "
 "projects that exist in the same category as the current."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3654
+#: nectar/redux-framework/options-config.php:3885
 msgid "Blog"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3656
+#: nectar/redux-framework/options-config.php:3887
 msgid "All blog options are listed here."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3677
+#: nectar/redux-framework/options-config.php:3908
 msgid "Blog Type"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3678
+#: nectar/redux-framework/options-config.php:3909
 msgid "Please select your blog format here."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3681
+#: nectar/redux-framework/options-config.php:3912
 msgid "Standard Blog W/ Sidebar"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3682
+#: nectar/redux-framework/options-config.php:3913
 msgid "Standard Blog No Sidebar"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3683
+#: nectar/redux-framework/options-config.php:3914
 msgid "Masonry Blog W/ Sidebar"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3684
+#: nectar/redux-framework/options-config.php:3915
 msgid "Masonry Blog No Sidebar"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3685
+#: nectar/redux-framework/options-config.php:3916
 msgid "Masonry Blog Fullwidth"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3692
+#: nectar/redux-framework/options-config.php:3923
 msgid "Standard Blog Style"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3693
+#: nectar/redux-framework/options-config.php:3924
 msgid ""
 "Please select the style you would like your posts to use when the standard "
 "layout is displayed"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3696
-#: nectar/redux-framework/options-config.php:3711
-#: nectar/redux-framework/options-config.php:4143
+#: nectar/redux-framework/options-config.php:3927
+#: nectar/redux-framework/options-config.php:3942
+#: nectar/redux-framework/options-config.php:4446
 msgid "Classic"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3698
+#: nectar/redux-framework/options-config.php:3929
 msgid "Featured Image Left"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3707
+#: nectar/redux-framework/options-config.php:3938
 msgid ""
 "Please select the style you would like your posts to use when the masonry "
 "layout is displayed"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3709
+#: nectar/redux-framework/options-config.php:3940
 msgid ""
 "Hint: Auto Masonry based layouts load the fastest. This is because the "
 "layouts are calculated with pure CSS and do not rely on any scripting."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3712
-#: nectar/redux-framework/options-config.php:3906
+#: nectar/redux-framework/options-config.php:3943
+#: nectar/redux-framework/options-config.php:4209
 msgid "Classic Enhanced"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3714
+#: nectar/redux-framework/options-config.php:3945
 msgid "Meta Overlaid"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3715
+#: nectar/redux-framework/options-config.php:3946
 msgid "Auto Masonry: Meta Overlaid Spaced"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3723
+#: nectar/redux-framework/options-config.php:3954
 msgid "Auto Masonry Spacing"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3724
+#: nectar/redux-framework/options-config.php:3955
 msgid ""
 "Please select the amount of spacing you would like for your auto masonry "
 "layout"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3755
+#: nectar/redux-framework/options-config.php:3986
 msgid "Blog Header Type"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3756
+#: nectar/redux-framework/options-config.php:3987
 msgid "Please select your blog header format here."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3759
+#: nectar/redux-framework/options-config.php:3990
 msgid "Variable height & meta overlaid"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3760
+#: nectar/redux-framework/options-config.php:3991
 msgid "Variable height minimal"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3761
+#: nectar/redux-framework/options-config.php:3992
 msgid "Fullscreen with meta under"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3768
+#: nectar/redux-framework/options-config.php:4000
+msgid "Blog Header Overlay Color"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:4011
+msgid "Blog Header Overlay Opacity"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:4023
+msgid "Blog Header Text Color"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:4034
+msgid "Blog Header Sizing"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:4035
+msgid ""
+"Using a responsive sizing option will override the post height set on "
+"individual posts."
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:4038
+msgid "Height Set Per Post"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:4039
+msgid "Responsive Sizing"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:4046
+msgid "Blog Header Scroll Effect"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:4047
+msgid "Globally define a scroll effect for your blog header."
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:4057
 msgid "Hide Sidebar on Single Post"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3769
+#: nectar/redux-framework/options-config.php:4058
 msgid ""
 "Using this will remove the sidebar from appearing on your single post page."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3776
+#: nectar/redux-framework/options-config.php:4065
+msgid "Blog Content Width"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:4068
+msgid "1000px"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:4069
+msgid "900px"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:4070
+msgid "800px"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:4071
+msgid "700px"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:4079
 msgid "Enable Sticky Sidebar"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3777
+#: nectar/redux-framework/options-config.php:4080
 msgid ""
 "Would you like to have your sidebar follow down as your scroll in a sticky "
 "manner?"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3784
+#: nectar/redux-framework/options-config.php:4087
 msgid "Hide Featured Media on Single Post"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3785
+#: nectar/redux-framework/options-config.php:4088
 msgid ""
 "Using this will remove the featured media (determined by the selected post "
 "format) from appearing in the top of your single blog posts."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3792
+#: nectar/redux-framework/options-config.php:4095
 msgid "Archive Header Background Image"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3793
+#: nectar/redux-framework/options-config.php:4096
 msgid ""
 "Upload an optional background that will be used on all blog archive pages."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3799
+#: nectar/redux-framework/options-config.php:4102
 msgid "Single Post Header Inherits Featured Image"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3800
+#: nectar/redux-framework/options-config.php:4103
 msgid ""
 "Using this will cause the default background of your post header to use your "
 "featured image when no other post header image is supplied."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3819
+#: nectar/redux-framework/options-config.php:4122
 msgid "Author's Bio"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3820
+#: nectar/redux-framework/options-config.php:4123
 msgid "Display the author's bio at the bottom of posts?"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3827
+#: nectar/redux-framework/options-config.php:4130
 msgid "Automatic Post Excerpts"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3828
+#: nectar/redux-framework/options-config.php:4131
 msgid ""
 "Using this will create automatic excerpts for your posts, placing a read "
 "more button after."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3835
+#: nectar/redux-framework/options-config.php:4138
 msgid "Lazy Load Blog Images"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3836
+#: nectar/redux-framework/options-config.php:4139
 msgid ""
 "Enabling this will load all featured images within the blog element via a "
 "lazy load method for higher performance."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3844
+#: nectar/redux-framework/options-config.php:4147
 msgid "Excerpt Length"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3845
+#: nectar/redux-framework/options-config.php:4148
 msgid ""
 "How many words would you like to display for your post excerpts? The default "
 "is 30."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3851
+#: nectar/redux-framework/options-config.php:4154
 msgid "Post Navigation Links On Single Post Page"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3852
+#: nectar/redux-framework/options-config.php:4155
 msgid ""
 "Using this will add navigation link(s) at the bottom of every post page."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3860
+#: nectar/redux-framework/options-config.php:4163
 msgid "Post Navigation Style"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3861
+#: nectar/redux-framework/options-config.php:4164
 msgid ""
 "Please select the style you would like your post navigation to display in."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3865
+#: nectar/redux-framework/options-config.php:4168
 msgid "Fullwidth Next Link Only"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3866
+#: nectar/redux-framework/options-config.php:4169
 msgid "Fullwidth Next & Prev Links"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3867
+#: nectar/redux-framework/options-config.php:4170
 msgid "Contained Next & Prev Links"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3875
+#: nectar/redux-framework/options-config.php:4178
 msgid "Post Navigation Ordering"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3876
+#: nectar/redux-framework/options-config.php:4179
 msgid ""
 "Please select how you would like your next/previous post links to function."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3878
+#: nectar/redux-framework/options-config.php:4181
 msgid "Default:"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3878
+#: nectar/redux-framework/options-config.php:4181
 msgid "the next post link will be the next"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3878
+#: nectar/redux-framework/options-config.php:4181
 msgid "oldest"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3878
+#: nectar/redux-framework/options-config.php:4181
 msgid "post."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3878
+#: nectar/redux-framework/options-config.php:4181
 msgid "Reverse Order:"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3878
+#: nectar/redux-framework/options-config.php:4181
 msgid "newest"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3882
+#: nectar/redux-framework/options-config.php:4185
 msgid "Reverse Order"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3890
+#: nectar/redux-framework/options-config.php:4193
 msgid "Related Posts On Single Post Page"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3891
+#: nectar/redux-framework/options-config.php:4194
 msgid ""
 "Using this will add related post links at the bottom of every post page."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3900
+#: nectar/redux-framework/options-config.php:4203
 msgid "Related Posts Style"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3901
+#: nectar/redux-framework/options-config.php:4204
 msgid "Please select the style you would like for the related posts\""
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3914
+#: nectar/redux-framework/options-config.php:4217
 msgid "Related Posts Title Text"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3915
+#: nectar/redux-framework/options-config.php:4218
 msgid "Please select the header text you would like above the related posts\""
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3923
+#: nectar/redux-framework/options-config.php:4226
 msgid "None (Hidden)"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3933
+#: nectar/redux-framework/options-config.php:4236
 msgid "Blog Social Sharing Options"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3935
+#: nectar/redux-framework/options-config.php:4238
 msgid ""
 "As of Salient v10.1 the blog social settings have been moved into WordPress "
 "customizer (Appearance > Customize). Ensure that you have the \"Salient "
 "Social\" plugin installed and activated to use them."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3941
+#: nectar/redux-framework/options-config.php:4244
 msgid "Display Tags"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3942
+#: nectar/redux-framework/options-config.php:4245
 msgid "Display tags at the bottom of posts?"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3951
+#: nectar/redux-framework/options-config.php:4254
 msgid "Display Full Date"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3952
+#: nectar/redux-framework/options-config.php:4255
 msgid "This will add the year to the date post meta on all blog pages."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3971
+#: nectar/redux-framework/options-config.php:4274
 msgid "Custom Recent Posts Title"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3972
+#: nectar/redux-framework/options-config.php:4275
 msgid ""
 "This is be used anywhere you place the recent posts shortcode and on the "
 "\"Recent Posts\" home layout. e.g. Recent Posts"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3978
+#: nectar/redux-framework/options-config.php:4281
 msgid "Custom Recent Posts Link Text"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3979
+#: nectar/redux-framework/options-config.php:4282
 msgid ""
 "This is be used anywhere you place the recent posts shortcode and on the "
 "\"Recent Posts\" home layout. e.g. View All Posts"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3988
+#: nectar/redux-framework/options-config.php:4291
 msgid "Post Meta"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3996
+#: nectar/redux-framework/options-config.php:4299
 msgid "Single Post Template"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:3998
+#: nectar/redux-framework/options-config.php:4301
 msgid ""
 "Use the following options to control what meta information will be shown on "
 "your single post template."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4003
+#: nectar/redux-framework/options-config.php:4306
 msgid "Remove Single Post Date"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4004
+#: nectar/redux-framework/options-config.php:4307
 msgid ""
 "Enable this to remove the date from displaying on your single post template"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4011
+#: nectar/redux-framework/options-config.php:4314
 msgid "Remove Single Post Author"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4012
+#: nectar/redux-framework/options-config.php:4315
 msgid ""
 "Enable this to remove the author name from displaying on your single post "
 "template"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4019
+#: nectar/redux-framework/options-config.php:4322
 msgid "Remove Single Post Comment Number"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4020
+#: nectar/redux-framework/options-config.php:4323
 msgid ""
 "Enable this to remove the comment count from displaying on your single post "
 "template"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4027
+#: nectar/redux-framework/options-config.php:4330
 msgid "Remove Single Post Nectar Love Button"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4028
+#: nectar/redux-framework/options-config.php:4331
 msgid ""
 "Enable this to remove the nectar love button from displaying on your single "
 "post template"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4036
+#: nectar/redux-framework/options-config.php:4339
 msgid "Blog Archive (Post Grid/List) Template"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4038
+#: nectar/redux-framework/options-config.php:4341
 msgid ""
 "Use the following options to control what meta information will be shown on "
 "your posts in the main post query."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4043
+#: nectar/redux-framework/options-config.php:4346
 msgid "Remove Post Date"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4044
+#: nectar/redux-framework/options-config.php:4347
 msgid ""
 "Enable this to remove the date from displaying on your blog archive layout"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4051
+#: nectar/redux-framework/options-config.php:4354
 msgid "Remove Post Author"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4052
+#: nectar/redux-framework/options-config.php:4355
 msgid ""
 "Enable this to remove the author name from displaying on your blog archive "
 "layout"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4059
+#: nectar/redux-framework/options-config.php:4362
 msgid "Remove Comment Number"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4060
+#: nectar/redux-framework/options-config.php:4363
 msgid ""
 "Enable this to remove the comment count from displaying on your blog archive "
 "layout"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4067
+#: nectar/redux-framework/options-config.php:4370
 msgid "Remove Nectar Love Button"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4068
+#: nectar/redux-framework/options-config.php:4371
 msgid ""
 "Enable this to remove the nectar love button from displaying on your blog "
 "archive layout in post styles that use it"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4081
+#: nectar/redux-framework/options-config.php:4384
 msgid "WooCommerce"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4083
+#: nectar/redux-framework/options-config.php:4386
 msgid "All WooCommerce related options are listed here"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4091
+#: nectar/redux-framework/options-config.php:4394
 msgid "Enable WooCommerce Cart In Nav"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4092
+#: nectar/redux-framework/options-config.php:4395
 msgid "This will add a cart item to your main navigation."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4099
+#: nectar/redux-framework/options-config.php:4402
 msgid "Cart In Nav Style"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4100
+#: nectar/redux-framework/options-config.php:4403
 msgid "Please select the style you would like for your AJAX cart"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4103
+#: nectar/redux-framework/options-config.php:4406
 msgid "Dropdown"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4104
+#: nectar/redux-framework/options-config.php:4407
 msgid "Slide In Full Page Height"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4112
+#: nectar/redux-framework/options-config.php:4415
 msgid "Main Shop Layout"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4113
+#: nectar/redux-framework/options-config.php:4416
 msgid "Please select layout you would like to use on your main shop page."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4116
+#: nectar/redux-framework/options-config.php:4419
 msgid "Fullwidth"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4117
-#: nectar/redux-framework/options-config.php:4130
+#: nectar/redux-framework/options-config.php:4420
+#: nectar/redux-framework/options-config.php:4433
 msgid "No Sidebar"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4118
-#: nectar/redux-framework/options-config.php:4131
+#: nectar/redux-framework/options-config.php:4421
+#: nectar/redux-framework/options-config.php:4434
 msgid "Right Sidebar"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4119
-#: nectar/redux-framework/options-config.php:4132
+#: nectar/redux-framework/options-config.php:4422
+#: nectar/redux-framework/options-config.php:4435
 msgid "Left Sidebar"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4126
+#: nectar/redux-framework/options-config.php:4429
 msgid "Single Product Layout"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4127
+#: nectar/redux-framework/options-config.php:4430
 msgid "Please select layout you would like to use on your single product page."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4139
+#: nectar/redux-framework/options-config.php:4442
 msgid "Product Style"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4140
+#: nectar/redux-framework/options-config.php:4443
 msgid ""
 "Please select the style you would like your products to display in (single "
 "product page styling will also vary slightly with each)"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4144
+#: nectar/redux-framework/options-config.php:4447
 msgid "Price/Star Ratings on Hover"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4146
+#: nectar/redux-framework/options-config.php:4449
 msgid "Minimal Design"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4153
+#: nectar/redux-framework/options-config.php:4456
 msgid "Archive Page Columns (Desktop)"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4154
+#: nectar/redux-framework/options-config.php:4457
 msgid ""
 "The column number to be displayed on product archive pages when viewed on a "
 "desktop monitor ( > 1300px)"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4169
+#: nectar/redux-framework/options-config.php:4472
 msgid "Archive Page Columns (Small Desktop)"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4170
+#: nectar/redux-framework/options-config.php:4473
 msgid ""
 "The column number to be displayed on product archive pages when viewed on a "
 "small desktop monitor (1000px - 1300px)"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4186
+#: nectar/redux-framework/options-config.php:4489
 msgid "Archive Page Columns (Tablet)"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4187
+#: nectar/redux-framework/options-config.php:4490
 msgid ""
 "The column number to be displayed on product archive pages when viewed on a "
 "tablet (690px - 1000px)"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4201
+#: nectar/redux-framework/options-config.php:4504
 msgid "Archive Page Columns (Phone)"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4202
+#: nectar/redux-framework/options-config.php:4505
 msgid ""
 "The column number to be displayed on product archive pages when viewed on a "
 "phone ( < 690px)"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4217
+#: nectar/redux-framework/options-config.php:4520
 msgid "Enable WooCommerce Product Quick View"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4218
+#: nectar/redux-framework/options-config.php:4521
 msgid ""
 "This will add a \"quick view\" button to your products which will load key "
 "single product page info without having to navigate to the page itself."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4227
+#: nectar/redux-framework/options-config.php:4530
 msgid "Material Design Product Item BG Color"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4228
-#: nectar/redux-framework/options-config.php:4238
+#: nectar/redux-framework/options-config.php:4531
+#: nectar/redux-framework/options-config.php:4541
 msgid "Set this to match the BG color of your product images."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4237
+#: nectar/redux-framework/options-config.php:4540
 msgid "Minimal Design Product Item BG Color"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4247
+#: nectar/redux-framework/options-config.php:4550
 msgid "Product Archive Page BG Color"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4248
+#: nectar/redux-framework/options-config.php:4551
 msgid "Allows to you set the BG color for all product archive pages"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4255
+#: nectar/redux-framework/options-config.php:4558
 msgid "Show first gallery image on Product hover"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4257
+#: nectar/redux-framework/options-config.php:4560
 msgid ""
 "Using this will cause your products to show the first gallery image (if "
 "supplied) on hover"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4263
+#: nectar/redux-framework/options-config.php:4566
 msgid "Single Product Gallery Type"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4264
+#: nectar/redux-framework/options-config.php:4567
 msgid ""
 "Please select what gallery type you would like on your single product page"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4267
+#: nectar/redux-framework/options-config.php:4570
 msgid "Bottom Aligned Thumbnails"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4268
+#: nectar/redux-framework/options-config.php:4571
 msgid "Bottom Aligned Thumbnails Alt"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4269
+#: nectar/redux-framework/options-config.php:4572
 msgid "Left Aligned Thumbnails + Sticky Product Info"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4276
+#: nectar/redux-framework/options-config.php:4579
 msgid "Product Tab Position"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4277
+#: nectar/redux-framework/options-config.php:4580
 msgid ""
 "Please select what area you would like your tabs to display in on the single "
 "product page"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4280
+#: nectar/redux-framework/options-config.php:4583
 msgid "In Side Area"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4281
+#: nectar/redux-framework/options-config.php:4584
 msgid "Fullwidth Under Images"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4288
+#: nectar/redux-framework/options-config.php:4591
 msgid "Products Per Page"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4289
+#: nectar/redux-framework/options-config.php:4592
 msgid "Please enter your desired your products per page (default is 12)"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4296
+#: nectar/redux-framework/options-config.php:4599
 msgid "Hide SKU From Product Page"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4305
+#: nectar/redux-framework/options-config.php:4608
 msgid "WooCommerce Social Sharing Options"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4307
+#: nectar/redux-framework/options-config.php:4610
 msgid ""
 "As of Salient v10.1 the WooCommerce social settings have been moved into "
 "WordPress customizer (Appearance > Customize). Ensure that you have the "
 "\"Salient Social\" plugin installed and activated to use them."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4323
+#: nectar/redux-framework/options-config.php:4626
 msgid "General WordPress Pages"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4326
+#: nectar/redux-framework/options-config.php:4629
 msgid ""
 "Here you can find options related to general WordPress templates such as the "
 "search results template, 404 template etc."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4334
+#: nectar/redux-framework/options-config.php:4637
 msgid "Search Results Template"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4341
+#: nectar/redux-framework/options-config.php:4644
 msgid "Layout"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4344
+#: nectar/redux-framework/options-config.php:4647
 msgid "Masonry Grid & Sidebar"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4345
+#: nectar/redux-framework/options-config.php:4648
 msgid "Masonry Grid No Sidebar"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4346
+#: nectar/redux-framework/options-config.php:4649
 msgid "List No Sidebar"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4353
+#: nectar/redux-framework/options-config.php:4656
 msgid "Header Background Color"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4354
+#: nectar/redux-framework/options-config.php:4657
 msgid "Default is #f4f4f4"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4362
+#: nectar/redux-framework/options-config.php:4665
 msgid "Header Font Color"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4363
+#: nectar/redux-framework/options-config.php:4666
 msgid "Default is #000000"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4371
+#: nectar/redux-framework/options-config.php:4674
 msgid "Header Background Image"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4372
+#: nectar/redux-framework/options-config.php:4675
 msgid ""
 "Upload an optional background that will be used on your search results page"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4379
+#: nectar/redux-framework/options-config.php:4682
 msgid "404 Not Found Template"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4406
+#: nectar/redux-framework/options-config.php:4709
 msgid "Upload an optional background that will be used on the 404 page"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4412
+#: nectar/redux-framework/options-config.php:4715
 msgid "Background Overlay Color"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4413
+#: nectar/redux-framework/options-config.php:4716
 msgid ""
 "If you would like a color to overlay your background image, select it here."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4421
+#: nectar/redux-framework/options-config.php:4724
 msgid "Add Button To Direct User Home"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4422
+#: nectar/redux-framework/options-config.php:4725
 msgid ""
 "This will add a button onto your 404 template which links back to your home "
 "page."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4440
+#: nectar/redux-framework/options-config.php:4743
 msgid "Social Media"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4442
+#: nectar/redux-framework/options-config.php:4745
 msgid ""
 "Enter in your social media locations here and then activate which ones you "
 "would like to display in your footer options & header options tabs. Remember "
 "to include the \"http://\" in all URLs!"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4449
+#: nectar/redux-framework/options-config.php:4752
 msgid "Facebook URL"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4450
+#: nectar/redux-framework/options-config.php:4753
 msgid "Please enter in your Facebook URL."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4456
+#: nectar/redux-framework/options-config.php:4759
 msgid "Twitter URL"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4457
+#: nectar/redux-framework/options-config.php:4760
 msgid "Please enter in your Twitter URL."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4463
-msgid "Google+ URL"
+#: nectar/redux-framework/options-config.php:4766
+msgid "Google URL"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4464
-msgid "Please enter in your Google+ URL."
+#: nectar/redux-framework/options-config.php:4767
+msgid "Please enter in your Google URL."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4470
+#: nectar/redux-framework/options-config.php:4773
 msgid "Vimeo URL"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4471
+#: nectar/redux-framework/options-config.php:4774
 msgid "Please enter in your Vimeo URL."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4477
+#: nectar/redux-framework/options-config.php:4780
 msgid "Dribbble URL"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4478
+#: nectar/redux-framework/options-config.php:4781
 msgid "Please enter in your Dribbble URL."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4484
+#: nectar/redux-framework/options-config.php:4787
 msgid "Pinterest URL"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4485
+#: nectar/redux-framework/options-config.php:4788
 msgid "Please enter in your Pinterest URL."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4491
+#: nectar/redux-framework/options-config.php:4794
 msgid "Youtube URL"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4492
+#: nectar/redux-framework/options-config.php:4795
 msgid "Please enter in your Youtube URL."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4498
+#: nectar/redux-framework/options-config.php:4801
 msgid "Tumblr URL"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4499
+#: nectar/redux-framework/options-config.php:4802
 msgid "Please enter in your Tumblr URL."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4505
+#: nectar/redux-framework/options-config.php:4808
 msgid "LinkedIn URL"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4506
+#: nectar/redux-framework/options-config.php:4809
 msgid "Please enter in your LinkedIn URL."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4512
+#: nectar/redux-framework/options-config.php:4815
 msgid "RSS URL"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4513
+#: nectar/redux-framework/options-config.php:4816
 msgid ""
 "If you have an external RSS feed such as Feedburner, please enter it here. "
 "Will use built in Wordpress feed if left blank."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4519
+#: nectar/redux-framework/options-config.php:4822
 msgid "Behance URL"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4520
+#: nectar/redux-framework/options-config.php:4823
 msgid "Please enter in your Behance URL."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4526
+#: nectar/redux-framework/options-config.php:4829
 msgid "Flickr URL"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4527
+#: nectar/redux-framework/options-config.php:4830
 msgid "Please enter in your Flickr URL."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4533
+#: nectar/redux-framework/options-config.php:4836
 msgid "Spotify URL"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4534
+#: nectar/redux-framework/options-config.php:4837
 msgid "Please enter in your Spotify URL."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4540
+#: nectar/redux-framework/options-config.php:4843
 msgid "Instagram URL"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4541
+#: nectar/redux-framework/options-config.php:4844
 msgid "Please enter in your Instagram URL."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4547
+#: nectar/redux-framework/options-config.php:4850
 msgid "GitHub URL"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4548
+#: nectar/redux-framework/options-config.php:4851
 msgid "Please enter in your GitHub URL."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4554
+#: nectar/redux-framework/options-config.php:4857
 msgid "StackExchange URL"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4555
+#: nectar/redux-framework/options-config.php:4858
 msgid "Please enter in your StackExchange URL."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4561
+#: nectar/redux-framework/options-config.php:4864
 msgid "SoundCloud URL"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4562
+#: nectar/redux-framework/options-config.php:4865
 msgid "Please enter in your SoundCloud URL."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4568
+#: nectar/redux-framework/options-config.php:4871
 msgid "VK URL"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4569
+#: nectar/redux-framework/options-config.php:4872
 msgid "Please enter in your VK URL."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4575
-#: nectar/redux-framework/options-config.php:4582
+#: nectar/redux-framework/options-config.php:4878
+#: nectar/redux-framework/options-config.php:4885
 msgid "Vine URL"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4576
-#: nectar/redux-framework/options-config.php:4583
+#: nectar/redux-framework/options-config.php:4879
+#: nectar/redux-framework/options-config.php:4886
 msgid "Please enter in your Vine URL."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4589
+#: nectar/redux-framework/options-config.php:4892
 msgid "Houzz URL"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4590
+#: nectar/redux-framework/options-config.php:4893
 msgid "Please enter in your Houzz URL."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4596
+#: nectar/redux-framework/options-config.php:4899
 msgid "Yelp URL"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4597
+#: nectar/redux-framework/options-config.php:4900
 msgid "Please enter in your Yelp URL."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4603
+#: nectar/redux-framework/options-config.php:4906
 msgid "Snapchat URL"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4604
+#: nectar/redux-framework/options-config.php:4907
 msgid "Please enter in your Snapchat URL."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4610
+#: nectar/redux-framework/options-config.php:4913
 msgid "Mixcloud URL"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4611
-#: nectar/redux-framework/options-config.php:4618
+#: nectar/redux-framework/options-config.php:4914
+#: nectar/redux-framework/options-config.php:4921
 msgid "Please enter in your Mixcloud URL."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4617
+#: nectar/redux-framework/options-config.php:4920
 msgid "Bandcamp URL"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4624
+#: nectar/redux-framework/options-config.php:4927
 msgid "Tripadvisor URL"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4625
+#: nectar/redux-framework/options-config.php:4928
 msgid "Please enter in your Tripadvisor URL."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4631
+#: nectar/redux-framework/options-config.php:4934
 msgid "Telegram URL"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4632
+#: nectar/redux-framework/options-config.php:4935
 msgid "Please enter in your Telegram URL."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4638
+#: nectar/redux-framework/options-config.php:4941
 msgid "Slack URL"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4639
+#: nectar/redux-framework/options-config.php:4942
 msgid "Please enter in your Slack URL."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4645
+#: nectar/redux-framework/options-config.php:4948
 msgid "Medium URL"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4646
+#: nectar/redux-framework/options-config.php:4949
 msgid "Please enter in your Medium URL."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4652
+#: nectar/redux-framework/options-config.php:4955
 msgid "Artstation URL"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4653
+#: nectar/redux-framework/options-config.php:4956
 msgid "Please enter in your Artstation URL."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4659
+#: nectar/redux-framework/options-config.php:4962
 msgid "Discord URL"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4660
-#: nectar/redux-framework/options-config.php:4667
+#: nectar/redux-framework/options-config.php:4963
 msgid "Please enter in your Discord URL."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4666
+#: nectar/redux-framework/options-config.php:4969
 msgid "WhatsApp URL"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4673
+#: nectar/redux-framework/options-config.php:4970
+msgid "Please enter in your WhatsApp URL."
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:4976
+msgid "Messenger URL"
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:4977
+msgid "Please enter in your Messenger URL."
+msgstr ""
+
+#: nectar/redux-framework/options-config.php:4983
 msgid "Email link"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4674
+#: nectar/redux-framework/options-config.php:4984
 msgid "Please enter in your URL link."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4680
+#: nectar/redux-framework/options-config.php:4990
 msgid "Phone Link"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4681
+#: nectar/redux-framework/options-config.php:4991
 msgid "Please enter in your Phone link."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4705
+#: nectar/redux-framework/options-config.php:5015
 msgid "Contact Map"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4707
+#: nectar/redux-framework/options-config.php:5017
 msgid ""
 "The settings on this page will configure the Google map which gets placed at "
 "the top of \"Contact\" page template. These are legacy options which you can "
@@ -6289,453 +6475,403 @@ msgid ""
 "pages."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4707
+#: nectar/redux-framework/options-config.php:5017
 msgid ""
 "We reccomend using the more powerful \"Interactive Map\" page builder "
 "element instead of this."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4716
+#: nectar/redux-framework/options-config.php:5026
 msgid "Default Map Zoom Level"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4717
+#: nectar/redux-framework/options-config.php:5027
 msgid ""
 "Value should be between 1-18, 1 being the entire earth and 18 being right at "
 "street level."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4724
+#: nectar/redux-framework/options-config.php:5034
 msgid "Enable Map Zoom In/Out"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4725
+#: nectar/redux-framework/options-config.php:5035
 msgid "Do you want users to be able to zoom in/out on the map?"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4732
+#: nectar/redux-framework/options-config.php:5042
 msgid "Map Center Latitude"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4733
+#: nectar/redux-framework/options-config.php:5043
 msgid "Please enter the latitude for the maps center point."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4740
+#: nectar/redux-framework/options-config.php:5050
 msgid "Map Center Longitude"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4741
+#: nectar/redux-framework/options-config.php:5051
 msgid "Please enter the longitude for the maps center point."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4748
+#: nectar/redux-framework/options-config.php:5058
 msgid "Use Image for Markers"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4749
+#: nectar/redux-framework/options-config.php:5059
 msgid "Do you want a custom image to be used for the map markers?"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4757
+#: nectar/redux-framework/options-config.php:5067
 msgid "Marker Icon Upload"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4758
+#: nectar/redux-framework/options-config.php:5068
 msgid ""
 "Please upload an image that will be used for all the markers on your map."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4764
+#: nectar/redux-framework/options-config.php:5074
 msgid "Enable Marker Animation"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4765
+#: nectar/redux-framework/options-config.php:5075
 msgid "This will cause your markers to do a quick bounce as they load in."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4772
+#: nectar/redux-framework/options-config.php:5082
 msgid "Location #1"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4773
+#: nectar/redux-framework/options-config.php:5083
 msgid "Toggle location #1"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4781
-#: nectar/redux-framework/options-config.php:4817
-#: nectar/redux-framework/options-config.php:4853
-#: nectar/redux-framework/options-config.php:4889
-#: nectar/redux-framework/options-config.php:4926
-#: nectar/redux-framework/options-config.php:4962
-#: nectar/redux-framework/options-config.php:4999
-#: nectar/redux-framework/options-config.php:5038
-#: nectar/redux-framework/options-config.php:5075
-#: nectar/redux-framework/options-config.php:5110
+#: nectar/redux-framework/options-config.php:5091
+#: nectar/redux-framework/options-config.php:5127
+#: nectar/redux-framework/options-config.php:5163
+#: nectar/redux-framework/options-config.php:5199
+#: nectar/redux-framework/options-config.php:5236
+#: nectar/redux-framework/options-config.php:5272
+#: nectar/redux-framework/options-config.php:5309
+#: nectar/redux-framework/options-config.php:5348
 msgid "Latitude"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4782
+#: nectar/redux-framework/options-config.php:5092
 msgid "Please enter the latitude for your first location."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4790
-#: nectar/redux-framework/options-config.php:4826
-#: nectar/redux-framework/options-config.php:4862
-#: nectar/redux-framework/options-config.php:4898
-#: nectar/redux-framework/options-config.php:4935
-#: nectar/redux-framework/options-config.php:4971
-#: nectar/redux-framework/options-config.php:5008
-#: nectar/redux-framework/options-config.php:5047
-#: nectar/redux-framework/options-config.php:5084
-#: nectar/redux-framework/options-config.php:5120
+#: nectar/redux-framework/options-config.php:5100
+#: nectar/redux-framework/options-config.php:5136
+#: nectar/redux-framework/options-config.php:5172
+#: nectar/redux-framework/options-config.php:5208
+#: nectar/redux-framework/options-config.php:5245
+#: nectar/redux-framework/options-config.php:5281
+#: nectar/redux-framework/options-config.php:5318
+#: nectar/redux-framework/options-config.php:5357
 msgid "Longitude"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4791
+#: nectar/redux-framework/options-config.php:5101
 msgid "Please enter the longitude for your first location."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4799
-#: nectar/redux-framework/options-config.php:4835
-#: nectar/redux-framework/options-config.php:4871
-#: nectar/redux-framework/options-config.php:4907
-#: nectar/redux-framework/options-config.php:4944
-#: nectar/redux-framework/options-config.php:4980
-#: nectar/redux-framework/options-config.php:5017
-#: nectar/redux-framework/options-config.php:5056
-#: nectar/redux-framework/options-config.php:5093
-#: nectar/redux-framework/options-config.php:5129
+#: nectar/redux-framework/options-config.php:5109
+#: nectar/redux-framework/options-config.php:5145
+#: nectar/redux-framework/options-config.php:5181
+#: nectar/redux-framework/options-config.php:5217
+#: nectar/redux-framework/options-config.php:5254
+#: nectar/redux-framework/options-config.php:5290
+#: nectar/redux-framework/options-config.php:5327
+#: nectar/redux-framework/options-config.php:5366
 msgid "Map Infowindow Text"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4800
+#: nectar/redux-framework/options-config.php:5110
 msgid ""
 "If you would like to display any text in an info window for your first "
 "location, please enter it here."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4808
+#: nectar/redux-framework/options-config.php:5118
 msgid "Location #2"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4809
+#: nectar/redux-framework/options-config.php:5119
 msgid "Toggle location #2"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4818
+#: nectar/redux-framework/options-config.php:5128
 msgid "Please enter the latitude for your second location."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4827
+#: nectar/redux-framework/options-config.php:5137
 msgid "Please enter the longitude for your second location."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4836
+#: nectar/redux-framework/options-config.php:5146
 msgid ""
 "If you would like to display any text in an info window for your second "
 "location, please enter it here."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4844
+#: nectar/redux-framework/options-config.php:5154
 msgid "Location #3"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4845
+#: nectar/redux-framework/options-config.php:5155
 msgid "Toggle location #3"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4854
+#: nectar/redux-framework/options-config.php:5164
 msgid "Please enter the latitude for your third location."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4863
+#: nectar/redux-framework/options-config.php:5173
 msgid "Please enter the longitude for your third location."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4872
+#: nectar/redux-framework/options-config.php:5182
 msgid ""
 "If you would like to display any text in an info window for your third "
 "location, please enter it here."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4880
+#: nectar/redux-framework/options-config.php:5190
 msgid "Location #4"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4881
+#: nectar/redux-framework/options-config.php:5191
 msgid "Toggle location #4"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4890
+#: nectar/redux-framework/options-config.php:5200
 msgid "Please enter the latitude for your fourth location."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4899
+#: nectar/redux-framework/options-config.php:5209
 msgid "Please enter the longitude for your fourth location."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4908
+#: nectar/redux-framework/options-config.php:5218
 msgid ""
 "If you would like to display any text in an info window for your fourth "
 "location, please enter it here."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4917
+#: nectar/redux-framework/options-config.php:5227
 msgid "Location #5"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4918
+#: nectar/redux-framework/options-config.php:5228
 msgid "Toggle location #5"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4927
+#: nectar/redux-framework/options-config.php:5237
 msgid "Please enter the latitude for your fifth location."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4936
+#: nectar/redux-framework/options-config.php:5246
 msgid "Please enter the longitude for your fifth location."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4945
+#: nectar/redux-framework/options-config.php:5255
 msgid ""
 "If you would like to display any text in an info window for your fifth "
 "location, please enter it here."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4953
+#: nectar/redux-framework/options-config.php:5263
 msgid "Location #6"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4954
+#: nectar/redux-framework/options-config.php:5264
 msgid "Toggle location #6"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4963
+#: nectar/redux-framework/options-config.php:5273
 msgid "Please enter the latitude for your sixth location."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4972
+#: nectar/redux-framework/options-config.php:5282
 msgid "Please enter the longitude for your sixth location."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4981
+#: nectar/redux-framework/options-config.php:5291
 msgid ""
 "If you would like to display any text in an info window for your sixth "
 "location, please enter it here."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4990
+#: nectar/redux-framework/options-config.php:5300
 msgid "Location #7"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:4991
+#: nectar/redux-framework/options-config.php:5301
 msgid "Toggle location #7"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:5000
+#: nectar/redux-framework/options-config.php:5310
 msgid "Please enter the latitude for your seventh location."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:5009
+#: nectar/redux-framework/options-config.php:5319
 msgid "Please enter the longitude for your seventh location."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:5018
+#: nectar/redux-framework/options-config.php:5328
 msgid ""
 "If you would like to display any text in an info window for your seventh "
 "location, please enter it here."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:5027
+#: nectar/redux-framework/options-config.php:5337
 msgid "Location #8"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:5028
+#: nectar/redux-framework/options-config.php:5338
 msgid "Toggle location #8"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:5039
+#: nectar/redux-framework/options-config.php:5349
 msgid "Please enter the latitude for your eighth location."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:5048
+#: nectar/redux-framework/options-config.php:5358
 msgid "Please enter the longitude for your eighth location."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:5057
+#: nectar/redux-framework/options-config.php:5367
 msgid ""
 "If you would like to display any text in an info window for your eighth "
 "location, please enter it here."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:5066
-msgid "Location #9"
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:5067
-msgid "Toggle location #9"
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:5076
-msgid "Please enter the latitude for your ninth location."
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:5085
-msgid "Please enter the longitude for your ninth location."
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:5094
-msgid ""
-"If you would like to display any text in an info window for your ninth "
-"location, please enter it here."
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:5102
-msgid "Location #10"
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:5103
-msgid "Toggle location #10"
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:5111
-msgid "Please enter the latitude for your tenth location."
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:5121
-msgid "Please enter the longitude for your tenth location."
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:5130
-msgid ""
-"If you would like to display any text in an info window for your tenth "
-"location, please enter it here."
-msgstr ""
-
-#: nectar/redux-framework/options-config.php:5138
+#: nectar/redux-framework/options-config.php:5376
 msgid "Show More or Less Locations"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:5146
+#: nectar/redux-framework/options-config.php:5384
 msgid "Greyscale Color"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:5147
+#: nectar/redux-framework/options-config.php:5385
 msgid ""
 "Toggle a greyscale color scheme (will also unlock a custom color option)"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:5156
+#: nectar/redux-framework/options-config.php:5394
 msgid "Map Extra Color"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:5157
+#: nectar/redux-framework/options-config.php:5395
 msgid ""
 "Use this to define a main color that will be used in combination with the "
 "greyscale option for your map"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:5165
+#: nectar/redux-framework/options-config.php:5403
 msgid "Ultra Flat Map"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:5166
+#: nectar/redux-framework/options-config.php:5404
 msgid "This removes street/landmark text & some extra details for a clean look"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:5174
+#: nectar/redux-framework/options-config.php:5412
 msgid "Dark Color Scheme"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:5175
+#: nectar/redux-framework/options-config.php:5413
 msgid ""
 "Enable this option for a dark colored map (This will override the extra "
 "color choice) "
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:5190
+#: nectar/redux-framework/options-config.php:5428
 msgid "\"Salient Home Slider\" Plugin Not Active."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:5194
+#: nectar/redux-framework/options-config.php:5432
 msgid "Home Slider"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:5196
+#: nectar/redux-framework/options-config.php:5434
 msgid "All Home Slider plugin related options are listed here."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:5205
+#: nectar/redux-framework/options-config.php:5443
 msgid "Slider Caption Animations"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:5206
+#: nectar/redux-framework/options-config.php:5444
 msgid "This will add transition animations to your captions."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:5213
+#: nectar/redux-framework/options-config.php:5451
 msgid "Slider Image Resize"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:5214
+#: nectar/redux-framework/options-config.php:5452
 msgid ""
 "This will automatically resize your slide images to fit the users screen "
 "size by using the background-size cover css property."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:5222
+#: nectar/redux-framework/options-config.php:5460
 msgid "Autoplay Slider"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:5223
+#: nectar/redux-framework/options-config.php:5461
 msgid ""
 "This will cause the automatic advance of slides until the user begins "
 "interaction."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:5231
+#: nectar/redux-framework/options-config.php:5469
 msgid "Slider Advance Speed"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:5232
+#: nectar/redux-framework/options-config.php:5470
 msgid ""
 "This is how long it takes before automatically switching to the next slide."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:5233
+#: nectar/redux-framework/options-config.php:5471
 msgid "enter in milliseconds (default is 5500)"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:5239
+#: nectar/redux-framework/options-config.php:5477
 msgid "Slider Height"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:5240
+#: nectar/redux-framework/options-config.php:5478
 msgid ""
 "Please enter your desired height for the home slider. The safe minimum "
 "height is 400. The theme demo uses 650."
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:5241
+#: nectar/redux-framework/options-config.php:5479
 msgid "Don't include \"px\" in the string. e.g. 650"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:5247
+#: nectar/redux-framework/options-config.php:5485
 msgid "Slider Background Color"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:5248
+#: nectar/redux-framework/options-config.php:5486
 msgid ""
 "This color will only be seen if your slides aren't wide enough to "
 "accommodate large resolutions. "
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:5364
+#: nectar/redux-framework/options-config.php:5602
 msgid "Section via hook"
 msgstr ""
 
-#: nectar/redux-framework/options-config.php:5365
+#: nectar/redux-framework/options-config.php:5603
 msgid ""
 "<p class=\"description\">This is a section created by adding a filter to the "
 "sections array. Can be used by child themes to add/remove sections from the "
@@ -7298,11 +7434,11 @@ msgstr ""
 msgid "Back to Video"
 msgstr ""
 
-#: template-home-1.php:210 template-home-3.php:218 template-portfolio.php:313
+#: template-home-1.php:210 template-home-3.php:218 template-portfolio.php:317
 msgid "View Larger"
 msgstr ""
 
-#: template-home-1.php:213 template-home-3.php:221 template-portfolio.php:317
+#: template-home-1.php:213 template-home-3.php:221 template-portfolio.php:321
 msgid "More Details"
 msgstr ""
 
@@ -7318,15 +7454,15 @@ msgstr ""
 msgid "Your order"
 msgstr ""
 
-#: woocommerce/checkout/review-order.php:46
+#: woocommerce/checkout/review-order.php:43
 msgid "Quantity: "
 msgstr ""
 
-#: woocommerce/checkout/review-order.php:68
+#: woocommerce/checkout/review-order.php:65
 msgid "Subtotal"
 msgstr ""
 
-#: woocommerce/checkout/review-order.php:115
+#: woocommerce/checkout/review-order.php:112
 msgid "Total"
 msgstr ""
 

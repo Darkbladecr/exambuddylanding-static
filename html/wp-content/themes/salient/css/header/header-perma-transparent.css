@@ -8,6 +8,18 @@ Description: "Header Permanent Transparent" enabled in theme options
   top: 32px;
 }
 
+#top #logo.no-image {
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"].transparent {
+  pointer-events: none;
+}
+body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"].transparent .span_9,
+body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"].transparent .span_3 {
+  pointer-events: all;
+}
 
 #header-outer[data-permanent-transparent="1"][data-transparent-header="true"][data-transparent-shadow-helper="true"].transparent:not(.dark-slide) {
   background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0) 99%);
@@ -31,7 +43,9 @@ body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"].transp
 body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"].transparent #top nav ul a .icon-salient-search, 
 body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"].transparent #top nav ul #nectar-user-account a span, 
 body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"] .has_products .cart-menu .cart-icon-wrap .icon-salient-cart, 
-body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"] .cart-menu .cart-icon-wrap .icon-salient-cart {
+body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"] .cart-menu .cart-icon-wrap .icon-salient-cart,
+#header-outer[data-permanent-transparent="1"][data-header-button_style="shadow_hover_scale"].transparent #top nav ul .slide-out-widget-area-toggle[data-custom-color="true"] a:hover .lines, 
+body.material #header-outer[data-permanent-transparent="1"][data-header-button_style="shadow_hover_scale"].transparent #top nav ul .slide-out-widget-area-toggle[data-custom-color="true"] a:hover .lines-button:after {
   opacity: 1!important;
 }
 

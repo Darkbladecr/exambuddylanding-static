@@ -82,7 +82,7 @@
 
 .twentytwenty-wrapper {
   overflow: hidden;
-  padding: 5px 23px!important;
+  padding: 5px 23px;
 }
 .twentytwenty-container {
   -webkit-box-sizing: content-box;

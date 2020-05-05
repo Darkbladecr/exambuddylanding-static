@@ -19,7 +19,7 @@ jQuery(document).ready(function($){
 		if( $('.post-type-post .components-panel .editor-post-format select').length > 0) {
 			format = $('.post-type-post .components-panel .editor-post-format select').val();
 			
-			$('#normal-sortables [id*="nectar-metabox-post-"]').hide();
+			$('#normal-sortables [id*="nectar-metabox-post-"]:not(#nectar-metabox-post-config)').hide();
 			
 			if( format == 'gallery' ) {
 				$('#nectar-metabox-post-gallery').stop(true,true).fadeIn(500);
