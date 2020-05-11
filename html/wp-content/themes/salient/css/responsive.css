@@ -725,11 +725,6 @@ Description: Global responsive styles
     padding-left: 0;
   }
 
-  .container .post .post-header h3, 
-  .standard-minimal.post-area .post.quote .post-content h3 {
-    font-size: 18px;
-    line-height: 28px;
-  }
 
   .container .post-header {
     font-size: 12px;
@@ -1801,7 +1796,10 @@ Description: Global responsive styles
   
   .original #header-outer:not([data-transparent-header="true"]) #top #logo img.stnd,
   .ascend #header-outer:not([data-transparent-header="true"]) #top #logo img.stnd,
-  .material #header-outer:not([data-transparent-header="true"]) #top #logo img.stnd {
+  .material #header-outer:not([data-transparent-header="true"]) #top #logo img.stnd,
+  .original #header-outer:not([data-transparent-header="true"]) #top #logo picture.stnd,
+  .ascend #header-outer:not([data-transparent-header="true"]) #top #logo picture.stnd,
+  .material #header-outer:not([data-transparent-header="true"]) #top #logo picture.stnd {
     position: relative;
   }
 

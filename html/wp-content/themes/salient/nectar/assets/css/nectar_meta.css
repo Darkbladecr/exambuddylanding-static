@@ -453,6 +453,13 @@ div.theme-logo {
 	width: 92%;
 }
 
+.wp-admin.post-type-portfolio.salient-portfolio-page-builder-layout #postdivrich,
+.wp-admin.post-type-portfolio.salient-portfolio-page-builder-layout .field__nectar_portfolio_item_layout,
+.wp-admin.post-type-portfolio.salient-portfolio-page-builder-layout .field__nectar_hide_featured {
+	display: none!important;
+}
+
+
 td.inline {
 	width: 40%!important;
 	vertical-align: top;

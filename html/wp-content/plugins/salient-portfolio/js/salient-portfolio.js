@@ -203,10 +203,22 @@
     if( $('body').hasClass('mobile') || navigator.userAgent.match(/(iPad|IEMobile)/) ) {
       
       this.onMobile = true;
+      
       $('body').off('mouseenter mouseleave', '.portfolio-filters');
-      this.$el.parent().parent().find('.portfolio-filters > a, .portfolio-filters ul li a').on('click',function(e) {
+      
+      this.$el.parent().parent().find('.portfolio-filters > a').on('click',function(e) {
         if(e.originalEvent !== undefined) { 
           $(this).parents('.portfolio-filters').find('> ul').stop(true,true).slideToggle(600,'easeOutCubic'); 
+        }
+      });
+      
+      this.$el.parent().parent().find('.portfolio-filters ul li a').on('click',function(e) {
+        if(e.originalEvent !== undefined) { 
+          $(this).parents('.portfolio-filters').find('> ul').stop(true,true).slideToggle(600,'easeOutCubic'); 
+          
+          var $activeCat = $(this).html();
+          $(this).parents('.portfolio-filters').find('a#sort-portfolio span').html($activeCat);
+          
         }
       });
       

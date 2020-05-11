@@ -884,7 +884,7 @@
       
       if( typeof window.vc_mode !== 'undefined' && 'admin_frontend_editor' === window.vc_mode ) {
 
-        $(window).on('nectar_wpbakery_el_save', function() {
+        $(window).on('nectar_wpbakery_el_save nectar_wpbakery_template_add', function() {
       
           var page_content = window.vc.builder.getContent();
 
@@ -923,9 +923,6 @@
         $('body').on('mouseup','.vc_templates-template-type-default_templates button.vc_ui-list-bar-item-trigger',function(){
           
           // When adding studio template, also regenerate the dynamic css
-          setTimeout(function() {
-            $(window).trigger('nectar_wpbakery_el_save');
-          },900);
           setTimeout(function() {
             $(window).trigger('nectar_wpbakery_el_save');
           },1600);

@@ -1670,6 +1670,9 @@ body.vc_editor.compose-mode .vc_row>.span_12>.vc_vc_column_inner>.vc_column_cont
   -ms-flex-direction: column;
   flex-direction: column;
 }
+body.vc_editor.compose-mode #nectar_fullscreen_rows .full-page-inner .vc_column_container>.vc_column-inner {
+  width: 100%;
+}
 
 body.vc_editor.compose-mode .vc_row.vc_row-o-content-middle>.span_12>.vc_vc_column>.vc_column_container>.vc_column-inner,
 body.vc_editor.compose-mode .vc_row.vc_row-o-content-middle>.span_12>.vc_vc_column>.vc_column_container>.column-inner-wrap >.column-inner,
@@ -1797,7 +1800,8 @@ body.compose-mode #fp-nav .vc-c-icon-add:hover {
   overflow: hidden;
 }
 
-body.compose-mode:not(.nectar_using_pfsr):not([data-header-format="left-header"]):not(.single) #ajax-content-wrap {
+body.compose-mode:not(.nectar_using_pfsr):not([data-header-format="left-header"]):not(.single) #ajax-content-wrap,
+body.compose-mode.single-portfolio.remove-default-project-header #ajax-content-wrap {
   padding-top: 30px;
   margin-top: -30px;
 }

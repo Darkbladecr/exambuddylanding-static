@@ -42,6 +42,7 @@ html body .vc_row-fluid > .span_12 > .wpb_column,
 
 html body .vc_row-fluid > .span_12 > .wpb_column:not([class*="offset-"]),
 .compose-mode .vc_row-fluid > .span_12 > .vc_element:not([class*="offset-"]),
+.compose-mode #nectar_fullscreen_rows .full-page-inner > .container > .span_12 > .vc_element:not([class*="offset-"]),
 .compose-mode .vc_row-fluid > .span_12 > .vc_element > .wpb_column:not([class*="offset-"]),
 .full-page-inner > .span_12 > .wpb_column:not([class*="offset-"]),
 .full-page-inner > .container > .span_12 > .wpb_column:not([class*="offset-"]) {

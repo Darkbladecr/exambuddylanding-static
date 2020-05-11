@@ -416,7 +416,7 @@ jQuery(document).ready(function($){
 		$('input#post_type').attr('value') == 'portfolio' && 
 		$('#nectar-metabox-project-configuration ._nectar_portfolio_custom_grid_item .ui-state-active').attr('for') != 'nectar_meta_on'){
 			
-			if($('#nectar-metabox-project-configuration ._nectar_portfolio_item_layout .ui-state-active').attr('for') == 'nectar_meta_enabled'){
+			if($('#nectar-metabox-project-configuration ._nectar_portfolio_item_layout .ui-state-active').attr('for') == 'nectar_meta_enabled') {
 				$('.edit-form-section, .postarea').stop(true,true).slideUp(700);
 				$('#nectar-metabox-portfolio-extra .hndle span').html('Full Width Content');
 				$('#nectar-metabox-portfolio-extra .inside > p:not(.composer-switch)').html('Please enter your portfolio item content here - all nectar shortcodes are available for use.');
@@ -430,10 +430,12 @@ jQuery(document).ready(function($){
 		}
 	}
 	
-	
-	$('label[for=nectar_meta_disabled]').parents('tr').find('.buttonset label').on('click',function(){ 
-    setTimeout(portfolioLayout,60); 
-  });
+	if( $('body.salient-portfolio-page-builder-layout').length == 0 ) {
+    $('label[for=nectar_meta_disabled]').parents('tr').find('.buttonset label').on('click',function(){ 
+      setTimeout(portfolioLayout,60); 
+    });
+  	
+  }
 	
 	
 	// Portfolio custom content grid item
@@ -489,11 +491,16 @@ jQuery(document).ready(function($){
 						$(this).fadeIn(500);
 					}
 				});
+        
 				setTimeout(function(){ $(window).trigger('resize'); },700);
 				$('#wp-_nectar_portfolio_custom_grid_item_content-wrap').parents('tr').fadeOut(500);
-				$('#nectar-metabox-portfolio-extra .hndle span').html('Extra Content');
-				$('#nectar-metabox-portfolio-extra .inside > p:not(.composer-switch)').html('Please use this section to place any extra content you would like to appear in the main content area under your portfolio item. (The above default editor is only used to populate your items sidebar content)');
-			}
+        
+        if( $('body.salient-portfolio-page-builder-layout').length == 0 ) {
+				  $('#nectar-metabox-portfolio-extra .hndle span').html('Extra Content');
+				  $('#nectar-metabox-portfolio-extra .inside > p:not(.composer-switch)').html('Please use this section to place any extra content you would like to appear in the main content area under your portfolio item. (The above default editor is only used to populate your items sidebar content)');
+        } 
+        
+      }
 			
 		}
 	}
@@ -517,7 +524,9 @@ jQuery(document).ready(function($){
 	
 	setTimeout(function(){ 
 		checkVCVis(); 
-		portfolioLayout(); 
+    if( $('body.salient-portfolio-page-builder-layout').length == 0 ) {
+		    portfolioLayout(); 
+    }
 		portfolioLayout2(); 
 	} ,60);
 	

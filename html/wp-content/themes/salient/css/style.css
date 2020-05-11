@@ -2741,6 +2741,9 @@ body[data-hhun="0"] #header-outer[data-header-resize="0"]:not([data-transparent-
     transform: translateX(-50%);
     pointer-events: auto;
   }
+	body[data-slide-out-widget-area-style="slide-out-from-right"]:not(.material) #header-outer[data-format="centered-logo-between-menu"] #top #logo {
+		transform: translateX(-50%)!important;
+	}
   #header-outer[data-format="default"] #top .span_9 {
     margin-left: auto;
   }
@@ -18319,7 +18322,8 @@ body:not([data-form-style="minimal"]) #footer-outer #footer-widgets .col input[t
   margin-bottom:0
 }
 #sidebar h4{
-  color:rgba(0,0,0,0.4);
+  color:#000;
+	opacity: 0.7;
   font-family:'Open Sans';
   font-weight:600;
   font-size:14px;

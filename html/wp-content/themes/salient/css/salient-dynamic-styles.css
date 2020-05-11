@@ -230,6 +230,7 @@ div[data-style="minimal_small"] .toggle.accent-color > h3:after,
 .post.format-link .post-content .link-inner,
 .nectar-post-grid-wrap[data-load-more-color="accent-color"] .load-more:hover,
 .format-status .post-content .status-inner, 
+.nectar-post-grid-item.nectar-new-item .inner:before,
 input[type=submit]:hover, 
 input[type="button"]:hover,  
 body[data-form-submit="regular"] input[type=submit], 
@@ -1439,7 +1440,15 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		background-color: #ffffff; 
 	}body, body h1, body h2, body h3, body h4, body h5, body h6, .masonry.material .masonry-blog-item .grav-wrap .text { 
 		color: #000000; 
-	}body #header-outer, 
+	}
+  #sidebar h4,
+  body .row .col.section-title span {
+   color: #000000; 
+  }
+  .single .heading-title[data-header-style="default_minimal"] .meta-category a {
+    color: #000000; 
+    border-color: #000000; 
+  }body #header-outer, 
 		body #search-outer, 
 		body.ascend #search-outer, 
     body[data-header-format="left-header"].ascend #search-outer,
@@ -1942,25 +1951,26 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		.using-mobile-browser #page-header-wrap.fullscreen-header,
 		.using-mobile-browser #page-header-wrap.fullscreen-header #page-header-bg,
 		.using-mobile-browser #nectar_fullscreen_rows:not(.afterLoaded):not([data-mobile-disable="on"]) > div {
-			height: calc(100vh - 106px);
+			height: calc(100vh - 76px);
 		}
 		.using-mobile-browser .wpb_row.vc_row-o-full-height.top-level, 
 		.using-mobile-browser .wpb_row.vc_row-o-full-height.top-level > .col.span_12 { 
-			min-height: calc(100vh - 106px); 
+			min-height: calc(100vh - 76px); 
 		}
-		#page-header-wrap.fullscreen-header,
-			#page-header-wrap.fullscreen-header #page-header-bg,
-			 html:not(.nectar-box-roll-loaded) .nectar-box-roll > #page-header-bg.fullscreen-header,
-			 .nectar_fullscreen_zoom_recent_projects,
-			 .nectar-slider-wrap[data-fullscreen="true"]:not(.loaded), 
-			 .nectar-slider-wrap[data-fullscreen="true"]:not(.loaded) .swiper-container,
-			 #nectar_fullscreen_rows:not(.afterLoaded):not([data-mobile-disable="on"]) > div {
-				height: calc(100vh - 53px);
+		.admin-bar #page-header-wrap.fullscreen-header,
+			.admin-bar #page-header-wrap.fullscreen-header #page-header-bg,
+			html:not(.nectar-box-roll-loaded) .admin-bar .nectar-box-roll > #page-header-bg.fullscreen-header,
+			.admin-bar .nectar_fullscreen_zoom_recent_projects,
+			.admin-bar .nectar-slider-wrap[data-fullscreen="true"]:not(.loaded), 
+			.admin-bar .nectar-slider-wrap[data-fullscreen="true"]:not(.loaded) .swiper-container,
+			.admin-bar #nectar_fullscreen_rows:not(.afterLoaded):not([data-mobile-disable="on"]) > div  {
+				height: calc(100vh - 1px - 46px);
 			}
-			.wpb_row.vc_row-o-full-height.top-level, 
-			.wpb_row.vc_row-o-full-height.top-level > .col.span_12 { 
-				min-height: calc(100vh - 53px); 
-			}[data-bg-header="true"][data-permanent-transparent="1"] #page-header-wrap.fullscreen-header,
+			.admin-bar .wpb_row.vc_row-o-full-height.top-level, 
+			.admin-bar .wpb_row.vc_row-o-full-height.top-level > .col.span_12 { 
+				min-height: calc(100vh - 1px - 46px); 
+			}
+			[data-bg-header="true"][data-permanent-transparent="1"] #page-header-wrap.fullscreen-header,
 		[data-bg-header="true"][data-permanent-transparent="1"] #page-header-wrap.fullscreen-header #page-header-bg,
 		html:not(.nectar-box-roll-loaded) [data-bg-header="true"][data-permanent-transparent="1"] .nectar-box-roll > #page-header-bg.fullscreen-header,
 		[data-bg-header="true"][data-permanent-transparent="1"] .nectar_fullscreen_zoom_recent_projects,
@@ -1973,8 +1983,8 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		[data-permanent-transparent="1"] .wpb_row.vc_row-o-full-height.top-level > .col.span_12 {	min-height: 100vh; }
 		
 		body[data-transparent-header="false"] #ajax-content-wrap.no-scroll { 
-			min-height:  calc(100vh - 53px);	
-			height: calc(100vh - 53px); 
+			min-height:  calc(100vh - 1px);	
+			height: calc(100vh - 1px); 
 		} 
 		
 	}#ajax-loading-screen .reveal-1 { background-color: #ffffff; }#ajax-loading-screen .reveal-2 { background-color: #ffffff; }
@@ -2442,7 +2452,9 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		 }
 		 
 	 
- #header-outer #logo.no-image, #header-outer[data-format="centered-logo-between-menu"] .logo-spacing[data-using-image="false"] {font-family: Roboto; font-size:25px; line-height:25px; font-weight:500;  } @media only screen and (max-width: 1000px) {
+ #header-outer #logo.no-image, 
+   #header-outer[data-format="centered-menu"] .logo-spacing[data-using-image="false"],
+   #header-outer[data-format="centered-logo-between-menu"] .logo-spacing[data-using-image="false"] {font-family: Roboto; font-size:25px; line-height:25px; font-weight:500;  } @media only screen and (max-width: 1000px) {
        #header-outer #logo.no-image {
          font-size: 24px;
          line-height: 24px;
@@ -2535,7 +2547,8 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		}
 
 		@media only screen and (max-width: 999px) and (min-width: 690px) {
-		.col h2, h2, .single-product div.product h1.product_title, .woocommerce-account .woocommerce > #customer_login .nectar-form-controls .control {
+		.col h2, h2, .single-product div.product h1.product_title, .woocommerce-account .woocommerce > #customer_login .nectar-form-controls .control,
+    .nectar_single_testimonial[data-style="bold"] p {
 				font-size: 33px;
 				line-height: 40.5px;
 			}
@@ -2547,7 +2560,8 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		}
 
 		@media only screen and (max-width: 690px) {
-		.col h2, h2, .single-product div.product h1.product_title, .woocommerce-account .woocommerce > #customer_login .nectar-form-controls .control {
+		.col h2, h2, .single-product div.product h1.product_title, .woocommerce-account .woocommerce > #customer_login .nectar-form-controls .control,
+    .nectar_single_testimonial[data-style="bold"] p {
 				font-size: 26.4px;
 				line-height: 32.4px;
 			}

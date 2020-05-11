@@ -9,6 +9,26 @@
  */
 
 (function ($) {
+  
+    var NectarStickyState = function() {
+      this.scrollTop = $(document).scrollTop();
+      this.scrollLeft = $(document).scrollLeft();
+      this.bindEvents()
+    };
+    
+    NectarStickyState.prototype.bindEvents = function() {
+      
+      var that = this;
+      
+      $(document).on('scroll', function() {
+        that.scrollTop = $(document).scrollTop();
+        that.scrollLeft = $(document).scrollLeft();
+      });
+      
+    };
+    
+    var nectarStickyState = new NectarStickyState();
+    
     $.fn.theiaStickySidebar = function (options) {
         var defaults = {
             'containerSelector': '',
@@ -86,7 +106,7 @@
                 var o = {};
 
                 o.sidebar = $(this);
-
+                
                 // Save options
                 o.options = options || {};
 
@@ -147,7 +167,12 @@
                 else {
                     o.stickySidebarPaddingBottom = 1;
                 }
-
+                
+                // Nectar addition - cache stuff
+                o.stickySidebarVisible = o.stickySidebar.is(":visible");
+                o.windowHeight = $(window).height();
+                // Nectar addition end
+                
                 // We use this to know whether the user is scrolling up or down.
                 o.previousScrollTop = null;
 
@@ -159,18 +184,19 @@
 
                 o.onScroll = function (o) {
 
+                    
                     // Stop if the sidebar isn't visible.
                     //nectar addition of the ocm and search
-                    if (!o.stickySidebar.is(":visible") || $('.ocm-effect-wrap.material-ocm-open').length > 0 ) {
+                    if (!o.stickySidebarVisible || $('.ocm-effect-wrap.material-ocm-open').length > 0 ) {
                         return;
                     }
 
                     // Stop if the window is too small.
-                    if ($('body').width() < o.options.minWidth) {
+                    /*if ($('body').width() < o.options.minWidth) {
                         resetSidebar();
                         return;
-                    }
-
+                    } */
+                    
                     // Stop if the sidebar width is larger than the container width (e.g. the theme is responsive and the sidebar is now below the content)
                     if (o.options.disableOnResponsiveLayouts) {
                         var sidebarWidth = o.sidebar.outerWidth(o.sidebar.css('float') == 'none');
@@ -181,29 +207,35 @@
                         }
                     }
 
-                    var scrollTop = $(document).scrollTop();
+                    var scrollTop = nectarStickyState.scrollTop;
                     var position = 'static';
-
+                    
+                    var cachedOffsetTop = o.sidebar.offset().top;
+                    
                     // If the user has scrolled down enough for the sidebar to be clipped at the top, then we can consider changing its position.
-                    if (scrollTop >= o.sidebar.offset().top + (o.paddingTop - o.options.additionalMarginTop)) {
+                    if (scrollTop >= cachedOffsetTop + (o.paddingTop - o.options.additionalMarginTop)) {
+                        
+                        var cachedOuterHeight = o.stickySidebar.outerHeight();
+                    
                         // The top and bottom offsets, used in various calculations.
                         var offsetTop = o.paddingTop + options.additionalMarginTop;
                         var offsetBottom = o.paddingBottom + o.marginBottom + options.additionalMarginBottom;
 
                         // All top and bottom positions are relative to the window, not to the parent elemnts.
-                        var containerTop = o.sidebar.offset().top;
-                        var containerBottom = o.sidebar.offset().top + getClearedHeight(o.container);
+                        var containerTop = cachedOffsetTop;
+                        var containerBottom = cachedOffsetTop + getClearedHeight(o.container);
 
                         // The top and bottom offsets relative to the window screen top (zero) and bottom (window height).
                         var windowOffsetTop = 0 + options.additionalMarginTop;
                         var windowOffsetBottom;
 
-                        var sidebarSmallerThanWindow = (o.stickySidebar.outerHeight() + offsetTop + offsetBottom) < $(window).height();
+                        
+                        var sidebarSmallerThanWindow = (cachedOuterHeight + offsetTop + offsetBottom) < o.windowHeight;
                         if (sidebarSmallerThanWindow) {
-                            windowOffsetBottom = windowOffsetTop + o.stickySidebar.outerHeight();
+                            windowOffsetBottom = windowOffsetTop + cachedOuterHeight;
                         }
                         else {
-                            windowOffsetBottom = $(window).height() - o.marginBottom - o.paddingBottom - options.additionalMarginBottom;
+                            windowOffsetBottom = o.windowHeight - o.marginBottom - o.paddingBottom - options.additionalMarginBottom;
                         }
 
                         var staticLimitTop = containerTop - scrollTop + o.paddingTop;
@@ -224,30 +256,30 @@
                         }
 
                         if (o.options.sidebarBehavior == 'stick-to-bottom') {
-                            top = windowOffsetBottom - o.stickySidebar.outerHeight();
+                            top = windowOffsetBottom - cachedOuterHeight;
                         }
 
                         if (scrollTopDiff > 0) { // If the user is scrolling up.
                             top = Math.min(top, windowOffsetTop);
                         }
                         else { // If the user is scrolling down.
-                            top = Math.max(top, windowOffsetBottom - o.stickySidebar.outerHeight());
+                            top = Math.max(top, windowOffsetBottom - cachedOuterHeight);
                         }
 
                         top = Math.max(top, staticLimitTop);
 
-                        top = Math.min(top, staticLimitBottom - o.stickySidebar.outerHeight());
+                        top = Math.min(top, staticLimitBottom - cachedOuterHeight);
 
                         // If the sidebar is the same height as the container, we won't use fixed positioning.
-                        var sidebarSameHeightAsContainer = o.container.height() == o.stickySidebar.outerHeight();
+                        var sidebarSameHeightAsContainer = o.container.height() == cachedOuterHeight;
 
                         if (!sidebarSameHeightAsContainer && top == windowOffsetTop) {
                             position = 'fixed';
                         }
-                        else if (!sidebarSameHeightAsContainer && top == windowOffsetBottom - o.stickySidebar.outerHeight()) {
+                        else if (!sidebarSameHeightAsContainer && top == windowOffsetBottom - cachedOuterHeight) {
                             position = 'fixed';
                         }
-                        else if (scrollTop + top - o.sidebar.offset().top - o.paddingTop <= options.additionalMarginTop) {
+                        else if (scrollTop + top - cachedOffsetTop - o.paddingTop <= options.additionalMarginTop) {
                             // Stuck to the top of the page. No special behavior.
                             position = 'static';
                         }
@@ -255,6 +287,7 @@
                             // Stuck to the bottom of the page.
                             position = 'absolute';
                         }
+                      
                     }
 
                     /*
@@ -262,7 +295,7 @@
                      * It's way slower to first check if the values have changed.
                      */
                     if (position == 'fixed') {
-                        var scrollLeft = $(document).scrollLeft();
+                        var scrollLeft = nectarStickyState.scrollLeft;
 
                         o.stickySidebar.css({
                             'position': 'fixed',
@@ -310,8 +343,18 @@
                         o.onScroll(o);
                     };
                 }(o));
+                // nectar addition end
+                $(window).on('load.' + o.options.namespace, function (o) {
+                  o.stickySidebarVisible = o.stickySidebar.is(":visible");
+                  o.windowHeight = $(window).height();
+                }(o));
+                // nectar addition end
                 $(window).on('resize.' + o.options.namespace, function (o) {
                     return function () {
+                      // nectar addition end
+                        o.stickySidebarVisible = o.stickySidebar.is(":visible"); 
+                        o.windowHeight = $(window).height();
+                        // nectar addition end
                         o.stickySidebar.css({'position': 'static'});
                         o.onScroll(o);
                     };

@@ -17,7 +17,8 @@ body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"].transp
   pointer-events: none;
 }
 body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"].transparent .span_9,
-body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"].transparent .span_3 {
+body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"].transparent .span_3,
+body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"].transparent .right-aligned-menu-items {
   pointer-events: all;
 }
 

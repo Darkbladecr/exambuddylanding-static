@@ -207,6 +207,66 @@
 	.redux-container-image_select .redux-image-select img {
 		margin: 5px;
 	}
+	
+	#salient_redux-single_portfolio_project_layout .redux-image-select li {
+		width: 43.9%;
+		padding: 3% 3% 60px;
+		line-height: 0;
+	}
+	#salient_redux-single_portfolio_project_layout .redux-image-select br {
+		display: none;
+	}
+	#salient_redux-single_portfolio_project_layout .redux-image-select label span {
+		position: absolute;
+		bottom: -35px;
+		left: 0;
+	  font-size: 14px;
+		width: 100%;
+		line-height: 1em;
+	}
+	
+	#salient_redux-single_portfolio_project_layout.redux-container-image_select .redux-image-select {
+		background-color: transparent;
+	}
+	
+	#salient_redux-single_portfolio_project_layout .redux-image-select img {
+		margin: 0;
+	}
+		
+	#salient_redux-single_portfolio_project_layout .redux-image-select .single_portfolio_project_layout_1,
+	#salient_redux-single_portfolio_project_layout .redux-image-select .single_portfolio_project_layout_2 {
+		position: relative;
+		padding: 0;
+		line-height: 0;
+	}
+	#salient_redux-single_portfolio_project_layout .redux-image-select .single_portfolio_project_layout_1:after,
+	#salient_redux-single_portfolio_project_layout .redux-image-select .single_portfolio_project_layout_2:after {
+		display: block;
+		width: 100%;
+		height: calc(100% - 8px);
+		position: absolute;
+		background-size: cover;
+		top: 4px;
+		left: 4px;
+		content: '';
+		opacity: 0;
+		z-index: 10;
+		background-color: #000;
+		pointer-events: none;
+		transition: opacity 0.3s ease;
+	}
+	
+	#salient_redux-single_portfolio_project_layout .redux-image-select .single_portfolio_project_layout_1:after {
+		background-image: url('/wp-content/themes/salient/nectar/redux-framework/ReduxCore/assets/img/project-default-hover.jpg');
+	}
+	#salient_redux-single_portfolio_project_layout .redux-image-select .single_portfolio_project_layout_2:after {
+		background-image: url('/wp-content/themes/salient/nectar/redux-framework/ReduxCore/assets/img/project-page-builder-hover.jpg');
+	}
+	
+	#salient_redux-single_portfolio_project_layout .redux-image-select .single_portfolio_project_layout_1:hover:after,
+	#salient_redux-single_portfolio_project_layout .redux-image-select .single_portfolio_project_layout_2:hover:after {
+		opacity: 1;
+	}
 
 	.redux-container-image_select .redux-image-select {
 		padding: 5px;

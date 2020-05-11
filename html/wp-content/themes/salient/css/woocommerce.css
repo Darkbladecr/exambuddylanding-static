@@ -5230,7 +5230,8 @@ body .nectar-quick-view-box h1.product_title.entry-title {
 .woocommerce-account .woocommerce > #customer_login .nectar-form-controls .control.active,
 .woocommerce-tabs .full-width-content[data-tab-style="fullwidth"] ul.tabs li.active a,
 .woocommerce .woocommerce-info a:hover,
-.woocommerce-message a:hover {
+.woocommerce-message a:hover,
+.woocommerce-MyAccount-content .woocommerce-message a.button:hover {
 	background-size: 100% 2px;
 }
 .nectar-quick-view-box .single_add_to_cart_button_wrap a span,
@@ -5249,7 +5250,8 @@ body .nectar-quick-view-box h1.product_title.entry-title {
 
 .nectar-quick-view-box  .single_add_to_cart_button_wrap a.single_add_to_cart_button span,
 .woocommerce .woocommerce-info a,
-.woocommerce-message a {
+.woocommerce-message a,
+.woocommerce-MyAccount-content .woocommerce-message a.button {
 	background-image: linear-gradient(to right, #ffffff 0%, #ffffff 100%);
 }
 

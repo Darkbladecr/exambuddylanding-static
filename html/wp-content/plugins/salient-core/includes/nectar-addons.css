@@ -2735,27 +2735,30 @@ body .vc_edit_form_elements .vc_wrapper-param-type-nectar_numerical.no-device-gr
   transform: none;
   top: auto;
   left: auto; 
-  transition: transform 0.2s ease;
-  font-size: 26px;
+  font-size: 20px;
 }
 
+.vc_edit_form_elements [data-param_type="fws_image"] .gallery_widget_attached_images_list li a,
+.vc_edit_form_elements [data-param_type="attach_image"] .gallery_widget_attached_images_list li a {
+  text-decoration: none;
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  padding: 4px;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+  background-color: rgba(0,0,0,0.4);
+}
 .vc_edit_form_elements [data-param_type="fws_image"] .gallery_widget_attached_images_list li a:hover,
 .vc_edit_form_elements [data-param_type="attach_image"] .gallery_widget_attached_images_list li a:hover {
   opacity: 1;
+  background-color: rgba(0,0,0,0.6);
 }
 
-.vc_edit_form_elements [data-param_type="fws_image"] .gallery_widget_attached_images_list li a:hover i,
-.vc_edit_form_elements [data-param_type="attach_image"] .gallery_widget_attached_images_list li a:hover i {
-  -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
+.vc_edit_form_elements [data-param_type="fws_image"] .gallery_widget_attached_images_list img[src*=".svg"],
+.vc_edit_form_elements [data-param_type="attach_image"] .gallery_widget_attached_images_list img[src*=".svg"] {
+  min-width: 80px;
 }
-.vc_edit_form_elements [data-param_type="fws_image"] .gallery_widget_attached_images_list li a,
-.vc_edit_form_elements [data-param_type="attach_image"] .gallery_widget_attached_images_list li a {
-  text-shadow: 0px 3px 6px rgb(0, 0, 0,0.6);
-  text-decoration: none;
-  padding: 10px;
-}
-
 
 .vc_edit_form_elements input[type=text],
 .vc_edit_form_elements textarea,

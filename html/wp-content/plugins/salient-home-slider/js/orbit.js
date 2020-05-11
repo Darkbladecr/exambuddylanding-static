@@ -618,7 +618,10 @@
                 
                 $that.resetAndUnlock();
                 
-                $(window).trigger('resize'); 
+                if( $('.fancybox-container.fancybox-is-open').length == 0 ) {
+                  $(window).trigger('resize'); 
+                }
+                
                 
                 if( $('#featured').attr('data-caption-animation') == '1' ){
                   $currentSlide.find('.post-title').children().each(function(i){
@@ -849,7 +852,7 @@
   var logoHeight = parseInt($('#header-outer').attr('data-logo-height'));
   var headerPadding = parseInt($('#header-outer').attr('data-padding'));
   var headerPadding2 = parseInt($('#header-outer').attr('data-padding'));
-  var extraDef = 10;
+  var extraDef = 0;
   var headerResize = ($('body').hasClass('pp-video-function')) ? '1' : $('#header-outer').attr('data-header-resize');
   var headerResizeOffExtra = 0;
   var extraHeight = ($('#wpadminbar').length > 0) ? $('#wpadminbar').height() : 0; //admin bar

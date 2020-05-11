@@ -852,6 +852,23 @@ margin: 25px;
   transform: translateY(-4px);
 }
 
+.nectar-post-grid-wrap[data-style="content_under_image"] .nectar-post-grid-item.nectar-new-item .inner:before,
+.nectar-post-grid-wrap[data-style="content_overlaid"] .nectar-post-grid-item.nectar-new-item .inner:before {
+    display: block;
+    border-radius: 50px;
+    padding: 10px 20px;
+    position: absolute;
+    left: 13px;
+    top: 13px;
+    color: #fff;
+    line-height: 16px;
+    font-size: 16px;
+    content: 'New';
+    z-index: 100;
+    transform: scale(0.9) translateZ(0);
+    backface-visibility: hidden;
+}
+
 
 
 /* Featured Image Mouse Follow style */

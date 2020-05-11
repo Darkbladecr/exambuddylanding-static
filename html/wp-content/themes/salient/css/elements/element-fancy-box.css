@@ -483,6 +483,13 @@ body .nectar-fancy-box[data-style="parallax_hover"] .inner > .arrow {
   max-width: 80%;
   transition: opacity .18s cubic-bezier(.05,0.2,.1,1), transform .18s cubic-bezier(.05,0.2,.1,1);
 }
+.nectar-fancy-box[data-style="hover_desc"][data-alignment="center"] .hover-content {
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+  padding: 0 10%;
+}
+
 @media only screen and (max-width: 1300px) {
   .vc_col-sm-3 .nectar-fancy-box[data-style="hover_desc"] .hover-content {
     max-width: 100%;

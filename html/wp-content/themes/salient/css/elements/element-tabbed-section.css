@@ -530,7 +530,7 @@ body .wpb_content_element .wpb_tour_tabs_wrapper .wpb_tab {
 .nectar-scrolling-tabs .scrolling-tab-nav h3,
 .nectar-scrolling-tabs .scrolling-tab-nav h2 {
   margin-bottom: 0;
-  line-height: 1em;
+  line-height: 1.3em;
 }
 
 .nectar-scrolling-tabs .scrolling-tab-nav ul li {
@@ -602,6 +602,10 @@ body .wpb_content_element .wpb_tour_tabs_wrapper .wpb_tab {
     padding-top: 10%;
     padding-bottom: 10%;
   } 
+  
+  .nectar-scrolling-tabs {
+    display: block;
+  }
 }
 
 .nectar-scrolling-tabs[data-tab-spacing] .scrolling-tab-content > div:first-child {

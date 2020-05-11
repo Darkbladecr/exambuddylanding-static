@@ -3721,7 +3721,7 @@
 				// Add titles to mobile 
 				var $title = $(this).html();
 				$tab.prepend('<div class="scrolling-tab-mobile-title"><div class="inner">' + $title + '</div></div>');
-				$tab.find('a').contents().unwrap();
+				$tab.find('.scrolling-tab-mobile-title a').contents().unwrap();
 				
 				// Create normal anchor relation.
 				if( $tab ) {
@@ -6550,7 +6550,7 @@
 						
 						//set perspective for vertical flip
 						if ($that.is('[data-animation="flip-in-vertical"]') || $that.is('[data-animation="slight-twist"]')) {
-							if( $('.page-submenu[data-sticky="true"]').length == 0 ) {
+							if( $('.page-submenu[data-sticky="true"]').length == 0 && $that.parents('.nectar-scrolling-tabs').length == 0 ) {
 								$that.parents('.col.span_12').addClass('flip-in-vertical-wrap');
 							}
 						}
@@ -7610,6 +7610,11 @@
 						
 						var width = ($(this).parents('.nectar_cascading_images').length > 0) ? $(this).parents('.bg-layer').width() : $(this).width();
 						
+						// Shadow img.
+						if( $(this).parents('.img-with-aniamtion-wrap[data-shadow*="depth"]').length > 0 ) {
+							width = $(this).parents('.img-with-aniamtion-wrap').width();
+						}
+						
 						// Post grid.
 						if( $(this).parents('.nectar-post-grid-item-bg-wrap-inner').length > 0 ) {
 							width = $(this).parents('.nectar-post-grid-item-bg-wrap-inner').width();
@@ -7729,7 +7734,7 @@
 					var queryData    = this.queryData;
 					var instance     = this;
 					
-					this.el.find('.nectar-post-grid-filters a, .load-more-wrap:not(.inactive) .load-more').on('click', function(){
+					this.el.find('.nectar-post-grid-filters a, .load-more-wrap:not(.inactive) .load-more').on('click', function() {
 						
 						var $that = $(this);
 						
@@ -7848,11 +7853,17 @@
 							// Mouse follow.
 							nectarPostGridMouse();
 							
-						});
+						}); // end POST
 						
 						return false;
 						
 					});
+					
+					// External project links
+					if( this.el.hasClass('target-blank-external-urls') ) {
+						this.el.find(".nectar-post-grid-item a[href*='http://']:not([href*='" + window.location.hostname + "'])").attr("target", "_blank");
+					}
+					
 					
 				};
 				
@@ -9099,7 +9110,7 @@
 					
 					if ( nectarDOMInfo.usingMobileBrowser && $('#slide-out-widget-area.open').length > 0 ) {
 						OCM_mobileSlideOutRightHoverCloseCheck();
-						return;
+						return false;
 					}
 					
 					if( nectarDOMInfo.usingMobileBrowser ) {
@@ -9207,6 +9218,8 @@
 					
 					if (!nectarDOMInfo.usingMobileBrowser) {
 						$window.on('mousemove.rightOffsetCheck', OCM_slideOutRightHoverCloseCheck);
+					} else {
+						return false;
 					}
 					
 				}
@@ -9450,7 +9463,7 @@
 										
 									}
 								} else {
-									$('#header-outer header#top nav > ul.buttons, body:not(.material) #header-outer .cart-outer .cart-menu-wrap').transition({
+									$('#header-outer header#top nav > ul.buttons, body:not(.material) #header-outer:not([data-format="centered-logo-between-menu"]) .cart-outer .cart-menu-wrap').transition({
 										x: '-300px'
 									}, 700, 'easeInOutCubic');
 								}
@@ -16800,6 +16813,11 @@
 						// Prevent search from triggering on small devices.
 						var $minimumToSearch = ( nectarDOMInfo.winW > 690 ) ? 7 : 200;
 						
+						// Skip search class
+						if( $(this).hasClass('skip-select2-search') || $(this).parents('.skip-select2-search').length > 0 ) {
+							$minimumToSearch = 1000;
+						}
+						
 						if ($(this).parents('#buddypress').length == 0) {
 							
 							if ($(this).parents('.woocommerce-ordering').length == 0) {
@@ -17092,7 +17110,7 @@
 					
 					// Bind reload event
 					$window.on('vc_reload', function() {
-						
+					
 						addRowCtrls();
 						columnBGColors();
 						coloredButtons();
