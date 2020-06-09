@@ -1,0 +1,1 @@
+find . -type f -name '*.xml' -exec sed -i '' s/wp.exambuddy.co.uk/exambuddy.co.uk/g {} +
