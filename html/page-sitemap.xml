@@ -2,14 +2,10 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>/</loc>
-		<lastmod>2020-06-19T23:00:15+00:00</lastmod>
+		<lastmod>2020-06-24T16:51:28+00:00</lastmod>
 		<image:image>
 			<image:loc>/wp-content/uploads/2020/03/jerry-wang-0qmXPnZKeLU-unsplash-scaled.jpg</image:loc>
 			<image:title><![CDATA[jerry-wang-0qmXPnZKeLU-unsplash]]></image:title>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2020/06/apex-1-scaled.jpg</image:loc>
-			<image:title><![CDATA[apex]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>/wp-content/uploads/2019/09/sheng-li-KC5x7jyd33U-unsplash-small.jpg</image:loc>
@@ -51,10 +47,6 @@
 	<url>
 		<loc>/soft-launch-information/</loc>
 		<lastmod>2020-06-19T21:53:45+00:00</lastmod>
-	</url>
-	<url>
-		<loc>/11-video-tutorials/</loc>
-		<lastmod>2020-06-19T23:04:46+00:00</lastmod>
 	</url>
 	<url>
 		<loc>/video-tutorials/</loc>
