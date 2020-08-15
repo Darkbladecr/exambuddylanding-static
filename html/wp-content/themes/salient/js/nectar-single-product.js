@@ -623,9 +623,24 @@ jQuery(document).ready(function($){
   
   if( $('.slider').length > 0 ) { 
     
-    var $startingImage = ($('.slide div a:first > img').length > 0) ? $('.slide div a:first > img').attr('src') : '';
+    var $startingImage = '';
+    var $startingImageThumb = '';
+    
+    
+    if( $('.product[data-n-lazy="1"]').length > 0 && $('.slide div a:first > img[data-nectar-img-src]').length > 0 ) {
+      $startingImage = ($('.slide div a:first > img').length > 0) ? $('.slide div a:first > img').attr('data-nectar-img-src') : '';
+    } else {
+      $startingImage = ($('.slide div a:first > img').length > 0) ? $('.slide div a:first > img').attr('src') : '';
+    }
+    
     var $startingImageLink = ($('.slide div a:first').length > 0) ? $('.slide div a:first').attr('href') : '';
-    var $startingImageThumb = ($('.slider > .thumb:first .thumb-inner img').length > 0) ? $('.slider > .thumb:first .thumb-inner img').attr('src') : $startingImage;
+    
+    if( $('.product[data-n-lazy="1"]').length > 0 && $('.slider > .thumb:first .thumb-inner img[data-nectar-img-src]').length > 0 ) {
+      $startingImageThumb = ($('.slider > .thumb:first .thumb-inner img').length > 0) ? $('.slider > .thumb:first .thumb-inner img').attr('data-nectar-img-src') : $startingImage;
+    } else {
+      $startingImageThumb = ($('.slider > .thumb:first .thumb-inner img').length > 0) ? $('.slider > .thumb:first .thumb-inner img').attr('src') : $startingImage;
+    }
+    
     
     $('select[name*="attribute_"]').on('blur change',function(){
       
@@ -633,6 +648,8 @@ jQuery(document).ready(function($){
       var attr_data = $('.variations_form').data('product_variations');
       
       if($that.val().length > 0) {
+        
+        var storedImg = $('.slide div a:first > img').attr('src');
         
         //give woo time to update img
         setTimeout(function(){
@@ -643,11 +660,12 @@ jQuery(document).ready(function($){
               
               if(el.image.src == $('.slide div a:first > img').attr('src')){     
                 
-                if(el.image.url){
+                if(el.image.url) {
                   $('.slide div a:first').attr('href',el.image.url);
                   $('.slide div a:first > img').attr('src',el.image.src);
-                  
-                  if(el.image.gallery_thumbnail_src) {
+              
+                  if(el.image.gallery_thumbnail_src && storedImg !== el.image.src) {
+                    
                     $('.product-thumbs .flickity-slider > .thumb:first-child img, .product-thumbs .slider > .thumb:first-child img').attr('src',el.image.gallery_thumbnail_src).removeAttr('srcset');
                     
                     //left aligned

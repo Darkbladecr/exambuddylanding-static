@@ -1954,19 +1954,20 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		.using-mobile-browser .wpb_row.vc_row-o-full-height.top-level > .col.span_12 { 
 			min-height: calc(100vh - 106px); 
 		}
-		#page-header-wrap.fullscreen-header,
-			#page-header-wrap.fullscreen-header #page-header-bg,
-			 html:not(.nectar-box-roll-loaded) .nectar-box-roll > #page-header-bg.fullscreen-header,
-			 .nectar_fullscreen_zoom_recent_projects,
-			 .nectar-slider-wrap[data-fullscreen="true"]:not(.loaded), 
-			 .nectar-slider-wrap[data-fullscreen="true"]:not(.loaded) .swiper-container,
-			 #nectar_fullscreen_rows:not(.afterLoaded):not([data-mobile-disable="on"]) > div {
-				height: calc(100vh - 53px);
+		.admin-bar #page-header-wrap.fullscreen-header,
+			.admin-bar #page-header-wrap.fullscreen-header #page-header-bg,
+			html:not(.nectar-box-roll-loaded) .admin-bar .nectar-box-roll > #page-header-bg.fullscreen-header,
+			.admin-bar .nectar_fullscreen_zoom_recent_projects,
+			.admin-bar .nectar-slider-wrap[data-fullscreen="true"]:not(.loaded), 
+			.admin-bar .nectar-slider-wrap[data-fullscreen="true"]:not(.loaded) .swiper-container,
+			.admin-bar #nectar_fullscreen_rows:not(.afterLoaded):not([data-mobile-disable="on"]) > div  {
+				height: calc(100vh - 53px - 46px);
 			}
-			.wpb_row.vc_row-o-full-height.top-level, 
-			.wpb_row.vc_row-o-full-height.top-level > .col.span_12 { 
-				min-height: calc(100vh - 53px); 
-			}[data-bg-header="true"][data-permanent-transparent="1"] #page-header-wrap.fullscreen-header,
+			.admin-bar .wpb_row.vc_row-o-full-height.top-level, 
+			.admin-bar .wpb_row.vc_row-o-full-height.top-level > .col.span_12 { 
+				min-height: calc(100vh - 53px - 46px); 
+			}
+			[data-bg-header="true"][data-permanent-transparent="1"] #page-header-wrap.fullscreen-header,
 		[data-bg-header="true"][data-permanent-transparent="1"] #page-header-wrap.fullscreen-header #page-header-bg,
 		html:not(.nectar-box-roll-loaded) [data-bg-header="true"][data-permanent-transparent="1"] .nectar-box-roll > #page-header-bg.fullscreen-header,
 		[data-bg-header="true"][data-permanent-transparent="1"] .nectar_fullscreen_zoom_recent_projects,

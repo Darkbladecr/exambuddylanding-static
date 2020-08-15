@@ -654,17 +654,6 @@
   left: 0;
   right: 0;}
 
-
-#rpt_pricing_table_pro .hndle {
-  padding: 8px 12px;
-  background:#81c240;
-  color:white;
-}
-
-#rpt_pricing_table_pro .toggle-indicator{
-  color:white !important;
-}
-
 #rpt_pricing_table_pro strong {
     color:black;
 }

@@ -687,7 +687,7 @@ div#nectar-metabox-page-header .inside {
 #nectar-metabox-post-quote .toggle-indicator
 #nectar-metabox-post-link .handlediv,
 #nectar-metabox-post-link .toggle-indicator {
-	color: #fff;
+	color: inherit;
 }
 
 

@@ -12137,192 +12137,192 @@
 		     * @since 10.5
 		     */
 
-				function navigationSearchInit() {
-					
-					var $placeholder = ($('#search-outer #search input[type=text][data-placeholder]').length > 0) ? $('#search-outer #search input[type=text]').attr('data-placeholder') : '';
-					
-					// Material skin add search BG markup.
-					if ($body.hasClass('material') && $('#header-outer .bg-color-stripe').length == 0) {
-						$headerOuterEl.append('<div class="bg-color-stripe" />');
-					}
-					
-					// Prevent jumping on click.
-					$body.on('click', '#search-btn a', function () {
-						return false;
-					});
-					
-					// Open search on mouseup.
-					$body.on('click', '#search-btn a:not(.inactive), #header-outer .mobile-search', function () {
-						
-						if ($(this).hasClass('open-search')) {
-							return false;
-						}
-						
-						// Close menu on original skin.
-						if( $body.hasClass('original') &&	$('.slide-out-widget-area-toggle.mobile-icon a.open').length > 0 ) {
-							$('.slide-out-widget-area-toggle.mobile-icon a')
-								.addClass('non-human-allowed')
-								.trigger('click');
-								
-								setTimeout(function () {
-										$('.slide-out-widget-area-toggle.mobile-icon a').removeClass('non-human-allowed');
-								}, 100);
-						}
-						
-						if ($body.hasClass('ascend') || 
-						$('body[data-header-format="left-header"]').length > 0 && $('body.material').length == 0) {
-							
-							// Ascend theme skin.
-							$('#search-outer > #search form, #search-outer #search .span_12 span, #search-outer #search #close').css('opacity', 0);
-							
-							$('#search-outer > #search form').css('transform', 'translateY(-30px)');
-							$('#search-outer #search .span_12 span').css('transform', 'translateY(20px)');
-							
-							$('#search-outer').show();
-							$('#search-outer').stop().transition({
-								scale: '1,0',
-								'opacity': 1
-							}, 0).transition({
-								scale: '1,1'
-							}, 700, 'cubic-bezier(0.2, 1, 0.3, 1)');
-							
-							$('#search-outer > #search form').delay(350).transition({
-								'opacity': 1,
-								'transform': 'translateY(0)'
-							}, 700, 'cubic-bezier(0.2, 1, 0.3, 1)');
-							
-							$('#search-outer #search #close').delay(500).transition({
-								'opacity': 1
-							}, 700, 'cubic-bezier(0.2, 1, 0.3, 1)');
-							
-							
-							$('#search-outer #search .span_12 span').delay(450).transition({
-								'opacity': 1,
-								'transform': 'translateY(0)'
-							}, 700, 'cubic-bezier(0.2, 1, 0.3, 1)');
-							
-						} 
-						
-						else if (!$body.hasClass('material')) {
-							// Original theme skin.
-							$('#search-outer').stop(true).fadeIn(600, 'easeOutExpo');
-						} 
-						else {
-							
-							// Material theme skin.
-							$('#header-outer[data-transparent-header="true"] .bg-color-stripe').css('transition', '');
-							$('#search-outer, #ajax-content-wrap').addClass('material-open');
-							$headerOuterEl.addClass('material-search-open');
-							$('#fp-nav').addClass('material-ocm-open');
-
-						}
-						
-						
-						setTimeout(function () {
-							
-							$('#search input[type=text]').trigger('focus');
-							
-							if ($('#search input[type=text]').attr('value') == $placeholder) {
-								$('#search input[type=text]').setCursorPosition(0);
-							}
-							
-						}, 300);
-						
-						
-						$(this).toggleClass('open-search');
-						
-						// Close slide out widget area.
-						$('.slide-out-widget-area-toggle a:not(#toggle-nav).open:not(.animating)').trigger('click');
-						
-						return false;
-						
-					});
-					
-					// Handle the placeholder value.
-					$('body:not(.material)').on('keydown', '#search input[type=text]', function () {
-						if ($(this).attr('value') == $placeholder) {
-							$(this).attr('value', '');
-						}
-					});
-					
-					$('body:not(.material)').on('keyup', '#search input[type=text]', function () {
-						if ($(this).attr('value') == '') {
-							$(this).attr('value', $placeholder);
-							$(this).setCursorPosition(0);
-						}
-					});
-					
-					
-					// Close search btn event.
-					$body.on('click', '#close', function () {
-						closeSearch();
-						$searchButtonEl.removeClass('open-search');
-						$('#header-outer .mobile-search').removeClass('open-search');
-						return false;
-					});
-					
-					// Original and Ascend skin close search when clicking off.
-					$('body:not(.material)').on('blur', '#search-box input[type=text]', function () {
-						closeSearch();
-						$searchButtonEl.removeClass('open-search');
-						$('#header-outer .mobile-search').removeClass('open-search');
-					});
-					
-					
-					// Material skin close when clicking off the search.
-					$('body.material').on('click', '#ajax-content-wrap', function (e) {
-						if (e.originalEvent !== undefined) {
-							closeSearch();
-							$searchButtonEl.removeClass('open-search');
-							$('#header-outer .mobile-search').removeClass('open-search');
-						}
-					});
-					
-					// Material skin close on esc button event.
-					if ($('body.material').length > 0) {
-						$(document).on('keyup', function (e) {
-							
-							if (e.keyCode == 27) {
-								closeSearch();
-								$searchButtonEl.removeClass('open-search');
-								
-								// Close ocm material
-								if ($('.ocm-effect-wrap.material-ocm-open').length > 0) {
-									$('.slide-out-widget-area-toggle.material-open a').trigger('click');
-								}
-							}
-							
-						});
-					}
-					
-
-				
-					// Called to hide the search bar.
-					function closeSearch() {
-						
-						if ($body.hasClass('ascend') || $('body[data-header-format="left-header"]').length > 0 && $('body.material').length == 0) {
-							$('#search-outer').stop().transition({
-								'opacity': 0
-							}, 300, 'cubic-bezier(0.2, 1, 0.3, 1)');
-							$searchButtonEl.addClass('inactive');
-							setTimeout(function () {
-								$('#search-outer').hide();
-								$searchButtonEl.removeClass('inactive');
-							}, 300);
-						} else if ($('body.material').length == 0) {
-							$('#search-outer').stop(true).fadeOut(450, 'easeOutExpo');
-						}
-						
-						if ($body.hasClass('material')) {
-							$('#ajax-content-wrap').removeClass('material-open');
-							$headerOuterEl.removeClass('material-search-open');
-							$('#search-outer').removeClass('material-open');
-							$('#fp-nav').removeClass('material-ocm-open');
-						}
-						
-					}
-				
-				}
+				 function navigationSearchInit() {
+ 
+ 					var $placeholder = ($('#search-outer #search input[type=text][data-placeholder]').length > 0) ? $('#search-outer #search input[type=text]').attr('data-placeholder') : '';
+ 
+ 					// Material skin add search BG markup.
+ 					if ($body.hasClass('material') && $('#header-outer .bg-color-stripe').length == 0) {
+ 						$headerOuterEl.append('<div class="bg-color-stripe" />');
+ 					}
+ 
+ 					// Prevent jumping on click.
+ 					$body.on('click', '#search-btn a', function () {
+ 						return false;
+ 					});
+ 
+ 					// Open search on mouseup.
+ 					$body.on('click', '#search-btn a:not(.inactive), #header-outer .mobile-search', function () {
+ 
+ 						if ($(this).hasClass('open-search')) {
+ 							return false;
+ 						}
+ 
+ 						// Close menu on original skin.
+ 						if( $body.hasClass('original') &&	$('.slide-out-widget-area-toggle.mobile-icon a.open').length > 0 ) {
+ 							$('.slide-out-widget-area-toggle.mobile-icon a')
+ 								.addClass('non-human-allowed')
+ 								.trigger('click');
+ 
+ 								setTimeout(function () {
+ 										$('.slide-out-widget-area-toggle.mobile-icon a').removeClass('non-human-allowed');
+ 								}, 100);
+ 						}
+ 
+ 						if ($body.hasClass('ascend') ||
+ 						$('body[data-header-format="left-header"]').length > 0 && $('body.material').length == 0) {
+ 
+ 							// Ascend theme skin.
+ 							$('#search-outer > #search form, #search-outer #search .span_12 span, #search-outer #search #close').css('opacity', 0);
+ 
+ 							$('#search-outer > #search form').css('transform', 'translateY(-30px)');
+ 							$('#search-outer #search .span_12 span').css('transform', 'translateY(20px)');
+ 
+ 							$('#search-outer').show();
+ 							$('#search-outer').stop().transition({
+ 								scale: '1,0',
+ 								'opacity': 1
+ 							}, 0).transition({
+ 								scale: '1,1'
+ 							}, 700, 'cubic-bezier(0.2, 1, 0.3, 1)');
+ 
+ 							$('#search-outer > #search form').delay(350).transition({
+ 								'opacity': 1,
+ 								'transform': 'translateY(0)'
+ 							}, 700, 'cubic-bezier(0.2, 1, 0.3, 1)');
+ 
+ 							$('#search-outer #search #close').delay(500).transition({
+ 								'opacity': 1
+ 							}, 700, 'cubic-bezier(0.2, 1, 0.3, 1)');
+ 
+ 
+ 							$('#search-outer #search .span_12 span').delay(450).transition({
+ 								'opacity': 1,
+ 								'transform': 'translateY(0)'
+ 							}, 700, 'cubic-bezier(0.2, 1, 0.3, 1)');
+ 
+ 						}
+ 
+ 						else if (!$body.hasClass('material')) {
+ 							// Original theme skin.
+ 							$('#search-outer').stop(true).fadeIn(600, 'easeOutExpo');
+ 						}
+ 						else {
+ 
+ 							// Material theme skin.
+ 							$('#header-outer[data-transparent-header="true"] .bg-color-stripe').css('transition', '');
+ 							$('#search-outer, #ajax-content-wrap').addClass('material-open');
+ 							$headerOuterEl.addClass('material-search-open');
+ 							$('#fp-nav').addClass('material-ocm-open');
+ 
+ 						}
+ 
+ 
+ 						setTimeout(function () {
+ 
+ 							$('#search input[type=text]').trigger('focus');
+ 
+ 							if ($('#search input[type=text]').val() == $placeholder) {
+ 								$('#search input[type=text]').setCursorPosition(0);
+ 							}
+ 
+ 						}, 300);
+ 
+ 
+ 						$(this).toggleClass('open-search');
+ 
+ 						// Close slide out widget area.
+ 						$('.slide-out-widget-area-toggle a:not(#toggle-nav).open:not(.animating)').trigger('click');
+ 
+ 						return false;
+ 
+ 					});
+ 
+ 					// Handle the placeholder value.
+ 					$('body:not(.material)').on('keydown', '#search input[type=text]', function () {
+ 						if ($(this).val() == $placeholder) {
+ 							$(this).val('');
+ 						}
+ 					});
+ 
+ 					$('body:not(.material)').on('keyup', '#search input[type=text]', function () {
+ 						if ($(this).val().length == 0 ) {
+ 							$(this).val($placeholder);
+ 							$(this).setCursorPosition(0);
+ 						}
+ 					});
+ 
+ 
+ 					// Close search btn event.
+ 					$body.on('click', '#close', function () {
+ 						closeSearch();
+ 						$searchButtonEl.removeClass('open-search');
+ 						$('#header-outer .mobile-search').removeClass('open-search');
+ 						return false;
+ 					});
+ 
+ 					// Original and Ascend skin close search when clicking off.
+ 					$('body:not(.material)').on('blur', '#search-box input[type=text]', function () {
+ 						closeSearch();
+ 						$searchButtonEl.removeClass('open-search');
+ 						$('#header-outer .mobile-search').removeClass('open-search');
+ 					});
+ 
+ 
+ 					// Material skin close when clicking off the search.
+ 					$('body.material').on('click', '#ajax-content-wrap', function (e) {
+ 						if (e.originalEvent !== undefined) {
+ 							closeSearch();
+ 							$searchButtonEl.removeClass('open-search');
+ 							$('#header-outer .mobile-search').removeClass('open-search');
+ 						}
+ 					});
+ 
+ 					// Material skin close on esc button event.
+ 					if ($('body.material').length > 0) {
+ 						$(document).on('keyup', function (e) {
+ 
+ 							if (e.keyCode == 27) {
+ 								closeSearch();
+ 								$searchButtonEl.removeClass('open-search');
+ 
+ 								// Close ocm material
+ 								if ($('.ocm-effect-wrap.material-ocm-open').length > 0) {
+ 									$('.slide-out-widget-area-toggle.material-open a').trigger('click');
+ 								}
+ 							}
+ 
+ 						});
+ 					}
+ 
+ 
+ 
+ 					// Called to hide the search bar.
+ 					function closeSearch() {
+ 
+ 						if ($body.hasClass('ascend') || $('body[data-header-format="left-header"]').length > 0 && $('body.material').length == 0) {
+ 							$('#search-outer').stop().transition({
+ 								'opacity': 0
+ 							}, 300, 'cubic-bezier(0.2, 1, 0.3, 1)');
+ 							$searchButtonEl.addClass('inactive');
+ 							setTimeout(function () {
+ 								$('#search-outer').hide();
+ 								$searchButtonEl.removeClass('inactive');
+ 							}, 300);
+ 						} else if ($('body.material').length == 0) {
+ 							$('#search-outer').stop(true).fadeOut(450, 'easeOutExpo');
+ 						}
+ 
+ 						if ($body.hasClass('material')) {
+ 							$('#ajax-content-wrap').removeClass('material-open');
+ 							$headerOuterEl.removeClass('material-search-open');
+ 							$('#search-outer').removeClass('material-open');
+ 							$('#fp-nav').removeClass('material-ocm-open');
+ 						}
+ 
+ 					}
+ 
+ 				}
 				
 				
 			
