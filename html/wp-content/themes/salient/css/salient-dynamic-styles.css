@@ -619,7 +619,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		#header-outer #top nav > ul > .button_bordered_2 > a:hover,
 		#header-outer[data-lhe="default"] #top nav > ul > .button_bordered_2 > a:hover,
 		#header-outer[data-lhe="default"] #top nav .sf-menu .button_bordered_2.current-menu-item > a {
-				color: #ff197c!important;
+				color: #ff9400!important;
 		}
 		
 		#top nav > ul > .button_solid_color_2 > a:before, 
@@ -630,13 +630,13 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		.woocommerce-page ul.products li.product .onsale, 
 		.woocommerce span.onsale, 
 		.woocommerce-page span.onsale {
-				background-color: #ff197c;
+				background-color: #ff9400;
 		}
 		
 		#header-outer .woocommerce.widget_shopping_cart .cart_list li a.remove, 
 		#header-outer .woocommerce.widget_shopping_cart .cart_list li a.remove, 
 		#header-outer:not(.transparent) #top nav > ul > .button_bordered_2 > a:hover:before {
-			border-color: #ff197c;
+			border-color: #ff9400;
 		}
 	
 	
@@ -659,7 +659,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		div[data-style="minimal"] .toggle.extra-color-1.open h3 a, 
 		div[data-style="minimal_small"] .toggle.extra-color-1 > h3 a:hover, 
 		div[data-style="minimal_small"] .toggle.extra-color-1.open > h3 a {
-			color: #ff197c;
+			color: #ff9400;
 		}
 		
 		
@@ -678,7 +678,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		 .nectar_single_testimonial[data-color="extra-color-1"] p .open-quote, 
 		 .nectar-icon-list[data-icon-color="extra-color-1"] .nectar-icon-list-item .list-icon-holder[data-icon_type="numerical"],
 		 .no-highlight.extra-color-1 h3 {
-			color: #ff197c!important;
+			color: #ff9400!important;
 		}
 		
 
@@ -717,7 +717,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		div[data-style="minimal_small"] .toggle.extra-color-1 > h3:after,
 		.toggle.open.extra-color-1 h3 a,
     .nectar-hor-list-item[data-hover-effect="full_border"][data-color="extra-color-1"] .nectar-list-item-btn:hover {
-			background-color: #ff197c;
+			background-color: #ff9400;
 		}
 		
 		.nectar-button.regular-button.extra-color-1, 
@@ -754,37 +754,37 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		.swiper-slide .button.solid_color_2 .extra-color-1,
 		.pricing-column.highlight.extra-color-1 h3
 		{
-			background-color: #ff197c!important;
+			background-color: #ff9400!important;
 		}
 		
 		.nectar-leaflet-map[data-nectar-marker-color="extra-color-1"] .nectar-leaflet-pin { 
-			border: 10px solid #ff197c; 
+			border: 10px solid #ff9400; 
 		}
 		
 		.nectar_icon_wrap .svg-icon-holder[data-color="extra-color-1"] svg path { 
-			stroke:#ff197c!important; 
+			stroke:#ff9400!important; 
 		}
 		
 		body.material[data-button-style^="rounded"] .nectar-button.see-through.extra-color-1[data-color-override="false"] i:after { 
-			box-shadow: #ff197c 0px 8px 15px; opacity: 0.24; 
+			box-shadow: #ff9400 0px 8px 15px; opacity: 0.24; 
 		}
     .nectar_icon_wrap[data-style="shadow-bg"][data-color="extra-color-1"] .nectar_icon:before {
-      box-shadow: 0px 15px 28px #ff197c; opacity: 0.3; 
+      box-shadow: 0px 15px 28px #ff9400; opacity: 0.3; 
     }   
     
     .tabbed[data-style="minimal_flexible"][data-color-scheme="extra-color-1"] .wpb_tabs_nav > li a:before {
-      box-shadow: 0px 8px 22px #ff197c;
+      box-shadow: 0px 8px 22px #ff9400;
     } 
 		
 		.tabbed[data-style*="material"][data-color-scheme="extra-color-1"] ul li .active-tab:after { 
-			 box-shadow: 0px 18px 50px  #ff197c; 
+			 box-shadow: 0px 18px 50px  #ff9400; 
 		 }
 		
 		.nectar-fancy-box[data-style="color_box_hover"][data-color="extra-color-1"]:before { 
-			box-shadow: 0 30px 90px #ff197c; 
+			box-shadow: 0 30px 90px #ff9400; 
 		} 
     .nectar-fancy-box[data-style="hover_desc"][data-color="extra-color-1"]:before {
-      background: linear-gradient(to bottom, rgba(0,0,0,0), #ff197c 100%);
+      background: linear-gradient(to bottom, rgba(0,0,0,0), #ff9400 100%);
     }
 		
 		body .col:not(.post-area):not(.span_12):not(#sidebar):hover .extra-color-1.hovered .circle-border, 
@@ -799,16 +799,16 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		.span_12.dark .nectar_video_lightbox.play_button_with_text[data-color="extra-color-1"] .play:after,
 		.tabbed[data-color-scheme="extra-color-1"][data-style="default"] li:not(.cta-button) .active-tab,
     .nectar-hor-list-item[data-hover-effect="full_border"][data-color="extra-color-1"]:hover { 
-			border-color:#ff197c; 
+			border-color:#ff9400; 
 		}
 		
 		body.material .nectar-button.see-through.extra-color-1[data-color-override="false"] { 
-			border-color:#ff197c!important; 
+			border-color:#ff9400!important; 
 		}
 		
 		
 		.im-icon-wrap[data-color="extra-color-1"] path {
-				 fill: #ff197c;
+				 fill: #ff9400;
 		}
 		
 		
@@ -831,7 +831,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		div[data-style="minimal"] .toggle.extra-color-2.open h3 a, 
 		div[data-style="minimal_small"] .toggle.extra-color-2 > h3 a:hover, 
 		div[data-style="minimal_small"] .toggle.extra-color-2.open > h3 a {
-			color: #4fa1ff;
+			color: #ff924f;
 		}
 		
 		
@@ -850,7 +850,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		 .nectar_single_testimonial[data-color="extra-color-2"] p .open-quote, 
 		 .nectar-icon-list[data-icon-color="extra-color-2"] .nectar-icon-list-item .list-icon-holder[data-icon_type="numerical"],
 		 .no-highlight.extra-color-2 h3 {
-			color: #4fa1ff!important;
+			color: #ff924f!important;
 		}
 		
 
@@ -889,7 +889,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		div[data-style="minimal_small"] .toggle.extra-color-2 > h3:after,
 		.toggle.open.extra-color-2 h3 a,
     .nectar-hor-list-item[data-hover-effect="full_border"][data-color="extra-color-2"] .nectar-list-item-btn:hover {
-			background-color: #4fa1ff;
+			background-color: #ff924f;
 		}
 		
 		.nectar-button.regular-button.extra-color-2, 
@@ -926,37 +926,37 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		.swiper-slide .button.solid_color_2 .extra-color-2,
 		.pricing-column.highlight.extra-color-2 h3
 		{
-			background-color: #4fa1ff!important;
+			background-color: #ff924f!important;
 		}
 		
 		.nectar-leaflet-map[data-nectar-marker-color="extra-color-2"] .nectar-leaflet-pin { 
-			border: 10px solid #4fa1ff; 
+			border: 10px solid #ff924f; 
 		}
 		
 		.nectar_icon_wrap .svg-icon-holder[data-color="extra-color-2"] svg path { 
-			stroke:#4fa1ff!important; 
+			stroke:#ff924f!important; 
 		}
 		
 		body.material[data-button-style^="rounded"] .nectar-button.see-through.extra-color-2[data-color-override="false"] i:after { 
-			box-shadow: #4fa1ff 0px 8px 15px; opacity: 0.24; 
+			box-shadow: #ff924f 0px 8px 15px; opacity: 0.24; 
 		}
     .nectar_icon_wrap[data-style="shadow-bg"][data-color="extra-color-2"] .nectar_icon:before {
-      box-shadow: 0px 15px 28px #4fa1ff; opacity: 0.3; 
+      box-shadow: 0px 15px 28px #ff924f; opacity: 0.3; 
     }   
     
     .tabbed[data-style="minimal_flexible"][data-color-scheme="extra-color-2"] .wpb_tabs_nav > li a:before {
-      box-shadow: 0px 8px 22px #4fa1ff;
+      box-shadow: 0px 8px 22px #ff924f;
     } 
 		
 		.tabbed[data-style*="material"][data-color-scheme="extra-color-2"] ul li .active-tab:after { 
-			 box-shadow: 0px 18px 50px  #4fa1ff; 
+			 box-shadow: 0px 18px 50px  #ff924f; 
 		 }
 		
 		.nectar-fancy-box[data-style="color_box_hover"][data-color="extra-color-2"]:before { 
-			box-shadow: 0 30px 90px #4fa1ff; 
+			box-shadow: 0 30px 90px #ff924f; 
 		} 
     .nectar-fancy-box[data-style="hover_desc"][data-color="extra-color-2"]:before {
-      background: linear-gradient(to bottom, rgba(0,0,0,0), #4fa1ff 100%);
+      background: linear-gradient(to bottom, rgba(0,0,0,0), #ff924f 100%);
     }
 		
 		body .col:not(.post-area):not(.span_12):not(#sidebar):hover .extra-color-2.hovered .circle-border, 
@@ -971,16 +971,16 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		.span_12.dark .nectar_video_lightbox.play_button_with_text[data-color="extra-color-2"] .play:after,
 		.tabbed[data-color-scheme="extra-color-2"][data-style="default"] li:not(.cta-button) .active-tab,
     .nectar-hor-list-item[data-hover-effect="full_border"][data-color="extra-color-2"]:hover { 
-			border-color:#4fa1ff; 
+			border-color:#ff924f; 
 		}
 		
 		body.material .nectar-button.see-through.extra-color-2[data-color-override="false"] { 
-			border-color:#4fa1ff!important; 
+			border-color:#ff924f!important; 
 		}
 		
 		
 		.im-icon-wrap[data-color="extra-color-2"] path {
-				 fill: #4fa1ff;
+				 fill: #ff924f;
 		}
 		
 		
@@ -1905,26 +1905,26 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		 body #header-outer[data-lhe="default"] #top nav .sf-menu > li[class*="button_bordered"] > a:hover,
 		 body #header-outer.transparent #top nav > ul > li[class*="button_solid_color"] > a, 
 		 #header-outer[data-lhe="animated_underline"] #top nav > ul > li[class*="button_solid_color"] > a { 
-			 margin-left: 26px; 
-			 margin-right: 26px; 
-		 }
-		 
-		 #header-outer[data-lhe="default"] #top nav > ul > li > a { 
-			 padding-left: 26px; 
-			 padding-right: 26px; 
-		 }
-		 
-		 #header-outer[data-lhe="animated_underline"][data-condense="true"][data-format="centered-menu-bottom-bar"].fixed-menu #top nav > ul > li > a { 
 			 margin-left: 20px; 
 			 margin-right: 20px; 
 		 }
 		 
-		 #header-outer[data-lhe="default"][data-condense="true"][data-format="centered-menu-bottom-bar"].fixed-menu #top nav > ul > li > a { 
+		 #header-outer[data-lhe="default"] #top nav > ul > li > a { 
 			 padding-left: 20px; 
 			 padding-right: 20px; 
 		 }
+		 
+		 #header-outer[data-lhe="animated_underline"][data-condense="true"][data-format="centered-menu-bottom-bar"].fixed-menu #top nav > ul > li > a { 
+			 margin-left: 15px; 
+			 margin-right: 15px; 
+		 }
+		 
+		 #header-outer[data-lhe="default"][data-condense="true"][data-format="centered-menu-bottom-bar"].fixed-menu #top nav > ul > li > a { 
+			 padding-left: 15px; 
+			 padding-right: 15px; 
+		 }
 		 #header-outer #top .sf-menu > .sf-with-ul > a { 
-					 padding-right: 36px!important;
+					 padding-right: 30px!important;
 				 }
 	 			 #header-outer[data-lhe="animated_underline"] #top .sf-menu > .sf-with-ul:not([class*="button"]) > a { 
 					 padding-right: 10px!important;
@@ -1933,9 +1933,9 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 					 padding-right: 26px!important;
 				 }
 				 #header-outer[data-lhe="default"][data-condense="true"][data-format="centered-menu-bottom-bar"].fixed-menu #top nav .sf-menu > .sf-with-ul > a { 
-					 padding-right: 30px!important;
+					 padding-right: 25px!important;
 				 }body.material[data-header-format="default"] #header-outer[data-has-buttons="yes"]:not([data-format="left-header"]) #top nav >.buttons { 
-				 margin-left: 52px; 
+				 margin-left: 40px; 
 			 }#header-space { 
 		 height: 96px;
 	 }
@@ -1954,20 +1954,19 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		.using-mobile-browser .wpb_row.vc_row-o-full-height.top-level > .col.span_12 { 
 			min-height: calc(100vh - 106px); 
 		}
-		.admin-bar #page-header-wrap.fullscreen-header,
-			.admin-bar #page-header-wrap.fullscreen-header #page-header-bg,
-			html:not(.nectar-box-roll-loaded) .admin-bar .nectar-box-roll > #page-header-bg.fullscreen-header,
-			.admin-bar .nectar_fullscreen_zoom_recent_projects,
-			.admin-bar .nectar-slider-wrap[data-fullscreen="true"]:not(.loaded), 
-			.admin-bar .nectar-slider-wrap[data-fullscreen="true"]:not(.loaded) .swiper-container,
-			.admin-bar #nectar_fullscreen_rows:not(.afterLoaded):not([data-mobile-disable="on"]) > div  {
-				height: calc(100vh - 53px - 46px);
+		#page-header-wrap.fullscreen-header,
+			#page-header-wrap.fullscreen-header #page-header-bg,
+			 html:not(.nectar-box-roll-loaded) .nectar-box-roll > #page-header-bg.fullscreen-header,
+			 .nectar_fullscreen_zoom_recent_projects,
+			 .nectar-slider-wrap[data-fullscreen="true"]:not(.loaded), 
+			 .nectar-slider-wrap[data-fullscreen="true"]:not(.loaded) .swiper-container,
+			 #nectar_fullscreen_rows:not(.afterLoaded):not([data-mobile-disable="on"]) > div {
+				height: calc(100vh - 53px);
 			}
-			.admin-bar .wpb_row.vc_row-o-full-height.top-level, 
-			.admin-bar .wpb_row.vc_row-o-full-height.top-level > .col.span_12 { 
-				min-height: calc(100vh - 53px - 46px); 
-			}
-			[data-bg-header="true"][data-permanent-transparent="1"] #page-header-wrap.fullscreen-header,
+			.wpb_row.vc_row-o-full-height.top-level, 
+			.wpb_row.vc_row-o-full-height.top-level > .col.span_12 { 
+				min-height: calc(100vh - 53px); 
+			}[data-bg-header="true"][data-permanent-transparent="1"] #page-header-wrap.fullscreen-header,
 		[data-bg-header="true"][data-permanent-transparent="1"] #page-header-wrap.fullscreen-header #page-header-bg,
 		html:not(.nectar-box-roll-loaded) [data-bg-header="true"][data-permanent-transparent="1"] .nectar-box-roll > #page-header-bg.fullscreen-header,
 		[data-bg-header="true"][data-permanent-transparent="1"] .nectar_fullscreen_zoom_recent_projects,
@@ -2426,7 +2425,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		.woocommerce-page ul.products li.product h3, .row .col.section-title .nectar-love span, body .nectar-love span, 
 		body .nectar-social .nectar-love .nectar-love-count, body .carousel-heading h2, .sharing-default-minimal .nectar-social .social-text, 
 		body .sharing-default-minimal .nectar-love, .widget ul.nectar_widget[class*="nectar_blog_posts_"] > li .post-date, 
-		.single [data-post-hs="default_minimal"] #single-below-header span, .single .heading-title[data-header-style="default_minimal"] #single-below-header span {font-family: Roboto; font-size:18px; line-height:32px; font-weight:400; }.bold, strong, b { font-family: Roboto; font-weight: 600; } .single #single-below-header span { font-family: Roboto;  }.nectar-fancy-ul ul li .icon-default-style[class^="icon-"] {line-height:32px;}     
+		.single [data-post-hs="default_minimal"] #single-below-header span, .single .heading-title[data-header-style="default_minimal"] #single-below-header span {font-family: Copse, sans-serif; font-size:18px; line-height:32px; font-weight:400; }.bold, strong, b { font-family: Copse, sans-serif; font-weight: 600; } .single #single-below-header span { font-family: Copse, sans-serif;  }.nectar-fancy-ul ul li .icon-default-style[class^="icon-"] {line-height:32px;}     
 		 @media only screen and (max-width: 1300px) and (min-width: 1000px) {
 			 body {
 				 font-size: 18px;
@@ -2451,29 +2450,29 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 	 
  #header-outer #logo.no-image, 
    #header-outer[data-format="centered-menu"] .logo-spacing[data-using-image="false"],
-   #header-outer[data-format="centered-logo-between-menu"] .logo-spacing[data-using-image="false"] {font-family: Roboto; font-size:25px; line-height:25px; font-weight:500;  } @media only screen and (max-width: 1000px) {
+   #header-outer[data-format="centered-logo-between-menu"] .logo-spacing[data-using-image="false"] {font-family: Copse, sans-serif; font-size:25px; line-height:25px;  } @media only screen and (max-width: 1000px) {
        #header-outer #logo.no-image {
          font-size: 24px;
          line-height: 24px;
        }
      }#top nav > ul > li > a, .span_3 .pull-left-wrap > ul > li > a, body.material #search-outer #search input[type="text"], #top nav ul .slide-out-widget-area-toggle a i.label,
     #top .span_9 > .slide-out-widget-area-toggle a.using-label .label, #header-secondary-outer .nectar-center-text, #slide-out-widget-area .secondary-header-text, 
-    #header-outer #mobile-menu ul li a, #header-outer #mobile-menu .secondary-header-text {font-family: Cabin; font-size:16px; line-height:16px; font-weight:700;  }#top nav > ul > li[class*="button_solid_color"] > a:before, #header-outer.transparent #top nav > ul > li[class*="button_solid_color"] > a:before, #header-outer #top .slide-out-widget-area-toggle[data-custom-color="true"] a:before { 
+    #header-outer #mobile-menu ul li a, #header-outer #mobile-menu .secondary-header-text {font-family: Copse, sans-serif; font-size:16px; line-height:16px; font-weight:700;  }#top nav > ul > li[class*="button_solid_color"] > a:before, #header-outer.transparent #top nav > ul > li[class*="button_solid_color"] > a:before, #header-outer #top .slide-out-widget-area-toggle[data-custom-color="true"] a:before { 
 		    		height: 27px; 
 		    	}#top nav > ul > li[class*="button_bordered"] > a:before, #header-outer.transparent #top nav > ul > li[class*="button_bordered"] > a:before { 
 		    		height: 37px; 
 		    	}.material .sf-menu > li > a > .sf-sub-indicator [class^="icon-"] { font-size: 18px; }#top .sf-menu li ul li a, #header-secondary-outer nav > ul > li > a, 
-		#header-secondary-outer ul ul li a, #header-outer .widget_shopping_cart .cart_list a {font-family: Roboto; font-size:14px; line-height:26px; font-weight:400;  }		
+		#header-secondary-outer ul ul li a, #header-outer .widget_shopping_cart .cart_list a {font-family: Copse, sans-serif; font-size:14px; line-height:26px; font-weight:400;  }		
 		
 		@media only screen 
 		and (min-width : 1px) and (max-width : 999px) 
 		{
 		  #top .sf-menu a {
-		  	font-family: Roboto!important;
+		  	font-family: Copse, sans-serif!important;
 		  	font-size: 14px!important;
 		  }
 		}#page-header-bg h1, body h1, body .row .col.section-title h1, 
-			.full-width-content .nectar-recent-posts-slider .recent-post-container .inner-wrap h2, body #error-404 h1 {font-family: Cabin; font-size:62px; line-height:77px; font-weight:700;  }
+			.full-width-content .nectar-recent-posts-slider .recent-post-container .inner-wrap h2, body #error-404 h1 {font-family: Copse, sans-serif; font-size:62px; line-height:77px; font-weight:700;  }
 			@media only screen and (max-width: 1300px) and (min-width: 1000px) {
 				body .row .col.section-title h1, body h1, .full-width-content .recent-post-container .inner-wrap h2 {
 					font-size: 46.5px;
@@ -2525,7 +2524,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		article.post.link .post-content h2, #call-to-action span, .woocommerce .full-width-tabs #reviews h3, 
 		.row .col.section-title h2, .nectar_single_testimonial[data-style="bold"] p,
 		.woocommerce-account .woocommerce > #customer_login .nectar-form-controls .control,
-		body #error-404 h2, .woocommerce-page .woocommerce p.cart-empty { font-family: Cabin; font-size:44px; line-height:54px; font-weight:700;  }		
+		body #error-404 h2, .woocommerce-page .woocommerce p.cart-empty { font-family: Copse, sans-serif; font-size:44px; line-height:54px; font-weight:700;  }		
 		.single-product div.product h1.product_title {
 			font-size: 44px;
 			line-height: 54px;
@@ -2572,7 +2571,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 	body h3, .row .col h3, .toggle h3 a, .ascend #respond h3, .ascend h3#comments, 
 	.woocommerce ul.products li.product.text_on_hover h3, .masonry.classic_enhanced .masonry-blog-item h3.title, 
 	.woocommerce ul.products li.product.material h3, .woocommerce-page ul.products li.product.material h3, .portfolio-items[data-ps="8"] .col h3,
-	.nectar-hor-list-item[data-font-family="h3"], .woocommerce ul.products li.product h2, .nectar-quick-view-box h1 { font-family: Cabin; font-size:30px; line-height:38px; font-weight:600;  }	
+	.nectar-hor-list-item[data-font-family="h3"], .woocommerce ul.products li.product h2, .nectar-quick-view-box h1 { font-family: Copse, sans-serif; font-size:30px; line-height:38px;  }	
 	@media only screen and (min-width: 1000px) {
 		.ascend .comments-section .comment-wrap.full-width-section > h3#comments, .blog_next_prev_buttons[data-post-header-style="default_minimal"] .col h3 {
 			font-size: 51px;
@@ -2644,7 +2643,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		.portfolio-items .col.span_3 .work-meta h4, #respond h3, .blog-recent.related-posts h3.title, h3#comments, 
 		.portfolio-items[data-ps="6"] .work-meta h4, .nectar-hor-list-item[data-font-family="h4"], .toggles[data-style="minimal_small"] .toggle > h3 a, 
 		.woocommerce #reviews #reply-title, p.woocommerce.add_to_cart_inline > span.woocommerce-Price-amount, 
-		p.woocommerce.add_to_cart_inline ins > span.woocommerce-Price-amount, #header-outer .total, #header-outer .total strong { font-family: Cabin; font-size:18px; line-height:28px; font-weight:700;  }		
+		p.woocommerce.add_to_cart_inline ins > span.woocommerce-Price-amount, #header-outer .total, #header-outer .total strong { font-family: Copse, sans-serif; font-size:18px; line-height:28px; font-weight:700;  }		
 		@media only screen and (min-width: 690px) {
 			.portfolio-items[data-ps="6"] .wide_tall .work-meta h4 {
 				font-size: 30.6px!important;
@@ -2652,7 +2651,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 			}
 
 			.nectar-slide-in-cart .widget_shopping_cart .cart_list .mini_cart_item > a:not(.remove) {
-				font-family: Cabin!important;font-weight:700!important;			}
+				font-family: Copse, sans-serif!important;font-weight:700!important;			}
 
 		}
 
@@ -2679,7 +2678,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		}
 		
 		
-	body h5, .row .col h5, .portfolio-items .work-item.style-3-alt p, .nectar-hor-list-item[data-font-family="h5"] { font-family: Cabin; font-size:15px; line-height:22px; font-weight:500;  }
+	body h5, .row .col h5, .portfolio-items .work-item.style-3-alt p, .nectar-hor-list-item[data-font-family="h5"] { font-family: Copse, sans-serif; font-size:15px; line-height:22px;  }
 		body .wpb_column > .wpb_wrapper > .morphing-outline .inner > h5 {
 			font-size: 21px;
 		}
@@ -2712,7 +2711,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 
 	body i, body em, .masonry.meta_overlaid article.post .post-header .meta-author > span, .post-area.masonry.meta_overlaid article.post .post-meta .date,
 		.post-area.masonry.meta_overlaid article.post.quote .quote-inner .author, .post-area.masonry.meta_overlaid  article.post.link .post-content .destination,
-		body .testimonial_slider[data-style="minimal"] blockquote span.title { font-family: Cabin; font-size:16px; line-height:16px; font-weight:400; font-style: italic;  }		
+		body .testimonial_slider[data-style="minimal"] blockquote span.title { font-family: Copse, sans-serif; font-size:16px; line-height:16px; font-weight:400; font-style: italic;  }		
 				
 
 
@@ -2776,23 +2775,23 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		.woocommerce .yith-wcan-reset-navigation.button, 
 		.single-product .entry-summary p.stock.out-of-stock,
     .nectar-post-grid .nectar-post-grid-item .content .meta-category a
-		{ font-family: Roboto; font-weight:500!important;  }
+		{ font-family: Copse, sans-serif;  }
 		
 
 	.portfolio-filters-inline .container > ul a, 
     .portfolio-filters > ul a, 
     .portfolio-filters > a span, 
-    .nectar-post-grid-filters a { font-family: Cabin; font-size:16px!important; line-height:18px; font-weight:700!important;  }.portfolio-filters-inline #current-category { line-height: 18px; }
+    .nectar-post-grid-filters a { font-family: Copse, sans-serif; font-size:16px!important; line-height:18px; font-weight:700!important;  }.portfolio-filters-inline #current-category { line-height: 18px; }
 		
 	
 		
 
-	.nectar-dropcap { font-family: Cabin; font-size:62px!important; line-height:51px; font-weight:500!important;  }
+	.nectar-dropcap { font-family: Copse, sans-serif; font-size:62px!important; line-height:51px;  }
   	
 
 		
 	
-	body #page-header-bg h1, html body .row .col.section-title h1, .nectar-box-roll .overlaid-content h1 { font-family: Cabin; font-size:77px; line-height:77px; font-weight:700;  }      
+	body #page-header-bg h1, html body .row .col.section-title h1, .nectar-box-roll .overlaid-content h1 { font-family: Copse, sans-serif; font-size:77px; line-height:77px; font-weight:700;  }      
 			@media only screen and (min-width: 690px) and (max-width: 999px) {
 				.overlaid-content h1 {
 					font-size: 53.9px!important;
@@ -2824,7 +2823,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 			
 	
 	body #page-header-bg .span_6 span.subheader, #page-header-bg span.result-num, 
-			body .row .col.section-title > span, .nectar-box-roll .overlaid-content .subheader { font-family: Cabin; font-size:12px; line-height:30px; font-weight:400;  }			
+			body .row .col.section-title > span, .nectar-box-roll .overlaid-content .subheader { font-family: Copse, sans-serif; font-size:12px; line-height:30px; font-weight:400;  }			
 			@media only screen and (min-width: 1000px) and (max-width: 1300px) {
 				body #page-header-bg:not(.fullscreen-header) .span_6 span.subheader, body .row .col.section-title > span {
 					font-size: 9.6px;
@@ -2864,7 +2863,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 			.testimonial_slider blockquote span, 
 			.testimonial_slider[data-style="minimal"] blockquote span:not(.title), 
 			.testimonial_slider[data-style="minimal"] blockquote,  
-			.testimonial_slider[data-style="minimal"] .controls { font-family: Cabin; font-size:18px; line-height:30px; font-weight:400;  }    
+			.testimonial_slider[data-style="minimal"] .controls { font-family: Copse, sans-serif; font-size:18px; line-height:30px; font-weight:400;  }    
     		@media only screen and (max-width: 1300px) and (min-width: 1000px) {
     			blockquote, 
           .testimonial_slider blockquote, 
@@ -2987,7 +2986,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
       .woocommerce-page .woocommerce p.return-to-shop a.wc-backward, 
       .yikes-easy-mc-form .yikes-easy-mc-submit-button,
       .nectar-cta .nectar-button-type,
-      .nectar-post-grid-wrap .nectar-post-grid-filters h4 { font-family: Cabin; font-size:18px; font-weight:700;  }			
+      .nectar-post-grid-wrap .nectar-post-grid-filters h4 { font-family: Copse, sans-serif; font-size:18px; font-weight:700;  }			
 		
 
 
