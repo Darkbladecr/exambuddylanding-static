@@ -13,7 +13,6 @@ services:
       traefik.http.routers.exambuddy-static-http.entrypoints: web
       traefik.http.routers.exambuddy-static.rule: Host(`exambuddy.co.uk`)
       traefik.http.routers.exambuddy-static.entrypoints: websecure
-      traefik.http.routers.exambuddy-static.tls.certresolver: letsencrypt
       traefik.http.routers.exambuddy-static-http.middlewares: https_redirect@file
       traefik.http.routers.exambuddy-static-http.middlewares: wwwtohttps@file
     volumes:
