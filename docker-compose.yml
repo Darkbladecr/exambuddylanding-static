@@ -11,6 +11,8 @@ services:
       traefik.enable: true
       traefik.http.routers.exambuddy-static.rule: Host(`exambuddy.co.uk`)
       traefik.http.routers.exambuddy-static.tls: true
+      traefik.http.routers.exambuddy-static.middlewares: https_redirect@file
+      traefik.http.routers.exambuddy-static.middlewares: wwwtohttps@file
     volumes:
       - ./html:/var/www/html
       - ./nginx-conf:/etc/nginx/conf.d
