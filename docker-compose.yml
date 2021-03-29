@@ -2,7 +2,7 @@ version: '3'
 
 services:
   webserver:
-    image: nginx:1.17.9-alpine
+    image: nginx:1.19.6-alpine
     container_name: exambuddy-static
     restart: unless-stopped
     expose:
