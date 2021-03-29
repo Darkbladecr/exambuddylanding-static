@@ -1,0 +1,25 @@
+version: '3.9'
+
+services:
+  web:
+    image: docker.mitrasinovic.co.uk/exambuddy-landing
+    networks:
+      - traefik-proxy
+    deploy:
+      replicas: 3
+      update_config:
+        parallelism: 3
+        delay: 10s
+      restart_policy:
+        condition: on-failure
+      labels:
+        - traefik.enable=true
+        - traefik.http.routers.quesmed-static.rule=Host(`exambuddy.co.uk`)
+        - traefik.http.routers.quesmed-static.tls=true
+        - traefik.http.routers.quesmed-static.middlewares=https_redirect@file
+        - traefik.http.routers.quesmed-static.middlewares=wwwtohttps@file
+        - traefik.http.services.quesmed-static-service.loadbalancer.server.port=80
+
+networks:
+  traefik-proxy:
+    external: true
